@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test22022021" time="8.567" tests="2" failures="2" skips="0" errors="0">
+   <testsuite name="Test22022021" tests="2" failures="2" errors="0" time="8.567" skips="0" timestamp="2021-02-22 19:11:23" hostname="ashok - OMTPGCN1132568L" id="Test Suites/Test22022021">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Inspect\\17022021\\SiteInspectAutomation\\Testing220221-1\\Reports\\20210222_191117\\Test22022021\\20210222_191117"/>
+         <property name="logFiles" value="E:\\Inspect\\17022021\\SiteInspectAutomation\\Testing220221-1\\Reports\\20210222_191117\\Test22022021\\20210222_191117\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ashok - OMTPGCN1132568L"/>
+         <property name="hostAddress" value="192.168.0.102"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.9.0.208"/>
+      </properties>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page" time="4.135" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Java File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Java File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+"/>
+         <system-out><![CDATA[2021-02-22 19:11:25 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Java File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Java File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+2021-02-22 19:11:25 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-22 19:11:26 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-22 19:11:26 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-22 19:11:26 - [TEST_STEP][FAILED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(276, rigisterUN, rigisterPW): Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-22 19:11:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-22 19:11:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-22 19:11:28 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://Inspect.Stage.site.sa' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Java File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Java File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1613387724280.run(Script1613387724280.groovy:16)
+	... 13 more
+)
+
+2021-02-22 19:11:28 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-22 19:11:28 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-22 19:11:28 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-22 19:11:29 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-22 19:11:29 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-22 19:11:29 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-22 19:11:29 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-22 19:11:29 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-22 19:11:25 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Java File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Java File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page" time="2.561" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Jar File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Jar File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.&lt;init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+"/>
+         <system-out><![CDATA[2021-02-22 19:11:29 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Jar File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Jar File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+2021-02-22 19:11:29 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-22 19:11:29 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-22 19:11:29 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-22 19:11:29 - [TEST_STEP][FAILED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(192, rigisterUN, rigisterPW): Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-22 19:11:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-22 19:11:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-22 19:11:31 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://Inspect.Stage.site.sa' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Jar File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Jar File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at Script1613223059202.run(Script1613223059202.groovy:16)
+	... 13 more
+)
+
+2021-02-22 19:11:31 - [MESSAGE][FAILED] - Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-22 19:11:31 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-22 19:11:31 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-22 19:11:31 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-22 19:11:31 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-22 19:11:31 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-22 19:11:31 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-22 19:11:31 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-22 19:11:29 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Jar File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Jar File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-22 19:11:23 - [TEST_SUITE][FAILED] - Test22022021: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Java File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Java File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2021-02-22 19:11:23 - [TEST_SUITE][FAILED] - Test22022021: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to open browser with url: 'https://Inspect.Stage.site.sa'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.openBrowser(OpenBrowserKeyword.groovy:81)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword.execute(OpenBrowserKeyword.groovy:67)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.openBrowser(WebUiBuiltInKeywords.groovy:63)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$openBrowser.call(Unknown Source)
+	at customKeywords.commanFunctions.openBrowser(commanFunctions.groovy:47)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:747)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload Java File and verify Uploded file in Submission Page.run(TC_As a register user, Upload Java File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:398)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:389)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:368)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:360)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:255)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1614001277297.run(TempTestSuite1614001277297.groovy:39)
+Caused by: org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 87
+Current browser version is 86.0.4240.75 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'OMTPGCN1132568L', ip: '192.168.0.102', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: driver.version: CChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x0094C0C3+3326147]
+	Ordinal0 [0x00830851+2164817]
+	Ordinal0 [0x006B7298+619160]
+	Ordinal0 [0x00631D92+73106]
+	Ordinal0 [0x0062E119+57625]
+	Ordinal0 [0x0062C38A+50058]
+	Ordinal0 [0x00655F3E+220990]
+	Ordinal0 [0x00655CAC+220332]
+	Ordinal0 [0x0065189B+202907]
+	Ordinal0 [0x00633DF4+81396]
+	Ordinal0 [0x00634DEE+85486]
+	Ordinal0 [0x00634D79+85369]
+	Ordinal0 [0x008485DC+2262492]
+	GetHandleVerifier [0x00AD2874+1487204]
+	GetHandleVerifier [0x00AD23CD+1486013]
+	GetHandleVerifier [0x00ADA368+1518680]
+	GetHandleVerifier [0x00AD2F4E+1488958]
+	Ordinal0 [0x0083ED0D+2223373]
+	Ordinal0 [0x0084A12B+2269483]
+	Ordinal0 [0x0084A26F+2269807]
+	Ordinal0 [0x0085ECB8+2354360]
+	BaseThreadInitThunk [0x77026359+25]
+	RtlGetAppContainerNamedObjectPath [0x77BD8944+228]
+	RtlGetAppContainerNamedObjectPath [0x77BD8914+180]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:147)
+	at com.kms.katalon.selenium.driver.CChromeDriver.<init>(CChromeDriver.java:13)
+	at com.kms.katalon.core.webui.driver.DriverFactory.createNewChromeDriver(DriverFactory.java:400)
+	at com.kms.katalon.core.webui.driver.DriverFactory.startNewBrowser(DriverFactory.java:358)
+	at com.kms.katalon.core.webui.driver.DriverFactory.openWebDriver(DriverFactory.java:245)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.doCall(OpenBrowserKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.OpenBrowserKeyword$_openBrowser_closure1.call(OpenBrowserKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

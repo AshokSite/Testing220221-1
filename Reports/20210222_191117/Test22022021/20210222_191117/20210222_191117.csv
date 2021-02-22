@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Test22022021,,Test22022021,,2021-02-22 19:11:23,2021-02-22 19:11:31,8.277s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page",,,,2021-02-22 19:11:25,2021-02-22 19:11:29,4.135s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",,,,2021-02-22 19:11:25,2021-02-22 19:11:26,0.644s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",,,,2021-02-22 19:11:26,2021-02-22 19:11:26,0.046s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",,,,2021-02-22 19:11:26,2021-02-22 19:11:26,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(276, rigisterUN, rigisterPW)",,,,2021-02-22 19:11:26,2021-02-22 19:11:28,2.653s,FAILED
+Start tear down : tearDownMethodIfFailed,,,,2021-02-22 19:11:28,2021-02-22 19:11:29,0.597s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page",,,,2021-02-22 19:11:29,2021-02-22 19:11:31,2.561s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",,,,2021-02-22 19:11:29,2021-02-22 19:11:29,0.071s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",,,,2021-02-22 19:11:29,2021-02-22 19:11:29,0.003s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",,,,2021-02-22 19:11:29,2021-02-22 19:11:29,0.002s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(192, rigisterUN, rigisterPW)",,,,2021-02-22 19:11:29,2021-02-22 19:11:31,1.801s,FAILED
+Start tear down : tearDownMethodIfFailed,,,,2021-02-22 19:11:31,2021-02-22 19:11:31,0.548s,PASSED
