@@ -1,0 +1,192 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RegisterUser_Regression,Chrome 86.0.4240.75,RegisterUser_Regression,,2021-02-19 17:08:31,2021-02-19 17:27:07,18m - 35.756s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Adobe PhotoShop File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:08:33,2021-02-19 17:09:17,44.005s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:08:33,2021-02-19 17:08:33,0.522s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:08:33,2021-02-19 17:08:33,0.025s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:08:33,2021-02-19 17:08:33,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(309, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:08:33,2021-02-19 17:09:14,40.125s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:09:14,2021-02-19 17:09:17,3.162s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Basic Audio File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:09:17,2021-02-19 17:10:00,42.716s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:09:17,2021-02-19 17:09:17,0.035s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:09:17,2021-02-19 17:09:17,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:09:17,2021-02-19 17:09:17,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(264, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:09:17,2021-02-19 17:09:56,39.511s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:09:56,2021-02-19 17:10:00,3.093s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload CSV File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:10:00,2021-02-19 17:10:39,39.560s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:10:00,2021-02-19 17:10:00,0.020s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:10:00,2021-02-19 17:10:00,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:10:00,2021-02-19 17:10:00,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(208, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:10:00,2021-02-19 17:10:36,36.369s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:10:36,2021-02-19 17:10:39,3.092s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Exe File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:10:39,2021-02-19 17:11:22,42.797s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:10:39,2021-02-19 17:10:39,0.020s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:10:39,2021-02-19 17:10:39,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:10:39,2021-02-19 17:10:39,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(204, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:10:39,2021-02-19 17:11:19,39.626s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:11:19,2021-02-19 17:11:22,3.070s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Graphics Interchange Format File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:11:22,2021-02-19 17:12:04,41.633s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:11:22,2021-02-19 17:11:22,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:11:22,2021-02-19 17:11:22,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:11:22,2021-02-19 17:11:22,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(288, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:11:22,2021-02-19 17:12:00,38.495s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:12:00,2021-02-19 17:12:04,3.050s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:12:04,2021-02-19 17:12:45,41.511s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:12:04,2021-02-19 17:12:04,0.019s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:12:04,2021-02-19 17:12:04,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:12:04,2021-02-19 17:12:04,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(192, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:12:04,2021-02-19 17:12:42,38.383s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:12:42,2021-02-19 17:12:45,3.037s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:12:45,2021-02-19 17:13:25,39.995s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:12:45,2021-02-19 17:12:45,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:12:45,2021-02-19 17:12:45,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:12:45,2021-02-19 17:12:45,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(276, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:12:45,2021-02-19 17:13:22,36.863s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:13:22,2021-02-19 17:13:25,3.042s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload JPEG graphic File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:13:25,2021-02-19 17:14:07,41.739s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:13:25,2021-02-19 17:13:25,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:13:25,2021-02-19 17:13:25,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:13:25,2021-02-19 17:13:25,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(292, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:13:25,2021-02-19 17:14:04,38.620s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:14:04,2021-02-19 17:14:07,3.035s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MacPaint File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:14:07,2021-02-19 17:14:49,42.151s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:14:07,2021-02-19 17:14:07,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:14:07,2021-02-19 17:14:07,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:14:07,2021-02-19 17:14:07,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(296, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:14:07,2021-02-19 17:14:45,38.576s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:14:45,2021-02-19 17:14:49,3.486s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Microsoft Word File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:14:49,2021-02-19 17:15:29,40.246s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:14:49,2021-02-19 17:14:49,0.021s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:14:49,2021-02-19 17:14:49,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:14:49,2021-02-19 17:14:49,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(284, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:14:49,2021-02-19 17:15:26,37.111s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:15:26,2021-02-19 17:15:29,3.045s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Access database File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:15:29,2021-02-19 17:16:14,44.457s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:15:29,2021-02-19 17:15:29,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:15:29,2021-02-19 17:15:29,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:15:29,2021-02-19 17:15:29,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(305, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:15:29,2021-02-19 17:16:11,41.287s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:16:11,2021-02-19 17:16:14,3.071s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Works File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:16:14,2021-02-19 17:16:53,39.631s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:16:14,2021-02-19 17:16:14,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:16:14,2021-02-19 17:16:14,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:16:14,2021-02-19 17:16:14,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(325, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:16:14,2021-02-19 17:16:50,36.561s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:16:50,2021-02-19 17:16:53,2.984s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Multimedia File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:16:53,2021-02-19 17:17:33,39.624s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:16:53,2021-02-19 17:16:53,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:16:53,2021-02-19 17:16:53,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:16:53,2021-02-19 17:16:53,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(280, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:16:53,2021-02-19 17:17:30,36.539s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:17:30,2021-02-19 17:17:33,2.995s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PaintShop Pro File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:17:33,2021-02-19 17:18:13,39.875s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:17:33,2021-02-19 17:17:33,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:17:33,2021-02-19 17:17:33,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:17:33,2021-02-19 17:17:33,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(313, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:17:33,2021-02-19 17:18:10,36.772s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:18:10,2021-02-19 17:18:13,3.021s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC batch file File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:18:13,2021-02-19 17:18:53,39.790s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:18:13,2021-02-19 17:18:13,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:18:13,2021-02-19 17:18:13,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:18:13,2021-02-19 17:18:13,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(268, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:18:13,2021-02-19 17:18:50,36.652s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:18:50,2021-02-19 17:18:53,3.049s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:18:53,2021-02-19 17:19:26,33.155s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:18:53,2021-02-19 17:18:53,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:18:53,2021-02-19 17:18:53,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:18:53,2021-02-19 17:18:53,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(329, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:18:53,2021-02-19 17:19:25,32.213s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-19 17:19:25,2021-02-19 17:19:26,0.859s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PDF File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:19:26,2021-02-19 17:20:08,42.094s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:19:26,2021-02-19 17:19:26,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:19:26,2021-02-19 17:19:26,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:19:26,2021-02-19 17:19:26,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(220, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:19:26,2021-02-19 17:20:05,38.961s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:20:05,2021-02-19 17:20:08,3.050s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PNG File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:20:08,2021-02-19 17:21:57,1m - 49.236s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:20:08,2021-02-19 17:20:08,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:20:08,2021-02-19 17:20:08,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(216, userEmail)",Chrome 86.0.4240.75,,,2021-02-19 17:20:08,2021-02-19 17:20:32,23.881s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:20:32,2021-02-19 17:21:57,1m - 25.273s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PowerPoint File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:21:57,2021-02-19 17:22:36,39.085s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:21:57,2021-02-19 17:21:57,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:21:57,2021-02-19 17:21:57,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:21:57,2021-02-19 17:21:57,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(200, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:21:57,2021-02-19 17:22:33,35.960s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:22:33,2021-02-19 17:22:36,3.041s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload RealAudio File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:22:36,2021-02-19 17:23:16,39.940s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:22:36,2021-02-19 17:22:36,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:22:36,2021-02-19 17:22:36,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:22:36,2021-02-19 17:22:36,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(317, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:22:36,2021-02-19 17:23:13,36.817s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:23:13,2021-02-19 17:23:16,3.040s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Txt File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:23:16,2021-02-19 17:23:54,38.339s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:23:16,2021-02-19 17:23:16,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:23:16,2021-02-19 17:23:16,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:23:16,2021-02-19 17:23:16,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(196, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:23:16,2021-02-19 17:23:51,35.190s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:23:51,2021-02-19 17:23:54,3.061s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Web page imagemap File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:23:54,2021-02-19 17:24:34,39.926s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:23:54,2021-02-19 17:23:55,0.017s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:23:55,2021-02-19 17:23:55,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:23:55,2021-02-19 17:23:55,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(301, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:23:55,2021-02-19 17:24:31,36.818s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:24:31,2021-02-19 17:24:34,3.021s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows BitMap File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:24:34,2021-02-19 17:25:17,42.713s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:24:34,2021-02-19 17:24:34,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:24:34,2021-02-19 17:24:34,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:24:34,2021-02-19 17:24:34,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(272, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:24:34,2021-02-19 17:25:14,39.666s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:25:14,2021-02-19 17:25:17,2.964s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Xlsx File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-19 17:25:17,2021-02-19 17:25:59,42.284s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:25:17,2021-02-19 17:25:17,0.017s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:25:17,2021-02-19 17:25:17,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:25:17,2021-02-19 17:25:17,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(212, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:25:17,2021-02-19 17:25:56,39.166s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:25:56,2021-02-19 17:25:59,3.030s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithQueryParameters",Chrome 86.0.4240.75,,,2021-02-19 17:25:59,2021-02-19 17:26:34,34.347s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:25:59,2021-02-19 17:25:59,0.014s,PASSED
+"sampleURL = excelTestData.getValue(2, 390)",Chrome 86.0.4240.75,,,2021-02-19 17:25:59,2021-02-19 17:25:59,0.001s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:25:59,2021-02-19 17:25:59,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:25:59,2021-02-19 17:25:59,0.000s,PASSED
+"customKeywords.commanFunctions.enterURLOfRegisterUser(sampleURL, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:25:59,2021-02-19 17:26:31,31.279s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:26:31,2021-02-19 17:26:34,2.982s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats",Chrome 86.0.4240.75,,,2021-02-19 17:26:34,2021-02-19 17:27:07,33.440s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-19 17:26:34,2021-02-19 17:26:34,0.015s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-19 17:26:34,2021-02-19 17:26:34,0.027s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-19 17:26:34,2021-02-19 17:26:48,14.452s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-19 17:26:48,2021-02-19 17:26:49,0.423s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-19 17:26:49,2021-02-19 17:26:49,0.527s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:26:49,2021-02-19 17:26:49,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-19 17:26:49,2021-02-19 17:26:49,0.000s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-19 17:26:49,2021-02-19 17:26:52,2.673s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-19 17:26:52,2021-02-19 17:26:59,6.579s,PASSED
+"click(findTestObject(""Object Repository/HomePage/URL_Tab""))",Chrome 86.0.4240.75,,,2021-02-19 17:26:59,2021-02-19 17:27:00,1.980s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Chrome 86.0.4240.75,,,2021-02-19 17:27:00,2021-02-19 17:27:00,0.000s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Chrome 86.0.4240.75,,,2021-02-19 17:27:00,2021-02-19 17:27:06,5.796s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-19 17:27:06,2021-02-19 17:27:07,0.869s,PASSED

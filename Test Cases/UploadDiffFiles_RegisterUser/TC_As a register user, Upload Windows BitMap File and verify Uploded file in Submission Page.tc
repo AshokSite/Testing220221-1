@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload Windows BitMap File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9e9bffe-0265-4c22-9c55-d7401ea51967</testCaseGuid>
+</TestCaseEntity>

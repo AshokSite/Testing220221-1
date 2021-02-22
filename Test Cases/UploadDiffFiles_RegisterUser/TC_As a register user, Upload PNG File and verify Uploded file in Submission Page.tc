@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload PNG File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>be0fa752-2fb9-4bba-992b-17a80ba8d0fd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_URL,Firefox 85.0,PublicUser_URL,,2021-02-15 23:05:42,2021-02-15 23:06:03,20.636s,ERROR
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL",Firefox 85.0,,,2021-02-15 23:05:44,2021-02-15 23:05:45,1.363s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:05:44,2021-02-15 23:05:45,0.518s,PASSED
+"sampleURL = excelTestData.getValue(2, 370)",Firefox 85.0,,,2021-02-15 23:05:45,2021-02-15 23:05:45,0.013s,PASSED
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:05:45,2021-02-15 23:05:45,0.635s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters",Firefox 85.0,,,2021-02-15 23:05:45,2021-02-15 23:05:46,0.455s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:05:45,2021-02-15 23:05:45,0.037s,PASSED
+"sampleURL = excelTestData.getValue(2, 374)",Firefox 85.0,,,2021-02-15 23:05:45,2021-02-15 23:05:45,0.001s,PASSED
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:05:45,2021-02-15 23:05:46,0.335s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters",Firefox 85.0,,,2021-02-15 23:05:46,2021-02-15 23:05:46,0.485s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:05:46,2021-02-15 23:05:46,0.030s,PASSED
+"sampleURL = excelTestData.getValue(2, 378)",Firefox 85.0,,,2021-02-15 23:05:46,2021-02-15 23:05:46,0.000s,PASSED
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:05:46,2021-02-15 23:05:46,0.379s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats",Firefox 85.0,,,2021-02-15 23:05:46,2021-02-15 23:06:03,16.894s,FAILED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-15 23:05:46,2021-02-15 23:05:57,11.138s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:05:57,2021-02-15 23:05:57,0.034s,PASSED
+"click(findTestObject(""Object Repository/PublicUserHomePage/UrlTab""))",Firefox 85.0,,,2021-02-15 23:05:57,2021-02-15 23:05:58,0.558s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Firefox 85.0,,,2021-02-15 23:05:58,2021-02-15 23:05:58,0.023s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Firefox 85.0,,,2021-02-15 23:05:58,2021-02-15 23:06:02,4.129s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-15 23:06:02,2021-02-15 23:06:03,0.920s,PASSED

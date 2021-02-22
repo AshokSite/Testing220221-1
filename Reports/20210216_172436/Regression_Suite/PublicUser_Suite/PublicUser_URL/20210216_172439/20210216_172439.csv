@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_URL,Chrome 86.0.4240.75,PublicUser_URL,,2021-02-16 17:46:13,2021-02-16 17:47:42,1m - 28.523s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL",Chrome 86.0.4240.75,,,2021-02-16 17:46:15,2021-02-16 17:46:35,20.614s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-16 17:46:15,2021-02-16 17:46:16,0.525s,PASSED
+"sampleURL = excelTestData.getValue(2, 370)",Chrome 86.0.4240.75,,,2021-02-16 17:46:16,2021-02-16 17:46:16,0.019s,PASSED
+"userEmail = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-16 17:46:16,2021-02-16 17:46:16,0.001s,PASSED
+"customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail)",Chrome 86.0.4240.75,,,2021-02-16 17:46:16,2021-02-16 17:46:34,18.928s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-16 17:46:34,2021-02-16 17:46:35,0.986s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters",Chrome 86.0.4240.75,,,2021-02-16 17:46:35,2021-02-16 17:47:00,24.691s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-16 17:46:36,2021-02-16 17:46:36,0.030s,PASSED
+"sampleURL = excelTestData.getValue(2, 374)",Chrome 86.0.4240.75,,,2021-02-16 17:46:36,2021-02-16 17:46:36,0.002s,PASSED
+"userEmail = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-16 17:46:36,2021-02-16 17:46:36,0.001s,PASSED
+"customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail)",Chrome 86.0.4240.75,,,2021-02-16 17:46:36,2021-02-16 17:46:59,23.732s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-16 17:46:59,2021-02-16 17:47:00,0.867s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters",Chrome 86.0.4240.75,,,2021-02-16 17:47:00,2021-02-16 17:47:23,23.263s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-16 17:47:00,2021-02-16 17:47:00,0.026s,PASSED
+"sampleURL = excelTestData.getValue(2, 378)",Chrome 86.0.4240.75,,,2021-02-16 17:47:00,2021-02-16 17:47:00,0.001s,PASSED
+"userEmail = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-16 17:47:00,2021-02-16 17:47:00,0.001s,PASSED
+"customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail)",Chrome 86.0.4240.75,,,2021-02-16 17:47:00,2021-02-16 17:47:23,22.334s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-16 17:47:23,2021-02-16 17:47:23,0.841s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats",Chrome 86.0.4240.75,,,2021-02-16 17:47:23,2021-02-16 17:47:42,18.595s,FAILED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-16 17:47:23,2021-02-16 17:47:36,12.754s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-16 17:47:36,2021-02-16 17:47:36,0.021s,PASSED
+"click(findTestObject(""Object Repository/PublicUserHomePage/UrlTab""))",Chrome 86.0.4240.75,,,2021-02-16 17:47:36,2021-02-16 17:47:37,0.434s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Chrome 86.0.4240.75,,,2021-02-16 17:47:37,2021-02-16 17:47:37,0.000s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Chrome 86.0.4240.75,,,2021-02-16 17:47:37,2021-02-16 17:47:41,4.489s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-16 17:47:41,2021-02-16 17:47:42,0.817s,PASSED

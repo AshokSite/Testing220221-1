@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Suite,Chrome 86.0.4240.75,Login_Suite,,2021-02-18 19:41:05,2021-02-18 19:43:59,2m - 53.850s,PASSED
+,,,,,,,
+"Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T74_1.0_As a User, I want to verify that system send me a forget my password link when I request",Chrome 86.0.4240.75,,,2021-02-18 19:41:07,2021-02-18 19:41:26,19.475s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:07,2021-02-18 19:41:07,0.528s,PASSED
+"validationMessage = excelTestData.getValue(2, 8)",Chrome 86.0.4240.75,,,2021-02-18 19:41:07,2021-02-18 19:41:07,0.021s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:07,2021-02-18 19:41:07,0.041s,PASSED
+"forgotPwd = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:07,2021-02-18 19:41:07,0.022s,PASSED
+"ForgotPwdSubmitBtn = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwdSubmitBtn"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:07,2021-02-18 19:41:07,0.022s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:41:07,2021-02-18 19:41:20,12.731s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:41:20,2021-02-18 19:41:21,0.448s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-18 19:41:21,2021-02-18 19:41:21,0.546s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:41:21,2021-02-18 19:41:22,0.520s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(forgotPwd),Chrome 86.0.4240.75,,,2021-02-18 19:41:22,2021-02-18 19:41:22,0.581s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input""), AdminUserName)",Chrome 86.0.4240.75,,,2021-02-18 19:41:22,2021-02-18 19:41:23,0.596s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(ForgotPwdSubmitBtn),Chrome 86.0.4240.75,,,2021-02-18 19:41:23,2021-02-18 19:41:23,0.540s,PASSED
+"verifyTextPresent(validationMessage, false)",Chrome 86.0.4240.75,,,2021-02-18 19:41:23,2021-02-18 19:41:25,1.845s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:41:25,2021-02-18 19:41:26,0.851s,PASSED
+,,,,,,,
+"Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T75_1.0_As a User, I want to verify that System detects incorrect user email",Chrome 86.0.4240.75,,,2021-02-18 19:41:26,2021-02-18 19:41:42,16.143s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:26,2021-02-18 19:41:26,0.019s,PASSED
+"validationMessage = excelTestData.getValue(2, 12)",Chrome 86.0.4240.75,,,2021-02-18 19:41:26,2021-02-18 19:41:26,0.001s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:26,2021-02-18 19:41:26,0.020s,PASSED
+"forgotPwd = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:26,2021-02-18 19:41:26,0.020s,PASSED
+"ForgotPwdSubmitBtn = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwdSubmitBtn"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:26,2021-02-18 19:41:26,0.020s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:41:26,2021-02-18 19:41:38,11.669s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:41:38,2021-02-18 19:41:38,0.371s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-18 19:41:38,2021-02-18 19:41:39,0.502s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:41:39,2021-02-18 19:41:39,0.472s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(forgotPwd),Chrome 86.0.4240.75,,,2021-02-18 19:41:39,2021-02-18 19:41:40,0.455s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Chrome 86.0.4240.75,,,2021-02-18 19:41:40,2021-02-18 19:41:40,0.224s,PASSED
+"email = ""test_"" + str + ""@email.com""",Chrome 86.0.4240.75,,,2021-02-18 19:41:40,2021-02-18 19:41:40,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input""), email)",Chrome 86.0.4240.75,,,2021-02-18 19:41:40,2021-02-18 19:41:40,0.347s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(ForgotPwdSubmitBtn),Chrome 86.0.4240.75,,,2021-02-18 19:41:40,2021-02-18 19:41:41,0.465s,PASSED
+"verifyTextPresent(validationMessage, false)",Chrome 86.0.4240.75,,,2021-02-18 19:41:41,2021-02-18 19:41:42,0.685s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:41:42,2021-02-18 19:41:42,0.789s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidCredentialsAndVerifyErrorMsg,Chrome 86.0.4240.75,,,2021-02-18 19:41:42,2021-02-18 19:41:59,17.018s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:42,2021-02-18 19:41:42,0.016s,PASSED
+"validationMessage = excelTestData.getValue(2, 4)",Chrome 86.0.4240.75,,,2021-02-18 19:41:42,2021-02-18 19:41:42,0.001s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:42,2021-02-18 19:41:42,0.019s,PASSED
+"LoginBtn = findTestObject(""Object Repository/LoginAndRigisterUser/LoginBtn"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:42,2021-02-18 19:41:42,0.018s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:41:42,2021-02-18 19:41:54,11.856s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:41:54,2021-02-18 19:41:55,0.386s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-18 19:41:55,2021-02-18 19:41:55,0.494s,PASSED
+strOne = customKeywords.commanFunctions.getRandomAlphaString(5),Chrome 86.0.4240.75,,,2021-02-18 19:41:55,2021-02-18 19:41:55,0.197s,PASSED
+"email = ""test_"" + strOne + ""@email.com""",Chrome 86.0.4240.75,,,2021-02-18 19:41:55,2021-02-18 19:41:55,0.000s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Chrome 86.0.4240.75,,,2021-02-18 19:41:55,2021-02-18 19:41:56,0.181s,PASSED
+"password = ""Test@"" + str",Chrome 86.0.4240.75,,,2021-02-18 19:41:56,2021-02-18 19:41:56,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/UserName_Email_Input""), email)",Chrome 86.0.4240.75,,,2021-02-18 19:41:56,2021-02-18 19:41:56,0.359s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/Password_Input""), password)",Chrome 86.0.4240.75,,,2021-02-18 19:41:56,2021-02-18 19:41:56,0.561s,PASSED
+"waitForElementClickable(LoginBtn, TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:41:56,2021-02-18 19:41:57,0.489s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(LoginBtn),Chrome 86.0.4240.75,,,2021-02-18 19:41:57,2021-02-18 19:41:57,0.416s,PASSED
+"verifyTextPresent(validationMessage, false)",Chrome 86.0.4240.75,,,2021-02-18 19:41:57,2021-02-18 19:41:59,1.146s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:41:59,2021-02-18 19:41:59,0.791s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidPasswordAndVerifyLoginShouldNotSucss,Chrome 86.0.4240.75,,,2021-02-18 19:41:59,2021-02-18 19:42:16,16.391s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:59,2021-02-18 19:41:59,0.016s,PASSED
+"validationMessage = excelTestData.getValue(2, 4)",Chrome 86.0.4240.75,,,2021-02-18 19:41:59,2021-02-18 19:41:59,0.001s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:59,2021-02-18 19:41:59,0.019s,PASSED
+"LoginBtn = findTestObject(""Object Repository/LoginAndRigisterUser/LoginBtn"")",Chrome 86.0.4240.75,,,2021-02-18 19:41:59,2021-02-18 19:41:59,0.019s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:41:59,2021-02-18 19:42:11,11.514s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:42:11,2021-02-18 19:42:11,0.366s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-18 19:42:11,2021-02-18 19:42:12,0.498s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Chrome 86.0.4240.75,,,2021-02-18 19:42:12,2021-02-18 19:42:12,0.214s,PASSED
+"password = ""Test@"" + str",Chrome 86.0.4240.75,,,2021-02-18 19:42:12,2021-02-18 19:42:12,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/UserName_Email_Input""), AdminUserName)",Chrome 86.0.4240.75,,,2021-02-18 19:42:12,2021-02-18 19:42:12,0.328s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/Password_Input""), password)",Chrome 86.0.4240.75,,,2021-02-18 19:42:12,2021-02-18 19:42:13,0.523s,PASSED
+"waitForElementClickable(LoginBtn, TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:42:13,2021-02-18 19:42:13,0.445s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(LoginBtn),Chrome 86.0.4240.75,,,2021-02-18 19:42:13,2021-02-18 19:42:14,0.461s,PASSED
+"verifyTextPresent(validationMessage, false)",Chrome 86.0.4240.75,,,2021-02-18 19:42:14,2021-02-18 19:42:15,1.136s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:42:15,2021-02-18 19:42:16,0.774s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidUserNameAndVerifyLoginShouldNotSucss,Chrome 86.0.4240.75,,,2021-02-18 19:42:16,2021-02-18 19:42:33,17.212s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 19:42:16,2021-02-18 19:42:16,0.013s,PASSED
+"validationMessage = excelTestData.getValue(2, 4)",Chrome 86.0.4240.75,,,2021-02-18 19:42:16,2021-02-18 19:42:16,0.000s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-18 19:42:16,2021-02-18 19:42:16,0.019s,PASSED
+"LoginBtn = findTestObject(""Object Repository/LoginAndRigisterUser/LoginBtn"")",Chrome 86.0.4240.75,,,2021-02-18 19:42:16,2021-02-18 19:42:16,0.018s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:42:16,2021-02-18 19:42:27,11.461s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:42:27,2021-02-18 19:42:28,0.380s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-18 19:42:28,2021-02-18 19:42:28,0.507s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Chrome 86.0.4240.75,,,2021-02-18 19:42:28,2021-02-18 19:42:28,0.187s,PASSED
+"email = ""test_"" + str + ""@email.com""",Chrome 86.0.4240.75,,,2021-02-18 19:42:28,2021-02-18 19:42:28,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/UserName_Email_Input""), email)",Chrome 86.0.4240.75,,,2021-02-18 19:42:28,2021-02-18 19:42:29,0.390s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/Password_Input""), AdminPassWord)",Chrome 86.0.4240.75,,,2021-02-18 19:42:29,2021-02-18 19:42:29,0.533s,PASSED
+"waitForElementClickable(LoginBtn, TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 19:42:29,2021-02-18 19:42:30,0.503s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(LoginBtn),Chrome 86.0.4240.75,,,2021-02-18 19:42:30,2021-02-18 19:42:30,0.460s,PASSED
+"verifyTextPresent(validationMessage, false)",Chrome 86.0.4240.75,,,2021-02-18 19:42:30,2021-02-18 19:42:32,1.888s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:42:32,2021-02-18 19:42:33,0.784s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithValidCredentialsAndVerifyLoginSucss,Chrome 86.0.4240.75,,,2021-02-18 19:42:33,2021-02-18 19:43:01,28.502s,PASSED
+"callTestCase(findTestCase(""TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin""), null)",Chrome 86.0.4240.75,,,2021-02-18 19:42:33,2021-02-18 19:42:54,21.349s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:42:54,2021-02-18 19:43:01,7.100s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyClickHereToResendEmailLink,Chrome 86.0.4240.75,,,2021-02-18 19:43:01,2021-02-18 19:43:32,30.454s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 19:43:02,2021-02-18 19:43:02,0.019s,PASSED
+"clickHereToResendEmai = findTestObject(""Object Repository/LoginAndRigisterUser/clickHereToResendEmai"")",Chrome 86.0.4240.75,,,2021-02-18 19:43:02,2021-02-18 19:43:02,0.018s,PASSED
+"ClickHereToResendLinkValidationMessage = excelTestData.getValue(2, 19)",Chrome 86.0.4240.75,,,2021-02-18 19:43:02,2021-02-18 19:43:02,0.000s,PASSED
+"callTestCase(findTestCase(""TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify""), null)",Chrome 86.0.4240.75,,,2021-02-18 19:43:02,2021-02-18 19:43:29,27.563s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(clickHereToResendEmai),Chrome 86.0.4240.75,,,2021-02-18 19:43:29,2021-02-18 19:43:30,0.682s,PASSED
+"verifyTextPresent(ClickHereToResendLinkValidationMessage, false)",Chrome 86.0.4240.75,,,2021-02-18 19:43:30,2021-02-18 19:43:31,1.342s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:43:31,2021-02-18 19:43:32,0.766s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyValidationMsg,Chrome 86.0.4240.75,,,2021-02-18 19:43:32,2021-02-18 19:43:59,27.306s,PASSED
+"callTestCase(findTestCase(""TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify""), null)",Chrome 86.0.4240.75,,,2021-02-18 19:43:32,2021-02-18 19:43:58,26.464s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 19:43:58,2021-02-18 19:43:59,0.798s,PASSED

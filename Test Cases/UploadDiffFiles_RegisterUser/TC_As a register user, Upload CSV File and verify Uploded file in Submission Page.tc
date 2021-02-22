@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload CSV File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3abce89-807d-4c2d-9a29-71a88899e34a</testCaseGuid>
+</TestCaseEntity>

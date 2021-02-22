@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_URL,Firefox 85.0,PublicUser_URL,,2021-02-19 00:21:00,2021-02-19 00:21:24,23.492s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats",Firefox 85.0,,,2021-02-19 00:21:02,2021-02-19 00:21:24,22.054s,FAILED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-19 00:21:02,2021-02-19 00:21:18,15.874s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-19 00:21:18,2021-02-19 00:21:18,0.061s,PASSED
+"click(findTestObject(""Object Repository/PublicUserHomePage/UrlTab""))",Firefox 85.0,,,2021-02-19 00:21:18,2021-02-19 00:21:18,0.600s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Firefox 85.0,,,2021-02-19 00:21:18,2021-02-19 00:21:18,0.049s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Firefox 85.0,,,2021-02-19 00:21:18,2021-02-19 00:21:23,4.274s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-19 00:21:23,2021-02-19 00:21:24,1.004s,PASSED

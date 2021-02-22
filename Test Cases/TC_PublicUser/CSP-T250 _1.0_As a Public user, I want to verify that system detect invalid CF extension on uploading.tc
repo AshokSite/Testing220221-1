@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T250 _1.0_As a Public user, I want to verify that system detect invalid CF extension on uploading</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c796301f-1f03-4c6c-ac80-d0501e5976e1</testCaseGuid>
+</TestCaseEntity>

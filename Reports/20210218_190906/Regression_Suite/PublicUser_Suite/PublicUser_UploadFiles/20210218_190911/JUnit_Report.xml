@@ -1,0 +1,1655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PublicUser_UploadFiles" time="587.024" tests="26" failures="2" skips="0" errors="0">
+   <testsuite name="PublicUser_UploadFiles" tests="26" failures="2" errors="0" time="587.024" skips="0" timestamp="2021-02-18 19:31:08" hostname="ashok - OMTPGCN1132568L" id="Test Suites/Regression_Suite/PublicUser_Suite/PublicUser_UploadFiles">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_UploadFiles\\20210218_190911"/>
+         <property name="logFiles" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_UploadFiles\\20210218_190911\\execution0.log"/>
+         <property name="attachments" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_UploadFiles\\20210218_190911\\1613656889921.png, E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_UploadFiles\\20210218_190911\\1613657232318.png"/>
+         <property name="hostName" value="ashok - OMTPGCN1132568L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="6da388f967a5658328827f5b3d3f0f9d"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File" time="22.261" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Adobe PhotoShop' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:656)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Adobe PhotoShop' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+"/>
+         <system-out><![CDATA[2021-02-18 19:31:09 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Adobe PhotoShop' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:656)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Adobe PhotoShop' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+2021-02-18 19:31:09 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:31:10 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:31:10 - [TEST_STEP][FAILED] - customKeywords.commanFunctions.uploadFileOfPublicUser(346, userEmail): Unable to verify text 'Adobe PhotoShop' is present 
+
+2021-02-18 19:31:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:31:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:31:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:31:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:31:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:31:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:31:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:31:27 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:31:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:31:29 - [MESSAGE][FAILED] - Text 'Adobe PhotoShop' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Adobe PhotoShop' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:656)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+)
+
+2021-02-18 19:31:30 - [MESSAGE][FAILED] - Unable to verify text 'Adobe PhotoShop' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Adobe PhotoShop' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:656)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Adobe PhotoShop' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_UploadFiles\\20210218_190911\\1613656889921.png]]
+
+2021-02-18 19:31:30 - [MESSAGE][FAILED] - Unable to verify text 'Adobe PhotoShop' is present 
+
+2021-02-18 19:31:30 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-18 19:31:30 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:31:31 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:31:31 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:31:31 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-18 19:31:31 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-18 19:31:31 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-18 19:31:09 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Adobe PhotoShop' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:656)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Adobe PhotoShop' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File" time="23.079" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:31:31 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File
+
+2021-02-18 19:31:31 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:31:31 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:31:31 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(228, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:31:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:31:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:31:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:31:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:31:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:31:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:31:48 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:31:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:31:50 - [MESSAGE][PASSED] - Text 'BasicAudio' is present on page 
+
+2021-02-18 19:31:51 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:31:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:31:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:31:53 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:31:53 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:31:53 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:31:54 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:31:54 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File" time="22.435" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:31:54 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File
+
+2021-02-18 19:31:54 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:31:54 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:31:54 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(176, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:31:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:31:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:32:04 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:32:06 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:32:06 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:32:07 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:32:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:32:11 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:32:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:32:13 - [MESSAGE][PASSED] - Text 'SampleCSVFile' is present on page 
+
+2021-02-18 19:32:14 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:32:16 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:32:16 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:32:16 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:32:17 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:32:17 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File" time="23.744" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:32:17 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File
+
+2021-02-18 19:32:17 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:32:17 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:32:17 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(172, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:32:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:32:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:32:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:32:28 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:32:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:32:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:32:33 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:32:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:32:35 - [MESSAGE][PASSED] - Text 'readerdc_en_ka_cra_install' is present on page 
+
+2021-02-18 19:32:36 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:32:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:32:37 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:32:40 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:32:40 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:32:40 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:32:41 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:32:41 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File" time="22.345" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:32:41 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File
+
+2021-02-18 19:32:41 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:32:41 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:32:41 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(252, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:32:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:32:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:32:50 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:32:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:32:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:32:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:32:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:32:57 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:32:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:32:59 - [MESSAGE][PASSED] - Text 'Graphics Interchange Format.gif' is present on page 
+
+2021-02-18 19:32:59 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:33:00 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:33:02 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:33:02 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:33:02 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:33:03 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:33:03 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File" time="25.404" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:33:03 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File
+
+2021-02-18 19:33:03 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:33:03 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:33:03 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(160, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:33:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:33:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:33:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:33:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:33:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:33:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:33:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:33:19 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:33:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:33:22 - [MESSAGE][PASSED] - Text 'commonsCode' is present on page 
+
+2021-02-18 19:33:22 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:33:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:33:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:33:28 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:33:28 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:33:28 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:33:28 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:33:28 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File" time="21.779" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:33:28 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File
+
+2021-02-18 19:33:28 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:33:28 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:33:28 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:33:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:33:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:33:38 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:33:40 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:33:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:33:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:33:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:33:44 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:33:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:33:47 - [MESSAGE][PASSED] - Text 'sampleExcel' is present on page 
+
+2021-02-18 19:33:47 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:33:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:33:49 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:33:49 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:33:49 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:33:50 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:33:50 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File" time="22.927" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:33:50 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File
+
+2021-02-18 19:33:50 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:33:50 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:33:50 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(256, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:33:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:33:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:34:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:34:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:34:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:34:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:34:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:34:07 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:34:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:34:09 - [MESSAGE][PASSED] - Text 'JPEG graphic' is present on page 
+
+2021-02-18 19:34:09 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:34:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:34:12 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:34:12 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:34:12 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:34:13 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:34:13 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File" time="22.325" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:34:13 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File
+
+2021-02-18 19:34:13 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:34:13 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:34:13 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(333, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:34:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:34:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:34:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:34:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:34:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:34:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:34:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:34:29 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:34:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:34:31 - [MESSAGE][PASSED] - Text 'MacPaint' is present on page 
+
+2021-02-18 19:34:32 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:34:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:34:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:34:35 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:34:35 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:34:35 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:34:35 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:34:35 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File" time="22.73" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:34:35 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File
+
+2021-02-18 19:34:35 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:34:35 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:34:35 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(248, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:34:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:34:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:34:45 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:34:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:34:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:34:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:34:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:34:52 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:34:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:34:54 - [MESSAGE][PASSED] - Text 'Microsoft Word' is present on page 
+
+2021-02-18 19:34:55 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:34:55 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:34:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:34:57 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:34:57 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:34:57 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:34:58 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:34:58 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File" time="22.755" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:34:58 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File
+
+2021-02-18 19:34:58 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:34:58 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:34:58 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(342, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:34:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:34:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:35:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:35:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:35:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:35:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:35:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:35:14 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:35:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:35:17 - [MESSAGE][PASSED] - Text 'MS Access database' is present on page 
+
+2021-02-18 19:35:17 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:35:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:35:20 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:35:20 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:35:20 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:35:21 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:35:21 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File" time="21.754" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:35:21 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File
+
+2021-02-18 19:35:21 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:35:21 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:35:21 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(362, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:35:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:35:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:35:30 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:35:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:35:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:35:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:35:35 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:35:37 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:35:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:35:39 - [MESSAGE][PASSED] - Text 'MS Works' is present on page 
+
+2021-02-18 19:35:40 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:35:40 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:35:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:35:42 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:35:42 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:35:42 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:35:43 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:35:43 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File" time="22.577" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:35:43 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File
+
+2021-02-18 19:35:43 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:35:43 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:35:43 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(244, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:35:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:35:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:35:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:35:54 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:35:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:35:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:35:59 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:36:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:36:01 - [MESSAGE][PASSED] - Text 'Multimedia' is present on page 
+
+2021-02-18 19:36:02 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:36:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:36:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:36:04 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:36:04 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:36:04 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:36:05 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:36:05 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File" time="22.576" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:36:05 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File
+
+2021-02-18 19:36:05 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:36:05 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:36:05 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(350, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:36:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:36:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:36:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:36:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:36:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:36:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:36:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:36:22 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:36:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:36:24 - [MESSAGE][PASSED] - Text 'PaintShop Pro' is present on page 
+
+2021-02-18 19:36:24 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:36:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:36:27 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:36:27 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:36:27 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:36:28 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:36:28 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File" time="22.241" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:36:28 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File
+
+2021-02-18 19:36:28 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:36:28 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:36:28 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(232, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:36:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:36:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:36:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:36:39 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:36:39 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:36:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:36:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:36:44 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:36:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:36:46 - [MESSAGE][PASSED] - Text 'PC batch file' is present on page 
+
+2021-02-18 19:36:46 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:36:47 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:36:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:36:49 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:36:49 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:36:49 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:36:50 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:36:50 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File" time="22.953" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Your submission was successful
+The analysis results will be delivered to you via email' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:668)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Your submission was successful
+The analysis results will be delivered to you via email' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+"/>
+         <system-out><![CDATA[2021-02-18 19:36:50 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Your submission was successful
+The analysis results will be delivered to you via email' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:668)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Your submission was successful
+The analysis results will be delivered to you via email' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+
+
+2021-02-18 19:36:50 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:36:50 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:36:50 - [TEST_STEP][FAILED] - customKeywords.commanFunctions.uploadFileOfPublicUser(366, userEmail): Unable to verify text 'Your submission was successful
+The analysis results will be delivered to you via email' is present 
+
+2021-02-18 19:36:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:36:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:36:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:37:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:37:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:37:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:37:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:37:06 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:37:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:37:08 - [MESSAGE][PASSED] - Text 'PC Zip Compressed Archive' is present on page 
+
+2021-02-18 19:37:09 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:37:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:37:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:37:12 - [MESSAGE][FAILED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'Your submission was successful
+The analysis results will be delivered to you via email' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:668)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+)
+
+2021-02-18 19:37:12 - [MESSAGE][FAILED] - Unable to verify text 'Your submission was successful
+The analysis results will be delivered to you via email' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Your submission was successful
+The analysis results will be delivered to you via email' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:668)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Your submission was successful
+The analysis results will be delivered to you via email' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more
+)
+[[ATTACHMENT|E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_UploadFiles\\20210218_190911\\1613657232318.png]]
+
+2021-02-18 19:37:12 - [MESSAGE][FAILED] - Unable to verify text 'Your submission was successful
+The analysis results will be delivered to you via email' is present 
+
+2021-02-18 19:37:12 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-18 19:37:12 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:37:13 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:37:13 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:37:13 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-18 19:37:13 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-18 19:37:13 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-18 19:36:50 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Your submission was successful
+The analysis results will be delivered to you via email' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:668)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Your submission was successful
+The analysis results will be delivered to you via email' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 22 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File" time="21.859" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:37:13 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File
+
+2021-02-18 19:37:13 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:37:13 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:37:13 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(188, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:37:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:37:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:37:23 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:37:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:37:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:37:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:37:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:37:29 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:37:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:37:31 - [MESSAGE][PASSED] - Text 'SampleTestPDF' is present on page 
+
+2021-02-18 19:37:32 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:37:32 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:37:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:37:34 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:37:34 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:37:34 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:37:35 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:37:35 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File" time="22.158" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:37:35 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File
+
+2021-02-18 19:37:35 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:37:35 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:37:35 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(184, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:37:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:37:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:37:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:37:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:37:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:37:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:37:49 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:37:51 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:37:53 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:37:53 - [MESSAGE][PASSED] - Text 'SamplePNGImage' is present on page 
+
+2021-02-18 19:37:54 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:37:54 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:37:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:37:56 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:37:56 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:37:56 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:37:57 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:37:57 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File" time="22.046" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:37:57 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File
+
+2021-02-18 19:37:57 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:37:57 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:37:57 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(168, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:37:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:37:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:38:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:38:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:38:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:38:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:38:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:38:13 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:38:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:38:16 - [MESSAGE][PASSED] - Text 'POwerPoint' is present on page 
+
+2021-02-18 19:38:16 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:38:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:38:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:38:18 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:38:18 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:38:18 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:38:19 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:38:19 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File" time="22.263" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:38:19 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File
+
+2021-02-18 19:38:19 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:38:19 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:38:19 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(354, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:38:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:38:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:38:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:38:31 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:38:31 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:38:31 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:38:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:38:35 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:38:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:38:37 - [MESSAGE][PASSED] - Text 'RealAudio' is present on page 
+
+2021-02-18 19:38:38 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:38:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:38:39 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:38:41 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:38:41 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:38:41 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:38:41 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:38:41 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File" time="21.865" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:38:41 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File
+
+2021-02-18 19:38:41 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:38:41 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:38:41 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(164, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:38:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:38:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:38:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:38:53 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:38:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:38:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:38:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:38:57 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:38:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:39:00 - [MESSAGE][PASSED] - Text 'NotePad' is present on page 
+
+2021-02-18 19:39:00 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:39:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:39:02 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:39:02 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:39:02 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:39:03 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:39:03 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File" time="22.684" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:39:03 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File
+
+2021-02-18 19:39:03 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:39:03 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:39:03 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(338, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:39:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:39:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:39:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:39:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:39:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:39:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:39:20 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:39:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:39:22 - [MESSAGE][PASSED] - Text 'Web page imagemap' is present on page 
+
+2021-02-18 19:39:22 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:39:25 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:39:25 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:39:25 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:39:26 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:39:26 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File" time="22.802" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:39:26 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File
+
+2021-02-18 19:39:26 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:39:26 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:39:26 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(236, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:39:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:39:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:39:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:39:38 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:39:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:39:38 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:39:40 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:39:42 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:39:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:39:45 - [MESSAGE][PASSED] - Text 'Windows BitMap.bmp' is present on page 
+
+2021-02-18 19:39:45 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:39:46 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:39:48 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:39:48 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:39:48 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:39:49 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:39:49 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File" time="21.699" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:39:49 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File
+
+2021-02-18 19:39:49 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:39:49 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:39:49 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(358, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:39:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:39:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:39:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:40:00 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:40:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:40:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:40:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:40:05 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:40:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:40:07 - [MESSAGE][PASSED] - Text 'Windows sound' is present on page 
+
+2021-02-18 19:40:07 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:40:08 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:40:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:40:10 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:40:10 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:40:10 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:40:10 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:40:10 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File" time="22.172" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:40:10 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File
+
+2021-02-18 19:40:10 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:40:10 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:40:10 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(224, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:40:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:40:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:40:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:40:22 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:40:22 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:40:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:40:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:40:26 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:40:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:40:29 - [MESSAGE][PASSED] - Text 'WordPad' is present on page 
+
+2021-02-18 19:40:29 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:40:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:40:32 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:40:32 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:40:32 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:40:33 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:40:33 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File" time="21.88" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:40:33 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File
+
+2021-02-18 19:40:33 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:40:33 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 19:40:33 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:40:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:40:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:40:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:40:44 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:40:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:40:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 19:40:47 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:40:49 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 19:40:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:40:51 - [MESSAGE][PASSED] - Text 'sampleExcel' is present on page 
+
+2021-02-18 19:40:51 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:40:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:40:54 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:40:54 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 19:40:54 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:40:54 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:40:54 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-18 19:31:08 - [TEST_SUITE][FAILED] - PublicUser_UploadFiles: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Adobe PhotoShop' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:656)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Adobe PhotoShop' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2021-02-18 19:31:08 - [TEST_SUITE][FAILED] - PublicUser_UploadFiles: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'Adobe PhotoShop' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$3.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:656)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655551628.run(TempTestSuite1613655551628.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'Adobe PhotoShop' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

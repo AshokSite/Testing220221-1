@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload PaintShop Pro File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbe11891-31b0-4fd1-9417-07cabfc82e4d</testCaseGuid>
+</TestCaseEntity>

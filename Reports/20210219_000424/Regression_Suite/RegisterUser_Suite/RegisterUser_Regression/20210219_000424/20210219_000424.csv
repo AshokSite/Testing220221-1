@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RegisterUser_Regression,,RegisterUser_Regression,,2021-02-19 00:19:39,2021-02-19 00:20:48,1m - 9.678s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page",,,,2021-02-19 00:19:40,2021-02-19 00:20:18,37.733s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",,,,2021-02-19 00:19:40,2021-02-19 00:19:41,0.500s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",,,,2021-02-19 00:19:41,2021-02-19 00:19:41,0.022s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",,,,2021-02-19 00:19:41,2021-02-19 00:19:41,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(329, rigisterUN, rigisterPW)",,,,2021-02-19 00:19:41,2021-02-19 00:20:16,35.569s,FAILED
+Start tear down : tearDownMethodIfFailed,,,,2021-02-19 00:20:16,2021-02-19 00:20:18,1.451s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats",,,,2021-02-19 00:20:18,2021-02-19 00:20:48,30.550s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",,,,2021-02-19 00:20:18,2021-02-19 00:20:18,0.037s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",,,,2021-02-19 00:20:18,2021-02-19 00:20:18,0.030s,PASSED
+customKeywords.commanFunctions.openBrowser(),,,,2021-02-19 00:20:18,2021-02-19 00:20:48,29.480s,FAILED
+Start tear down : tearDownMethodIfFailed,,,,2021-02-19 00:20:48,2021-02-19 00:20:48,0.885s,PASSED

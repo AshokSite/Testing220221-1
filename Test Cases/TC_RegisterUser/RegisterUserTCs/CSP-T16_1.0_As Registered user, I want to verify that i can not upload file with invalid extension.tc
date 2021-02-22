@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T16_1.0_As Registered user, I want to verify that i can not upload file with invalid extension</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b4b32a6-98fa-4dc7-bf6a-dc11d0b3fd42</testCaseGuid>
+</TestCaseEntity>

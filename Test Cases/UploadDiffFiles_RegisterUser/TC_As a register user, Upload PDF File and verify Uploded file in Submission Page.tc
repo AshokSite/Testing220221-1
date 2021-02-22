@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload PDF File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2c3ecd1d-d785-4a56-8640-1fc81d498fe1</testCaseGuid>
+</TestCaseEntity>

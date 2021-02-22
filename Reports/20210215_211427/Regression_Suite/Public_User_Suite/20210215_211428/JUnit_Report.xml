@@ -1,0 +1,2376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Public_User_Suite" time="511.378" tests="30" failures="1" skips="0" errors="12">
+   <testsuite name="Public_User_Suite" tests="30" failures="1" errors="12" time="511.378" skips="0" timestamp="2021-02-15 21:14:37" hostname="ashok - OMTPGCN1132568L" id="Test Suites/Regression_Suite/Public_User_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210215_211427\\Regression_Suite\\Public_User_Suite\\20210215_211428"/>
+         <property name="logFiles" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210215_211427\\Regression_Suite\\Public_User_Suite\\20210215_211428\\execution0.log"/>
+         <property name="attachments" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210215_211427\\Regression_Suite\\Public_User_Suite\\20210215_211428\\1613404388009.png"/>
+         <property name="hostName" value="ashok - OMTPGCN1132568L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Firefox 85.0"/>
+         <property name="hostAddress" value="192.168.1.1"/>
+         <property name="sessionId" value="87df2eb1-8cf4-4d63-87d1-6eeb8cd441b2"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File" time="13.157" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 346 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:14:39 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 346 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:14:39 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:14:40 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:14:40 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(346, userEmail): Invalid row index 346 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:14:40 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:14:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:14:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:14:51 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:14:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:14:51 - [MESSAGE][ERROR] - Invalid row index 346 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:14:51 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:14:51 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:14:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:14:52 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:14:52 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:14:52 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:14:52 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:14:39 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 346 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File" time="22.78" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:14:52 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File
+
+2021-02-15 21:14:52 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:14:52 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:14:52 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(228, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:14:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:14:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:15:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:15:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:15:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:15:04 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:15:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:15:08 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:15:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:15:10 - [MESSAGE][PASSED] - Text 'BasicAudio' is present on page 
+
+2021-02-15 21:15:10 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:15:14 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:15:14 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:15:14 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:15:15 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:15:15 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File" time="20.59" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:15:15 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File
+
+2021-02-15 21:15:15 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:15:15 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:15:15 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(176, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:15:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:15:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:15:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:15:25 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:15:25 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:15:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:15:29 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:15:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:15:32 - [MESSAGE][PASSED] - Text 'SampleCSVFile' is present on page 
+
+2021-02-15 21:15:32 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:15:33 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:15:34 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:15:35 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:15:35 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:15:35 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:15:35 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:15:35 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File" time="25.183" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:15:35 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File
+
+2021-02-15 21:15:36 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:15:36 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:15:36 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(172, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:15:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:15:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:15:47 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:15:47 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:15:47 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:15:48 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:15:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:15:52 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:15:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:15:54 - [MESSAGE][PASSED] - Text 'readerdc_en_ka_cra_install' is present on page 
+
+2021-02-15 21:15:55 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:15:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:16:00 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:16:00 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:16:00 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:16:01 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:16:01 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File" time="22.137" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:16:01 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File
+
+2021-02-15 21:16:01 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:16:01 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:16:01 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(252, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:16:01 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:16:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:16:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:16:11 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:16:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:16:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:16:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:16:16 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:16:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:16:18 - [MESSAGE][PASSED] - Text 'Graphics Interchange Format.gif' is present on page 
+
+2021-02-15 21:16:18 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:16:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:16:20 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:16:22 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:16:22 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:16:22 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:16:23 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:16:23 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File" time="24.47" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:16:23 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File
+
+2021-02-15 21:16:23 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:16:23 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:16:23 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(160, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:16:23 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:16:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:16:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:16:36 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:16:36 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:16:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:16:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:16:40 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:16:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:16:43 - [MESSAGE][PASSED] - Text 'commonsCode' is present on page 
+
+2021-02-15 21:16:43 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:16:46 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:16:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:16:46 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:16:47 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:16:47 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File" time="22.053" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:16:47 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File
+
+2021-02-15 21:16:47 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:16:47 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:16:47 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:16:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:16:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:16:58 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:16:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:16:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:16:59 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:17:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:17:03 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:17:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:17:06 - [MESSAGE][PASSED] - Text 'sampleExcel' is present on page 
+
+2021-02-15 21:17:06 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:17:07 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:17:08 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:17:09 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:17:09 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:17:09 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:17:09 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:17:09 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File" time="22.863" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:17:09 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File
+
+2021-02-15 21:17:09 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:17:09 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:17:09 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(256, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:17:10 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:17:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:17:20 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:17:20 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:17:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:17:21 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:17:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:17:25 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:17:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:17:27 - [MESSAGE][PASSED] - Text 'JPEG graphic' is present on page 
+
+2021-02-15 21:17:28 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:17:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:17:31 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:17:31 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:17:31 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:17:32 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:17:32 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File" time="11.418" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 333 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MacPaint.mac File.run(TC_As a public user, Upload MacPaint.mac File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:17:32 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 333 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MacPaint.mac File.run(TC_As a public user, Upload MacPaint.mac File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:17:32 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:17:32 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:17:32 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(333, userEmail): Invalid row index 333 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:17:33 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:17:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:17:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:17:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:17:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:17:43 - [MESSAGE][ERROR] - Invalid row index 333 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:17:43 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:17:43 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:17:44 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:17:44 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:17:44 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:17:44 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:17:44 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:17:32 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 333 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MacPaint.mac File.run(TC_As a public user, Upload MacPaint.mac File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File" time="22.355" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:17:44 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File
+
+2021-02-15 21:17:44 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:17:44 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:17:44 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(248, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:17:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:17:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:17:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:17:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:17:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:17:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:17:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:17:59 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:18:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:18:02 - [MESSAGE][PASSED] - Text 'Microsoft Word' is present on page 
+
+2021-02-15 21:18:02 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:18:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:18:04 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:18:05 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:18:05 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:18:05 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:18:06 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:18:06 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File" time="11.327" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 342 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MS Access database File.run(TC_As a public user, Upload MS Access database File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:18:06 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 342 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MS Access database File.run(TC_As a public user, Upload MS Access database File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:18:06 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:18:06 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:18:06 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(342, userEmail): Invalid row index 342 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:18:06 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:18:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:18:16 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:18:16 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:18:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:18:17 - [MESSAGE][ERROR] - Invalid row index 342 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:18:17 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:18:17 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:18:17 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:18:17 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:18:17 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:18:17 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:18:17 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:18:06 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 342 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MS Access database File.run(TC_As a public user, Upload MS Access database File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File" time="11.701" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 362 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MS Works File.run(TC_As a public user, Upload MS Works File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:18:17 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 362 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MS Works File.run(TC_As a public user, Upload MS Works File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:18:17 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:18:17 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:18:17 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(362, userEmail): Invalid row index 362 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:18:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:18:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:18:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:18:28 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:18:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:18:28 - [MESSAGE][ERROR] - Invalid row index 362 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:18:28 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:18:28 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:18:29 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:18:29 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:18:29 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:18:29 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:18:29 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:18:17 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 362 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload MS Works File.run(TC_As a public user, Upload MS Works File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File" time="21.972" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:18:29 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File
+
+2021-02-15 21:18:29 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:18:29 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:18:29 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(244, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:18:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:18:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:18:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:18:40 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:18:40 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:18:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:18:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:18:44 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:18:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:18:47 - [MESSAGE][PASSED] - Text 'Multimedia' is present on page 
+
+2021-02-15 21:18:47 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:18:48 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:18:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:18:50 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:18:50 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:18:50 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:18:51 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:18:51 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File" time="11.53" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 350 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PaintShop Pro File.run(TC_As a public user, Upload PaintShop Pro File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:18:51 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 350 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PaintShop Pro File.run(TC_As a public user, Upload PaintShop Pro File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:18:51 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:18:51 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:18:51 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(350, userEmail): Invalid row index 350 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:18:51 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:18:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:19:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:19:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:19:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:19:02 - [MESSAGE][ERROR] - Invalid row index 350 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:19:02 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:19:02 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:19:03 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:19:03 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:19:03 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:19:03 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:19:03 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:18:51 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 350 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PaintShop Pro File.run(TC_As a public user, Upload PaintShop Pro File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File" time="23.654" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:19:03 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File
+
+2021-02-15 21:19:03 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:19:03 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:19:03 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(232, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:19:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:19:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:19:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:19:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:19:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:19:14 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:19:16 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:19:18 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:19:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:19:21 - [MESSAGE][PASSED] - Text 'PC batch file' is present on page 
+
+2021-02-15 21:19:21 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:19:22 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:19:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:19:25 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:19:25 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:19:25 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:19:26 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:19:26 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File" time="11.979" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 366 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:19:26 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 366 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:19:26 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:19:26 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:19:26 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(366, userEmail): Invalid row index 366 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:19:26 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:19:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:19:37 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:19:37 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:19:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:19:37 - [MESSAGE][ERROR] - Invalid row index 366 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:19:37 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:19:37 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:19:38 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:19:38 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:19:38 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:19:38 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:19:38 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:19:26 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 366 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload PC Zip Compressed Archive File.run(TC_As a public user, Upload PC Zip Compressed Archive File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File" time="21.616" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:19:38 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File
+
+2021-02-15 21:19:38 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:19:38 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:19:38 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(188, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:19:38 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:19:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:19:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:19:49 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:19:49 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:19:50 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:19:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:19:54 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:19:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:19:56 - [MESSAGE][PASSED] - Text 'SampleTestPDF' is present on page 
+
+2021-02-15 21:19:56 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:19:57 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:19:58 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:19:59 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:19:59 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:19:59 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:20:00 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:20:00 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File" time="21.494" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:20:00 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File
+
+2021-02-15 21:20:00 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:20:00 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:20:00 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(184, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:20:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:20:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:20:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:20:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:20:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:20:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:20:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:20:15 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:20:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:20:17 - [MESSAGE][PASSED] - Text 'SamplePNGImage' is present on page 
+
+2021-02-15 21:20:18 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:20:21 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:20:21 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:20:21 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:20:21 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:20:21 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File" time="25.056" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:20:21 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File
+
+2021-02-15 21:20:21 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:20:21 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:20:21 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(168, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:20:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:20:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:20:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:20:35 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:20:35 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:20:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:20:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:20:40 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:20:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:20:42 - [MESSAGE][PASSED] - Text 'POwerPoint' is present on page 
+
+2021-02-15 21:20:43 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:20:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:20:46 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:20:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:20:46 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:20:46 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:20:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File" time="11.322" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 354 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload RealAudio File.run(TC_As a public user, Upload RealAudio File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:20:46 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 354 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload RealAudio File.run(TC_As a public user, Upload RealAudio File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:20:46 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:20:46 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:20:46 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(354, userEmail): Invalid row index 354 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:20:47 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:20:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:20:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:20:57 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:20:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:20:57 - [MESSAGE][ERROR] - Invalid row index 354 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:20:57 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:20:57 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:20:58 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:20:58 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:20:58 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:20:58 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:20:58 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:20:46 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 354 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload RealAudio File.run(TC_As a public user, Upload RealAudio File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File" time="21.742" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:20:58 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File
+
+2021-02-15 21:20:58 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:20:58 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:20:58 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(164, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:20:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:20:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:21:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:21:09 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:21:09 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:21:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:21:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:21:13 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:21:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:21:16 - [MESSAGE][PASSED] - Text 'NotePad' is present on page 
+
+2021-02-15 21:21:16 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:21:17 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:21:19 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:21:19 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:21:19 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:21:19 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:21:19 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File" time="14.098" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 338 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Web page imagemap.map File.run(TC_As a public user, Upload Web page imagemap.map File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:21:19 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 338 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Web page imagemap.map File.run(TC_As a public user, Upload Web page imagemap.map File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:21:19 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:21:19 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:21:19 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(338, userEmail): Invalid row index 338 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:21:20 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:21:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:21:33 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:21:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:21:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:21:33 - [MESSAGE][ERROR] - Invalid row index 338 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:21:33 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:21:33 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:21:33 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:21:33 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:21:33 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:21:33 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:21:33 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:21:19 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 338 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Web page imagemap.map File.run(TC_As a public user, Upload Web page imagemap.map File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File" time="21.5" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:21:33 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File
+
+2021-02-15 21:21:34 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:21:34 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:21:34 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(236, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:21:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:21:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:21:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:21:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:21:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:21:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:21:48 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:21:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:21:51 - [MESSAGE][PASSED] - Text 'Windows BitMap.bmp' is present on page 
+
+2021-02-15 21:21:51 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:21:52 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:21:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:21:54 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:21:54 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:21:54 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:21:55 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:21:55 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File" time="12.502" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 358 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Windows sound File.run(TC_As a public user, Upload Windows sound File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:21:55 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 358 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Windows sound File.run(TC_As a public user, Upload Windows sound File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:21:55 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:21:55 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:21:55 - [TEST_STEP][ERROR] - customKeywords.commanFunctions.uploadFileOfPublicUser(358, userEmail): Invalid row index 358 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:21:55 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:21:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:22:07 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:22:07 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:22:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:22:07 - [MESSAGE][ERROR] - Invalid row index 358 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+
+2021-02-15 21:22:07 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:22:07 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:07 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:22:07 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:07 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:07 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:07 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:21:55 - [TEST_CASE][ERROR] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 358 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Windows sound File.run(TC_As a public user, Upload Windows sound File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File" time="23.014" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:22:07 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File
+
+2021-02-15 21:22:08 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:22:08 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:22:08 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(224, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:22:08 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:22:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:22:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:22:19 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:22:19 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:22:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:22:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:22:23 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:22:25 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:22:26 - [MESSAGE][PASSED] - Text 'WordPad' is present on page 
+
+2021-02-15 21:22:26 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:22:27 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:22:28 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:22:30 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:22:30 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:22:30 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:31 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:22:31 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File" time="21.188" classname="Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File" status="PASSED">
+         <system-out><![CDATA[2021-02-15 21:22:31 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File
+
+2021-02-15 21:22:31 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:22:31 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-15 21:22:31 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:22:31 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:22:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:22:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:22:41 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:22:41 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:22:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-15 21:22:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:22:46 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-15 21:22:48 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-15 21:22:48 - [MESSAGE][PASSED] - Text 'sampleExcel' is present on page 
+
+2021-02-15 21:22:49 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-15 21:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-15 21:22:50 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-15 21:22:51 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-15 21:22:51 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-15 21:22:51 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL" time="0.311" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 370 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URL.run(TC_As a public user, Successfully submit the URL:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:22:52 - [TEST_CASE][ERROR] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 370 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URL.run(TC_As a public user, Successfully submit the URL:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 370): null
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:52 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:22:52 - [TEST_CASE][ERROR] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 370 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URL.run(TC_As a public user, Successfully submit the URL:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters" time="0.301" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 374 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URLWithPathParameters.run(TC_As a public user, Successfully submit the URLWithPathParameters:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:22:52 - [TEST_CASE][ERROR] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 374 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URLWithPathParameters.run(TC_As a public user, Successfully submit the URLWithPathParameters:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 374): null
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:52 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:52 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:22:52 - [TEST_CASE][ERROR] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 374 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URLWithPathParameters.run(TC_As a public user, Successfully submit the URLWithPathParameters:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters" time="0.297" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters" status="ERROR">
+         <error type="ERROR" message="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 378 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URLWithQueryParameters.run(TC_As a public user, Successfully submit the URLWithQueryParameters:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+"/>
+         <system-out><![CDATA[2021-02-15 21:22:52 - [TEST_CASE][ERROR] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 378 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URLWithQueryParameters.run(TC_As a public user, Successfully submit the URLWithQueryParameters:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 378): null
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfError: Method 'tearDownMethodIfError' complete successfully
+
+2021-02-15 21:22:52 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:53 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:22:53 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:22:53 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfError method------]"): [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:53 - [MESSAGE][INFO] - [--------This is tearDownIfError method------]
+
+2021-02-15 21:22:53 - [MESSAGE][PASSED] - Method 'tearDownMethodIfError' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:22:52 - [TEST_CASE][ERROR] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 378 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at TC_As a public user, Successfully submit the URLWithQueryParameters.run(TC_As a public user, Successfully submit the URLWithQueryParameters:12)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats" time="15.879" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-02-15 21:22:53 - [TEST_CASE][FAILED] - Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats: Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-02-15 21:22:53 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-15 21:22:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2021-02-15 21:22:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-15 21:23:03 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-15 21:23:03 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-15 21:23:03 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-15 21:23:03 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-15 21:23:03 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-15 21:23:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PublicUserHomePage/UrlTab")): Object: 'Object Repository/PublicUserHomePage/UrlTab' is clicked on
+
+2021-02-15 21:23:03 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/UrlTab' is clicked on
+
+2021-02-15 21:23:03 - [TEST_STEP][PASSED] - ErrorValidationMessage = excelTestData.getValue(3, 42): null
+
+2021-02-15 21:23:03 - [TEST_STEP][FAILED] - for ([i = 42, i <= 46, (i++)]): Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-02-15 21:23:03 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-15 21:23:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'https://www.slideshare.net/socialogilvy ' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-15 21:23:04 - [MESSAGE][PASSED] - Keys 'https://www.slideshare.net/socialogilvy ' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-15 21:23:04 - [TEST_STEP][PASSED] - verifyTextPresent(ErrorValidationMessage, false): Text 'URL format is not valid.' is present on page 
+
+2021-02-15 21:23:05 - [MESSAGE][PASSED] - Text 'URL format is not valid.' is present on page 
+
+2021-02-15 21:23:05 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input")): Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-15 21:23:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-15 21:23:05 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-15 21:23:05 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'htps://www.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-15 21:23:06 - [MESSAGE][PASSED] - Keys 'htps://www.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-15 21:23:06 - [TEST_STEP][PASSED] - verifyTextPresent(ErrorValidationMessage, false): Text 'URL format is not valid.' is present on page 
+
+2021-02-15 21:23:06 - [MESSAGE][PASSED] - Text 'URL format is not valid.' is present on page 
+
+2021-02-15 21:23:06 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input")): Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-15 21:23:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-15 21:23:06 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-15 21:23:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'https://ww.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-15 21:23:07 - [MESSAGE][PASSED] - Keys 'https://ww.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-15 21:23:07 - [TEST_STEP][FAILED] - verifyTextPresent(ErrorValidationMessage, false): Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-02-15 21:23:08 - [MESSAGE][FAILED] - Text 'URL format is not valid.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+)
+
+2021-02-15 21:23:08 - [MESSAGE][FAILED] - Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210215_211427\\Regression_Suite\\Public_User_Suite\\20210215_211428\\1613404388009.png]]
+
+2021-02-15 21:23:08 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-15 21:23:08 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:23:08 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-15 21:23:08 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-15 21:23:08 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-15 21:23:08 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-15 21:23:08 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-15 21:22:53 - [TEST_CASE][FAILED] - Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats: Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$4.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-15 21:14:37 - [TEST_SUITE][ERROR] - Public_User_Suite: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 346 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-out>
+      <system-err><![CDATA[2021-02-15 21:14:37 - [TEST_SUITE][ERROR] - Public_User_Suite: Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File FAILED.
+Reason:
+java.lang.IllegalArgumentException: Invalid row index 346 for test data 'E:\Inspect\15022021\SiteInspectAutomation\Project_ReqFiles\Auto_TestData\SITE_InspectAutoTestData.xlsx'. Row index must be between 1..292
+	at com.kms.katalon.core.testdata.AbstractTestData.verifyRowIndex(AbstractTestData.java:54)
+	at com.kms.katalon.core.testdata.AbstractTestData.getObjectValue(AbstractTestData.java:121)
+	at com.kms.katalon.core.testdata.AbstractTestData.getValue(AbstractTestData.java:94)
+	at com.kms.katalon.core.testdata.TestData$getValue.call(Unknown Source)
+	at customKeywords.commanFunctions.uploadFileOfPublicUser(commanFunctions.groovy:652)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a public user, Upload Adobe PhotoShop File.run(TC_As a public user, Upload Adobe PhotoShop File:14)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613403868646.run(TempTestSuite1613403868646.groovy:39)]]></system-err>
+   </testsuite>
+</testsuites>

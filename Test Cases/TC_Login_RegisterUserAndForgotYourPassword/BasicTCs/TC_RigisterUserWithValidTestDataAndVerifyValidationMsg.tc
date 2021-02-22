@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_RigisterUserWithValidTestDataAndVerifyValidationMsg</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8ae99f8f-4679-4273-874a-4d6f5917a516</testCaseGuid>
+</TestCaseEntity>

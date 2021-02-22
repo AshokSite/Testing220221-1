@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload Adobe PhotoShop File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b844600-a495-4e5e-93a9-19b6b7da4ccb</testCaseGuid>
+</TestCaseEntity>

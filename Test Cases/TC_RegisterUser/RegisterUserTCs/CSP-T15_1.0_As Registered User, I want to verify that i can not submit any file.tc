@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T15_1.0_As Registered User, I want to verify that i can not submit any file</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7671c5c7-15f0-4a39-95d9-a09dde62a2c3</testCaseGuid>
+</TestCaseEntity>

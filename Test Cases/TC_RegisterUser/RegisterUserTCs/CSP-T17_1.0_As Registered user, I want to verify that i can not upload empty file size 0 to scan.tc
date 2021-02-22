@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T17_1.0_As Registered user, I want to verify that i can not upload empty file size 0 to scan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f80dd520-6708-42a6-a152-54a445ef10ff</testCaseGuid>
+</TestCaseEntity>

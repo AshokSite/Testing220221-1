@@ -1,0 +1,106 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login_Suite,Firefox 85.0,Login_Suite,,2021-02-18 21:29:27,2021-02-18 21:32:14,2m - 47.639s,PASSED
+,,,,,,,
+"Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T74_1.0_As a User, I want to verify that system send me a forget my password link when I request",Firefox 85.0,,,2021-02-18 21:29:28,2021-02-18 21:29:46,18.084s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:29:28,2021-02-18 21:29:29,0.487s,PASSED
+"validationMessage = excelTestData.getValue(2, 8)",Firefox 85.0,,,2021-02-18 21:29:29,2021-02-18 21:29:29,0.019s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Firefox 85.0,,,2021-02-18 21:29:29,2021-02-18 21:29:29,0.043s,PASSED
+"forgotPwd = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd"")",Firefox 85.0,,,2021-02-18 21:29:29,2021-02-18 21:29:29,0.026s,PASSED
+"ForgotPwdSubmitBtn = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwdSubmitBtn"")",Firefox 85.0,,,2021-02-18 21:29:29,2021-02-18 21:29:29,0.024s,PASSED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-18 21:29:29,2021-02-18 21:29:40,11.619s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Firefox 85.0,,,2021-02-18 21:29:40,2021-02-18 21:29:41,0.332s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Firefox 85.0,,,2021-02-18 21:29:41,2021-02-18 21:29:41,0.556s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd""), TimeOut)",Firefox 85.0,,,2021-02-18 21:29:41,2021-02-18 21:29:42,0.485s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(forgotPwd),Firefox 85.0,,,2021-02-18 21:29:42,2021-02-18 21:29:42,0.567s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input""), AdminUserName)",Firefox 85.0,,,2021-02-18 21:29:42,2021-02-18 21:29:43,0.505s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(ForgotPwdSubmitBtn),Firefox 85.0,,,2021-02-18 21:29:43,2021-02-18 21:29:43,0.553s,PASSED
+"verifyTextPresent(validationMessage, false)",Firefox 85.0,,,2021-02-18 21:29:43,2021-02-18 21:29:45,1.931s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:29:45,2021-02-18 21:29:46,0.761s,PASSED
+,,,,,,,
+"Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T75_1.0_As a User, I want to verify that System detects incorrect user email",Firefox 85.0,,,2021-02-18 21:29:46,2021-02-18 21:30:01,15.401s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:29:46,2021-02-18 21:29:46,0.020s,PASSED
+"validationMessage = excelTestData.getValue(2, 12)",Firefox 85.0,,,2021-02-18 21:29:46,2021-02-18 21:29:46,0.002s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Firefox 85.0,,,2021-02-18 21:29:46,2021-02-18 21:29:46,0.028s,PASSED
+"forgotPwd = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd"")",Firefox 85.0,,,2021-02-18 21:29:46,2021-02-18 21:29:46,0.021s,PASSED
+"ForgotPwdSubmitBtn = findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwdSubmitBtn"")",Firefox 85.0,,,2021-02-18 21:29:46,2021-02-18 21:29:46,0.020s,PASSED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-18 21:29:46,2021-02-18 21:29:57,10.746s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Firefox 85.0,,,2021-02-18 21:29:57,2021-02-18 21:29:57,0.279s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Firefox 85.0,,,2021-02-18 21:29:57,2021-02-18 21:29:58,0.512s,PASSED
+"waitForElementClickable(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd""), TimeOut)",Firefox 85.0,,,2021-02-18 21:29:58,2021-02-18 21:29:58,0.475s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(forgotPwd),Firefox 85.0,,,2021-02-18 21:29:58,2021-02-18 21:29:59,0.459s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Firefox 85.0,,,2021-02-18 21:29:59,2021-02-18 21:29:59,0.220s,PASSED
+"email = ""test_"" + str + ""@email.com""",Firefox 85.0,,,2021-02-18 21:29:59,2021-02-18 21:29:59,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input""), email)",Firefox 85.0,,,2021-02-18 21:29:59,2021-02-18 21:29:59,0.301s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(ForgotPwdSubmitBtn),Firefox 85.0,,,2021-02-18 21:29:59,2021-02-18 21:30:00,0.471s,PASSED
+"verifyTextPresent(validationMessage, false)",Firefox 85.0,,,2021-02-18 21:30:00,2021-02-18 21:30:01,0.930s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:30:01,2021-02-18 21:30:01,0.823s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidCredentialsAndVerifyErrorMsg,Firefox 85.0,,,2021-02-18 21:30:01,2021-02-18 21:30:19,17.207s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:30:01,2021-02-18 21:30:01,0.017s,PASSED
+"validationMessage = excelTestData.getValue(2, 4)",Firefox 85.0,,,2021-02-18 21:30:01,2021-02-18 21:30:01,0.001s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Firefox 85.0,,,2021-02-18 21:30:01,2021-02-18 21:30:01,0.020s,PASSED
+"LoginBtn = findTestObject(""Object Repository/LoginAndRigisterUser/LoginBtn"")",Firefox 85.0,,,2021-02-18 21:30:01,2021-02-18 21:30:02,0.019s,PASSED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-18 21:30:02,2021-02-18 21:30:13,11.618s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Firefox 85.0,,,2021-02-18 21:30:13,2021-02-18 21:30:13,0.285s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Firefox 85.0,,,2021-02-18 21:30:13,2021-02-18 21:30:14,0.484s,PASSED
+strOne = customKeywords.commanFunctions.getRandomAlphaString(5),Firefox 85.0,,,2021-02-18 21:30:14,2021-02-18 21:30:14,0.201s,PASSED
+"email = ""test_"" + strOne + ""@email.com""",Firefox 85.0,,,2021-02-18 21:30:14,2021-02-18 21:30:14,0.000s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Firefox 85.0,,,2021-02-18 21:30:14,2021-02-18 21:30:14,0.187s,PASSED
+"password = ""Test@"" + str",Firefox 85.0,,,2021-02-18 21:30:14,2021-02-18 21:30:14,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/UserName_Email_Input""), email)",Firefox 85.0,,,2021-02-18 21:30:14,2021-02-18 21:30:15,0.302s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/Password_Input""), password)",Firefox 85.0,,,2021-02-18 21:30:15,2021-02-18 21:30:15,0.476s,PASSED
+"waitForElementClickable(LoginBtn, TimeOut)",Firefox 85.0,,,2021-02-18 21:30:15,2021-02-18 21:30:16,0.440s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(LoginBtn),Firefox 85.0,,,2021-02-18 21:30:16,2021-02-18 21:30:16,0.397s,PASSED
+"verifyTextPresent(validationMessage, false)",Firefox 85.0,,,2021-02-18 21:30:16,2021-02-18 21:30:18,1.869s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:30:18,2021-02-18 21:30:19,0.819s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidPasswordAndVerifyLoginShouldNotSucss,Firefox 85.0,,,2021-02-18 21:30:19,2021-02-18 21:30:33,14.793s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:30:19,2021-02-18 21:30:19,0.016s,PASSED
+"validationMessage = excelTestData.getValue(2, 4)",Firefox 85.0,,,2021-02-18 21:30:19,2021-02-18 21:30:19,0.001s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Firefox 85.0,,,2021-02-18 21:30:19,2021-02-18 21:30:19,0.019s,PASSED
+"LoginBtn = findTestObject(""Object Repository/LoginAndRigisterUser/LoginBtn"")",Firefox 85.0,,,2021-02-18 21:30:19,2021-02-18 21:30:19,0.019s,PASSED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-18 21:30:19,2021-02-18 21:30:29,9.904s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Firefox 85.0,,,2021-02-18 21:30:29,2021-02-18 21:30:29,0.281s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Firefox 85.0,,,2021-02-18 21:30:29,2021-02-18 21:30:29,0.464s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Firefox 85.0,,,2021-02-18 21:30:29,2021-02-18 21:30:30,0.195s,PASSED
+"password = ""Test@"" + str",Firefox 85.0,,,2021-02-18 21:30:30,2021-02-18 21:30:30,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/UserName_Email_Input""), AdminUserName)",Firefox 85.0,,,2021-02-18 21:30:30,2021-02-18 21:30:30,0.293s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/Password_Input""), password)",Firefox 85.0,,,2021-02-18 21:30:30,2021-02-18 21:30:30,0.492s,PASSED
+"waitForElementClickable(LoginBtn, TimeOut)",Firefox 85.0,,,2021-02-18 21:30:30,2021-02-18 21:30:31,0.455s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(LoginBtn),Firefox 85.0,,,2021-02-18 21:30:31,2021-02-18 21:30:31,0.440s,PASSED
+"verifyTextPresent(validationMessage, false)",Firefox 85.0,,,2021-02-18 21:30:31,2021-02-18 21:30:33,1.317s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:30:33,2021-02-18 21:30:33,0.821s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidUserNameAndVerifyLoginShouldNotSucss,Firefox 85.0,,,2021-02-18 21:30:33,2021-02-18 21:30:49,15.289s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:30:33,2021-02-18 21:30:33,0.013s,PASSED
+"validationMessage = excelTestData.getValue(2, 4)",Firefox 85.0,,,2021-02-18 21:30:33,2021-02-18 21:30:33,0.001s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Firefox 85.0,,,2021-02-18 21:30:33,2021-02-18 21:30:33,0.018s,PASSED
+"LoginBtn = findTestObject(""Object Repository/LoginAndRigisterUser/LoginBtn"")",Firefox 85.0,,,2021-02-18 21:30:33,2021-02-18 21:30:34,0.018s,PASSED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-18 21:30:34,2021-02-18 21:30:44,10.375s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Firefox 85.0,,,2021-02-18 21:30:44,2021-02-18 21:30:44,0.270s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Firefox 85.0,,,2021-02-18 21:30:44,2021-02-18 21:30:45,0.460s,PASSED
+str = customKeywords.commanFunctions.getRandomAlphaString(5),Firefox 85.0,,,2021-02-18 21:30:45,2021-02-18 21:30:45,0.202s,PASSED
+"email = ""test_"" + str + ""@email.com""",Firefox 85.0,,,2021-02-18 21:30:45,2021-02-18 21:30:45,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/UserName_Email_Input""), email)",Firefox 85.0,,,2021-02-18 21:30:45,2021-02-18 21:30:45,0.307s,PASSED
+"sendKeys(findTestObject(""Object Repository/LoginAndRigisterUser/Password_Input""), AdminPassWord)",Firefox 85.0,,,2021-02-18 21:30:45,2021-02-18 21:30:46,0.529s,PASSED
+"waitForElementClickable(LoginBtn, TimeOut)",Firefox 85.0,,,2021-02-18 21:30:46,2021-02-18 21:30:46,0.428s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(LoginBtn),Firefox 85.0,,,2021-02-18 21:30:46,2021-02-18 21:30:47,0.460s,PASSED
+"verifyTextPresent(validationMessage, false)",Firefox 85.0,,,2021-02-18 21:30:47,2021-02-18 21:30:48,1.316s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:30:48,2021-02-18 21:30:49,0.821s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithValidCredentialsAndVerifyLoginSucss,Firefox 85.0,,,2021-02-18 21:30:49,2021-02-18 21:31:15,26.670s,PASSED
+"callTestCase(findTestCase(""TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin""), null)",Firefox 85.0,,,2021-02-18 21:30:49,2021-02-18 21:31:09,20.405s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-18 21:31:09,2021-02-18 21:31:15,6.226s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyClickHereToResendEmailLink,Firefox 85.0,,,2021-02-18 21:31:15,2021-02-18 21:31:45,30.126s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:31:15,2021-02-18 21:31:15,0.013s,PASSED
+"clickHereToResendEmai = findTestObject(""Object Repository/LoginAndRigisterUser/clickHereToResendEmai"")",Firefox 85.0,,,2021-02-18 21:31:15,2021-02-18 21:31:15,0.018s,PASSED
+"ClickHereToResendLinkValidationMessage = excelTestData.getValue(2, 19)",Firefox 85.0,,,2021-02-18 21:31:15,2021-02-18 21:31:15,0.001s,PASSED
+"callTestCase(findTestCase(""TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify""), null)",Firefox 85.0,,,2021-02-18 21:31:15,2021-02-18 21:31:42,26.250s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(clickHereToResendEmai),Firefox 85.0,,,2021-02-18 21:31:42,2021-02-18 21:31:42,0.421s,PASSED
+"verifyTextPresent(ClickHereToResendLinkValidationMessage, false)",Firefox 85.0,,,2021-02-18 21:31:42,2021-02-18 21:31:45,2.538s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:31:45,2021-02-18 21:31:45,0.815s,PASSED
+,,,,,,,
+Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyValidationMsg,Firefox 85.0,,,2021-02-18 21:31:45,2021-02-18 21:32:14,28.672s,PASSED
+"callTestCase(findTestCase(""TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify""), null)",Firefox 85.0,,,2021-02-18 21:31:46,2021-02-18 21:32:13,27.822s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:32:13,2021-02-18 21:32:14,0.812s,PASSED

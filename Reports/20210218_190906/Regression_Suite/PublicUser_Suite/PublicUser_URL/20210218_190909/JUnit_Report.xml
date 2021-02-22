@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="PublicUser_URL" time="73.371" tests="4" failures="1" skips="0" errors="0">
+   <testsuite name="PublicUser_URL" tests="4" failures="1" errors="0" time="73.371" skips="0" timestamp="2021-02-18 19:29:43" hostname="ashok - OMTPGCN1132568L" id="Test Suites/Regression_Suite/PublicUser_Suite/PublicUser_URL">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_URL\\20210218_190909"/>
+         <property name="logFiles" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_URL\\20210218_190909\\execution0.log"/>
+         <property name="attachments" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_URL\\20210218_190909\\1613656855732.png"/>
+         <property name="hostName" value="ashok - OMTPGCN1132568L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="9de4245c5c19ba2207cf1dbd6e204150"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL" time="18.783" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:29:45 - [TEST_CASE][PASSED] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL
+
+2021-02-18 19:29:45 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:29:45 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 370): null
+
+2021-02-18 19:29:45 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(6, 23): null
+
+2021-02-18 19:29:45 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail): Object: 'Object Repository/PublicUserHomePage/OKPopUpBtn' is clicked on
+
+2021-02-18 19:29:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:29:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:29:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:29:58 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:29:58 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:29:58 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/UrlTab' is clicked on
+
+2021-02-18 19:29:59 - [MESSAGE][PASSED] - Keys 'http://www.company.com' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:29:59 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:30:00 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:30:00 - [MESSAGE][INFO] - Finding element is enabled
+
+2021-02-18 19:30:00 - [MESSAGE][PASSED] - Element is Enabled
+
+2021-02-18 19:30:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:30:02 - [MESSAGE][PASSED] - Object 'Object Repository/PublicUserHomePage/OKPopUpBtn' is present
+
+2021-02-18 19:30:02 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/OKPopUpBtn' is clicked on
+
+2021-02-18 19:30:02 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:30:03 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:30:03 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters" time="18.513" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:30:03 - [TEST_CASE][PASSED] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters
+
+2021-02-18 19:30:03 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:30:03 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 374): null
+
+2021-02-18 19:30:03 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(6, 23): null
+
+2021-02-18 19:30:03 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail): Object: 'Object Repository/PublicUserHomePage/OKPopUpBtn' is clicked on
+
+2021-02-18 19:30:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:30:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:30:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:30:15 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:30:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/UrlTab' is clicked on
+
+2021-02-18 19:30:17 - [MESSAGE][PASSED] - Keys 'http://www.company.com/showOrder.php' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:17 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:30:18 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:30:18 - [MESSAGE][INFO] - Finding element is enabled
+
+2021-02-18 19:30:18 - [MESSAGE][PASSED] - Element is Enabled
+
+2021-02-18 19:30:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:30:20 - [MESSAGE][PASSED] - Object 'Object Repository/PublicUserHomePage/OKPopUpBtn' is present
+
+2021-02-18 19:30:21 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:30:21 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/OKPopUpBtn' is clicked on
+
+2021-02-18 19:30:21 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:30:22 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:30:22 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters" time="17.391" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:30:22 - [TEST_CASE][PASSED] - Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters: Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters
+
+2021-02-18 19:30:22 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:30:22 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 378): null
+
+2021-02-18 19:30:22 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(6, 23): null
+
+2021-02-18 19:30:22 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail): Object: 'Object Repository/PublicUserHomePage/OKPopUpBtn' is clicked on
+
+2021-02-18 19:30:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:30:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:30:32 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:30:34 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:30:34 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:30:34 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/UrlTab' is clicked on
+
+2021-02-18 19:30:35 - [MESSAGE][PASSED] - Keys 'http://www.company.com/showOrder.php?order=4621047' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:35 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 19:30:36 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 19:30:36 - [MESSAGE][INFO] - Finding element is enabled
+
+2021-02-18 19:30:36 - [MESSAGE][PASSED] - Element is Enabled
+
+2021-02-18 19:30:37 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 19:30:38 - [MESSAGE][PASSED] - Object 'Object Repository/PublicUserHomePage/OKPopUpBtn' is present
+
+2021-02-18 19:30:38 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 19:30:38 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/OKPopUpBtn' is clicked on
+
+2021-02-18 19:30:38 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:30:39 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:30:39 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats" time="17.16" classname="Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-02-18 19:30:39 - [TEST_CASE][FAILED] - Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats: Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-02-18 19:30:39 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:30:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:30:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:30:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:30:51 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:30:51 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:30:51 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:30:51 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:30:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/PublicUserHomePage/UrlTab")): Object: 'Object Repository/PublicUserHomePage/UrlTab' is clicked on
+
+2021-02-18 19:30:51 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/UrlTab' is clicked on
+
+2021-02-18 19:30:51 - [TEST_STEP][PASSED] - ErrorValidationMessage = excelTestData.getValue(3, 42): null
+
+2021-02-18 19:30:51 - [TEST_STEP][FAILED] - for ([i = 42, i <= 46, (i++)]): Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-02-18 19:30:51 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-18 19:30:51 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'https://www.slideshare.net/socialogilvy ' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:52 - [MESSAGE][PASSED] - Keys 'https://www.slideshare.net/socialogilvy ' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:52 - [TEST_STEP][PASSED] - verifyTextPresent(ErrorValidationMessage, false): Text 'URL format is not valid.' is present on page 
+
+2021-02-18 19:30:52 - [MESSAGE][PASSED] - Text 'URL format is not valid.' is present on page 
+
+2021-02-18 19:30:52 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input")): Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 19:30:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 19:30:53 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-18 19:30:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'htps://www.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:53 - [MESSAGE][PASSED] - Keys 'htps://www.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:53 - [TEST_STEP][PASSED] - verifyTextPresent(ErrorValidationMessage, false): Text 'URL format is not valid.' is present on page 
+
+2021-02-18 19:30:54 - [MESSAGE][PASSED] - Text 'URL format is not valid.' is present on page 
+
+2021-02-18 19:30:54 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input")): Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 19:30:54 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 19:30:54 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-18 19:30:54 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'https://ww.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:55 - [MESSAGE][PASSED] - Keys 'https://ww.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 19:30:55 - [TEST_STEP][FAILED] - verifyTextPresent(ErrorValidationMessage, false): Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-02-18 19:30:55 - [MESSAGE][FAILED] - Text 'URL format is not valid.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+)
+
+2021-02-18 19:30:56 - [MESSAGE][FAILED] - Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\Regression_Suite\\PublicUser_Suite\\PublicUser_URL\\20210218_190909\\1613656855732.png]]
+
+2021-02-18 19:30:56 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-18 19:30:56 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:30:56 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:30:56 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:30:56 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-18 19:30:56 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-18 19:30:56 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-18 19:30:39 - [TEST_CASE][FAILED] - Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats: Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-18 19:29:43 - [TEST_SUITE][FAILED] - PublicUser_URL: Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2021-02-18 19:29:43 - [TEST_SUITE][FAILED] - PublicUser_URL: Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As public user , Trigger URL validation with invalid formats.run(TC_As public user , Trigger URL validation with invalid formats:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613655549270.run(TempTestSuite1613655549270.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

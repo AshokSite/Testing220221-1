@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>01cbd794-7047-4c3f-a5fe-594c6fc45636</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T234a_1.0_As a public user, Verify successful submitting a sample message of URL in EN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9244ea3d-888d-4f7f-a77d-c78ab410bc39</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload Multimedia File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a463e1c5-27b8-42f5-8b77-e1f6d423bc3a</testCaseGuid>
+</TestCaseEntity>

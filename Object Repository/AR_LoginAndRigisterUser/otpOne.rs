@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>otpOne</name>
+   <tag></tag>
+   <elementGuidId>87c2911e-e66b-4e1b-b50b-7f03d922e193</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname='otp_1']//*[@autofocus='autofocus']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@formcontrolname='otp_1']//*[@autofocus='autofocus']</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL","testCaseId":"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL"}
+{"testCaseName":"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters","testCaseId":"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters"}
+{"testCaseName":"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters","testCaseId":"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters"}
+{"testCaseName":"Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats","testCaseId":"Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats"}

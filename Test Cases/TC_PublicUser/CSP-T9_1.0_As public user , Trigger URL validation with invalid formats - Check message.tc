@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T9_1.0_As public user , Trigger URL validation with invalid formats - Check message</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b513ba83-412b-414f-a0f7-cee7c4fbbf10</testCaseGuid>
+</TestCaseEntity>

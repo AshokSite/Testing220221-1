@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As Public user, I want to verify that i can not upload empty file size 0 to scan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d01dd160-4cb5-486f-9fba-3807068f95e3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_UploadFiles,,PublicUser_UploadFiles,,2021-02-19 00:21:35,2021-02-19 00:22:41,1m - 5.392s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File",,,,2021-02-19 00:21:37,2021-02-19 00:22:10,33.422s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",,,,2021-02-19 00:21:37,2021-02-19 00:21:37,0.504s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",,,,2021-02-19 00:21:37,2021-02-19 00:21:37,0.027s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(346, userEmail)",,,,2021-02-19 00:21:37,2021-02-19 00:22:09,31.766s,FAILED
+Start tear down : tearDownMethodIfFailed,,,,2021-02-19 00:22:09,2021-02-19 00:22:10,0.940s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File",,,,2021-02-19 00:22:10,2021-02-19 00:22:41,30.582s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",,,,2021-02-19 00:22:10,2021-02-19 00:22:10,0.045s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",,,,2021-02-19 00:22:10,2021-02-19 00:22:10,0.002s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(366, userEmail)",,,,2021-02-19 00:22:10,2021-02-19 00:22:40,29.545s,FAILED
+Start tear down : tearDownMethodIfFailed,,,,2021-02-19 00:22:40,2021-02-19 00:22:41,0.903s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload MacPaint File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7694c798-c6a9-4ac4-b111-d28d5fb6c6d3</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RegisterUser_Regression,Chrome 86.0.4240.75,RegisterUser_Regression,,2021-02-18 23:20:40,2021-02-18 23:21:52,1m - 11.753s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page",Chrome 86.0.4240.75,,,2021-02-18 23:20:41,2021-02-18 23:21:16,34.999s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 23:20:42,2021-02-18 23:20:42,0.535s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Chrome 86.0.4240.75,,,2021-02-18 23:20:42,2021-02-18 23:20:42,0.027s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-18 23:20:42,2021-02-18 23:20:42,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(329, rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-18 23:20:42,2021-02-18 23:21:15,33.185s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-18 23:21:15,2021-02-18 23:21:16,1.068s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats",Chrome 86.0.4240.75,,,2021-02-18 23:21:17,2021-02-18 23:21:52,35.282s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 23:21:17,2021-02-18 23:21:17,0.037s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-18 23:21:17,2021-02-18 23:21:17,0.042s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-18 23:21:17,2021-02-18 23:21:31,14.420s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-18 23:21:31,2021-02-18 23:21:32,0.426s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-18 23:21:32,2021-02-18 23:21:32,0.601s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 23:21:32,2021-02-18 23:21:32,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-18 23:21:32,2021-02-18 23:21:32,0.001s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-18 23:21:32,2021-02-18 23:21:35,2.846s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-18 23:21:35,2021-02-18 23:21:41,6.010s,PASSED
+"click(findTestObject(""Object Repository/HomePage/URL_Tab""))",Chrome 86.0.4240.75,,,2021-02-18 23:21:41,2021-02-18 23:21:43,1.977s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Chrome 86.0.4240.75,,,2021-02-18 23:21:43,2021-02-18 23:21:43,0.000s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Chrome 86.0.4240.75,,,2021-02-18 23:21:43,2021-02-18 23:21:51,7.895s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-18 23:21:51,2021-02-18 23:21:52,0.910s,PASSED

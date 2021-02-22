@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Successfully submit the URLWithPathParameters</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e15730e2-eb04-49db-880d-df1e4daa23ef</testCaseGuid>
+</TestCaseEntity>

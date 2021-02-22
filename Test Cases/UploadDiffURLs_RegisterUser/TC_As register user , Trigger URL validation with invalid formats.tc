@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As register user , Trigger URL validation with invalid formats</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>36b63e54-3fe6-4a06-a7ae-160131f7403b</testCaseGuid>
+</TestCaseEntity>

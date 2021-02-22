@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As Public user, I want to verify that i can not upload file with invalid extension</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>aee090e5-19f2-4531-a1b2-29584dd7592c</testCaseGuid>
+</TestCaseEntity>

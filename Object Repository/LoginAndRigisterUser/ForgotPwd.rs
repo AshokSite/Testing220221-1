@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ForgotPwd</name>
+   <tag></tag>
+   <elementGuidId>645bc9d7-6b64-45cb-b171-e74ab7b4e7c1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-header/nz-layout[1]/nz-content[1]/app-login[1]/div[2]/div[1]/form[1]/nz-form-item[2]/div[1]/div[2]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-header/nz-layout[1]/nz-content[1]/app-login[1]/div[2]/div[1]/form[1]/nz-form-item[2]/div[1]/div[2]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

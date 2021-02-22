@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload Graphics Interchange Format File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c09c130c-84ea-49c6-a907-9ca2c643a901</testCaseGuid>
+</TestCaseEntity>

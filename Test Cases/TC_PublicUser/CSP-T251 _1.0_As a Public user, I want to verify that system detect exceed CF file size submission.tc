@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T251 _1.0_As a Public user, I want to verify that system detect exceed CF file size submission</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>29c4cda6-7c29-4b6c-8bd6-2204368c6fc4</testCaseGuid>
+</TestCaseEntity>

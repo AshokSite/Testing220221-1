@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Setting_Tab</name>
+   <tag></tag>
+   <elementGuidId>08cdb00c-6105-4753-b6d1-3ce58c83fe18</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//body/app-root[1]/nz-layout[1]/nz-sider[1]/div[1]/ul[1]/li[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//body/app-root[1]/nz-layout[1]/nz-sider[1]/div[1]/ul[1]/li[3]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login_Suite" time="174.052" tests="8" failures="0" skips="0" errors="0">
+   <testsuite name="Login_Suite" tests="8" failures="0" errors="0" time="174.052" skips="0" timestamp="2021-02-18 19:41:05" hostname="ashok - OMTPGCN1132568L" id="Test Suites/LogIn_RigisterUserAndForgotPwd_Module/Login_Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\LogIn_RigisterUserAndForgotPwd_Module\\Login_Suite\\20210218_190913"/>
+         <property name="logFiles" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_190906\\LogIn_RigisterUserAndForgotPwd_Module\\Login_Suite\\20210218_190913\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ashok - OMTPGCN1132568L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="192.168.1.11"/>
+         <property name="sessionId" value="3f8fa978522011729d62ef484aa3eb35"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T74_1.0_As a User, I want to verify that system send me a forget my password link when I request" time="19.475" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T74_1.0_As a User, I want to verify that system send me a forget my password link when I request" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:41:07 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T74_1.0_As a User, I want to verify that system send me a forget my password link when I request: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T74_1.0_As a User, I want to verify that system send me a forget my password link when I request
+
+2021-02-18 19:41:07 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:41:07 - [TEST_STEP][PASSED] - validationMessage = excelTestData.getValue(2, 8): null
+
+2021-02-18 19:41:07 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:41:07 - [TEST_STEP][PASSED] - forgotPwd = findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwd"): null
+
+2021-02-18 19:41:07 - [TEST_STEP][PASSED] - ForgotPwdSubmitBtn = findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwdSubmitBtn"): null
+
+2021-02-18 19:41:07 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:41:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:41:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:41:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:41:20 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:41:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:41:20 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:41:20 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:41:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:41:21 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:21 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:21 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:21 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwd"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/ForgotPwd' is clickable
+
+2021-02-18 19:41:22 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/ForgotPwd' is clickable
+
+2021-02-18 19:41:22 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(forgotPwd): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:22 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:22 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:22 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input"), AdminUserName): Keys 'admin@example.com' sent to object: 'Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input'
+
+2021-02-18 19:41:23 - [MESSAGE][PASSED] - Keys 'admin@example.com' sent to object: 'Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input'
+
+2021-02-18 19:41:23 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(ForgotPwdSubmitBtn): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:23 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:23 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:23 - [TEST_STEP][PASSED] - verifyTextPresent(validationMessage, false): Text 'An email with a reset link was sent to your email. Please click on the link to reset your password' is present on page 
+
+2021-02-18 19:41:25 - [MESSAGE][PASSED] - Text 'An email with a reset link was sent to your email. Please click on the link to reset your password' is present on page 
+
+2021-02-18 19:41:25 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:41:26 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:41:26 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T75_1.0_As a User, I want to verify that System detects incorrect user email" time="16.143" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T75_1.0_As a User, I want to verify that System detects incorrect user email" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:41:26 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T75_1.0_As a User, I want to verify that System detects incorrect user email: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/CSP-T75_1.0_As a User, I want to verify that System detects incorrect user email
+
+2021-02-18 19:41:26 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:41:26 - [TEST_STEP][PASSED] - validationMessage = excelTestData.getValue(2, 12): null
+
+2021-02-18 19:41:26 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:41:26 - [TEST_STEP][PASSED] - forgotPwd = findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwd"): null
+
+2021-02-18 19:41:26 - [TEST_STEP][PASSED] - ForgotPwdSubmitBtn = findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwdSubmitBtn"): null
+
+2021-02-18 19:41:26 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:41:27 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:41:27 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:41:36 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:41:38 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:41:38 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:41:38 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:41:38 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:41:38 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:41:38 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:39 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:39 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:39 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwd"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/ForgotPwd' is clickable
+
+2021-02-18 19:41:39 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/ForgotPwd' is clickable
+
+2021-02-18 19:41:39 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(forgotPwd): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:40 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:40 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:40 - [TEST_STEP][PASSED] - str = customKeywords.commanFunctions.getRandomAlphaString(5): customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:41:40 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:41:40 - [TEST_STEP][PASSED] - email = "test_" + str + "@email.com": null
+
+2021-02-18 19:41:40 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input"), email): Keys 'test_mnnoz@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input'
+
+2021-02-18 19:41:40 - [MESSAGE][PASSED] - Keys 'test_mnnoz@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/ForgotPwd_Email_Input'
+
+2021-02-18 19:41:40 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(ForgotPwdSubmitBtn): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:41 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:41 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:41 - [TEST_STEP][PASSED] - verifyTextPresent(validationMessage, false): Text 'The user credentials provided is incorrect' is present on page 
+
+2021-02-18 19:41:42 - [MESSAGE][PASSED] - Text 'The user credentials provided is incorrect' is present on page 
+
+2021-02-18 19:41:42 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:41:42 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:41:42 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidCredentialsAndVerifyErrorMsg" time="17.018" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidCredentialsAndVerifyErrorMsg" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:41:42 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidCredentialsAndVerifyErrorMsg: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidCredentialsAndVerifyErrorMsg
+
+2021-02-18 19:41:42 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:41:42 - [TEST_STEP][PASSED] - validationMessage = excelTestData.getValue(2, 4): null
+
+2021-02-18 19:41:42 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:41:42 - [TEST_STEP][PASSED] - LoginBtn = findTestObject("Object Repository/LoginAndRigisterUser/LoginBtn"): null
+
+2021-02-18 19:41:42 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:41:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:41:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:41:52 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:41:54 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:41:54 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:41:54 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:41:54 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:41:55 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:41:55 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:55 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:55 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:55 - [TEST_STEP][PASSED] - strOne = customKeywords.commanFunctions.getRandomAlphaString(5): customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:41:55 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:41:55 - [TEST_STEP][PASSED] - email = "test_" + strOne + "@email.com": null
+
+2021-02-18 19:41:55 - [TEST_STEP][PASSED] - str = customKeywords.commanFunctions.getRandomAlphaString(5): customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:41:56 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:41:56 - [TEST_STEP][PASSED] - password = "Test@" + str: null
+
+2021-02-18 19:41:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/UserName_Email_Input"), email): Keys 'test_yebmz@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 19:41:56 - [MESSAGE][PASSED] - Keys 'test_yebmz@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 19:41:56 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/Password_Input"), password): Keys 'Test@evdih' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 19:41:56 - [MESSAGE][PASSED] - Keys 'Test@evdih' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 19:41:56 - [TEST_STEP][PASSED] - waitForElementClickable(LoginBtn, TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 19:41:57 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 19:41:57 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(LoginBtn): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:57 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:41:57 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:41:57 - [TEST_STEP][PASSED] - verifyTextPresent(validationMessage, false): Text 'Incorrect email or password' is present on page 
+
+2021-02-18 19:41:59 - [MESSAGE][PASSED] - Text 'Incorrect email or password' is present on page 
+
+2021-02-18 19:41:59 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:41:59 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:41:59 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidPasswordAndVerifyLoginShouldNotSucss" time="16.391" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidPasswordAndVerifyLoginShouldNotSucss" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:41:59 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidPasswordAndVerifyLoginShouldNotSucss: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidPasswordAndVerifyLoginShouldNotSucss
+
+2021-02-18 19:41:59 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:41:59 - [TEST_STEP][PASSED] - validationMessage = excelTestData.getValue(2, 4): null
+
+2021-02-18 19:41:59 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:41:59 - [TEST_STEP][PASSED] - LoginBtn = findTestObject("Object Repository/LoginAndRigisterUser/LoginBtn"): null
+
+2021-02-18 19:41:59 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:42:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:42:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:42:09 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:42:11 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:42:11 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:42:11 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:42:11 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:42:11 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:42:11 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:12 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:42:12 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:12 - [TEST_STEP][PASSED] - str = customKeywords.commanFunctions.getRandomAlphaString(5): customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:42:12 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:42:12 - [TEST_STEP][PASSED] - password = "Test@" + str: null
+
+2021-02-18 19:42:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/UserName_Email_Input"), AdminUserName): Keys 'admin@example.com' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 19:42:12 - [MESSAGE][PASSED] - Keys 'admin@example.com' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 19:42:12 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/Password_Input"), password): Keys 'Test@gxhmu' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 19:42:13 - [MESSAGE][PASSED] - Keys 'Test@gxhmu' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 19:42:13 - [TEST_STEP][PASSED] - waitForElementClickable(LoginBtn, TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 19:42:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 19:42:13 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(LoginBtn): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:14 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:42:14 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:14 - [TEST_STEP][PASSED] - verifyTextPresent(validationMessage, false): Text 'Incorrect email or password' is present on page 
+
+2021-02-18 19:42:15 - [MESSAGE][PASSED] - Text 'Incorrect email or password' is present on page 
+
+2021-02-18 19:42:15 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:42:16 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:42:16 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidUserNameAndVerifyLoginShouldNotSucss" time="17.212" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidUserNameAndVerifyLoginShouldNotSucss" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:42:16 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidUserNameAndVerifyLoginShouldNotSucss: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithInValidUserNameAndVerifyLoginShouldNotSucss
+
+2021-02-18 19:42:16 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:42:16 - [TEST_STEP][PASSED] - validationMessage = excelTestData.getValue(2, 4): null
+
+2021-02-18 19:42:16 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:42:16 - [TEST_STEP][PASSED] - LoginBtn = findTestObject("Object Repository/LoginAndRigisterUser/LoginBtn"): null
+
+2021-02-18 19:42:16 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:42:16 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:42:16 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:42:25 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:42:27 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:42:27 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:42:27 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:42:27 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:42:28 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:42:28 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:28 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:42:28 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:28 - [TEST_STEP][PASSED] - str = customKeywords.commanFunctions.getRandomAlphaString(5): customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:42:28 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:42:28 - [TEST_STEP][PASSED] - email = "test_" + str + "@email.com": null
+
+2021-02-18 19:42:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/UserName_Email_Input"), email): Keys 'test_ivpcc@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 19:42:29 - [MESSAGE][PASSED] - Keys 'test_ivpcc@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 19:42:29 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/Password_Input"), AdminPassWord): Keys 'Aa@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 19:42:29 - [MESSAGE][PASSED] - Keys 'Aa@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 19:42:29 - [TEST_STEP][PASSED] - waitForElementClickable(LoginBtn, TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 19:42:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 19:42:30 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(LoginBtn): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:30 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:42:30 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:30 - [TEST_STEP][PASSED] - verifyTextPresent(validationMessage, false): Text 'Incorrect email or password' is present on page 
+
+2021-02-18 19:42:32 - [MESSAGE][PASSED] - Text 'Incorrect email or password' is present on page 
+
+2021-02-18 19:42:32 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:42:33 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:42:33 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithValidCredentialsAndVerifyLoginSucss" time="28.502" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithValidCredentialsAndVerifyLoginSucss" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:42:33 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithValidCredentialsAndVerifyLoginSucss: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithValidCredentialsAndVerifyLoginSucss
+
+2021-02-18 19:42:33 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin"), null): Call Test Case 'Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin' successfully
+
+2021-02-18 19:42:33 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin
+
+2021-02-18 19:42:33 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:42:33 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:42:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:42:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:42:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:42:45 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:42:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:42:45 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:42:45 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:42:45 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:42:45 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:46 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:42:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:42:46 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logIntoBrowser(): customKeywords.commanFunctions.logIntoBrowser is PASSED
+
+2021-02-18 19:42:46 - [MESSAGE][PASSED] - Keys 'admin@example.com' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 19:42:47 - [MESSAGE][PASSED] - Keys 'Aa@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 19:42:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 19:42:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 19:42:48 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:42:48 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logIntoBrowser is PASSED
+
+2021-02-18 19:42:48 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.otpLogin(): customKeywords.commanFunctions.otpLogin is PASSED
+
+2021-02-18 19:42:50 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 19:42:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 19:42:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 19:42:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 19:42:53 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 19:42:54 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:42:54 - [MESSAGE][PASSED] - customKeywords.commanFunctions.otpLogin is PASSED
+
+2021-02-18 19:42:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin' successfully
+
+2021-02-18 19:42:54 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 19:42:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 19:42:59 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:00 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:01 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 19:43:01 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:43:01 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyClickHereToResendEmailLink" time="30.454" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyClickHereToResendEmailLink" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:43:01 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyClickHereToResendEmailLink: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyClickHereToResendEmailLink
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - clickHereToResendEmai = findTestObject("Object Repository/LoginAndRigisterUser/clickHereToResendEmai"): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - ClickHereToResendLinkValidationMessage = excelTestData.getValue(2, 19): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify"), null): Call Test Case 'Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify' successfully
+
+2021-02-18 19:43:02 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - RigisterBtn = findTestObject("Object Repository/LoginAndRigisterUser/RegisterBtn"): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - CheckBoxTermsAndCondition = findTestObject("Object Repository/LoginAndRigisterUser/Reg_SiteInspectTermsOfUse_CheckBox"): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - rigisterHereLink = findTestObject("Object Repository/LoginAndRigisterUser/RigisterHere"): null
+
+2021-02-18 19:43:02 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:43:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:43:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:43:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:43:14 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:43:14 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:43:14 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:43:14 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:43:14 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:43:14 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:15 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:15 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(rigisterHereLink): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:15 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:15 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - firstName = excelTestData.getValue(2, 16): null
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - lastName = excelTestData.getValue(3, 16): null
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - mobileNum = excelTestData.getValue(4, 16): null
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - email = excelTestData.getValue(5, 16): null
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - validationMessage = excelTestData.getValue(6, 16): null
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - ClickHereToResendLink = excelTestData.getValue(7, 16): null
+
+2021-02-18 19:43:15 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/FirstName_Input"), firstName): Keys 'Ashok' sent to object: 'Object Repository/LoginAndRigisterUser/FirstName_Input'
+
+2021-02-18 19:43:16 - [MESSAGE][PASSED] - Keys 'Ashok' sent to object: 'Object Repository/LoginAndRigisterUser/FirstName_Input'
+
+2021-02-18 19:43:16 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/LastName_Input"), lastName): Keys 'Abdul' sent to object: 'Object Repository/LoginAndRigisterUser/LastName_Input'
+
+2021-02-18 19:43:17 - [MESSAGE][PASSED] - Keys 'Abdul' sent to object: 'Object Repository/LoginAndRigisterUser/LastName_Input'
+
+2021-02-18 19:43:17 - [TEST_STEP][PASSED] - RandomNum = customKeywords.commanFunctions.getRandomNumbers(): customKeywords.commanFunctions.getRandomNumbers is PASSED
+
+2021-02-18 19:43:17 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomNumbers is PASSED
+
+2021-02-18 19:43:17 - [TEST_STEP][PASSED] - mobileNumber = "0" + mobileNum + RandomNum: null
+
+2021-02-18 19:43:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/MobileNumber_Input"), mobileNumber): Keys '0573419956' sent to object: 'Object Repository/LoginAndRigisterUser/MobileNumber_Input'
+
+2021-02-18 19:43:17 - [MESSAGE][PASSED] - Keys '0573419956' sent to object: 'Object Repository/LoginAndRigisterUser/MobileNumber_Input'
+
+2021-02-18 19:43:17 - [TEST_STEP][PASSED] - str = customKeywords.commanFunctions.getRandomAlphaString(4): customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:43:17 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:43:17 - [TEST_STEP][PASSED] - emailID = "test_" + str + "@email.com": null
+
+2021-02-18 19:43:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/Reg_Email_Input"), emailID): Keys 'test_knpf@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/Reg_Email_Input'
+
+2021-02-18 19:43:18 - [MESSAGE][PASSED] - Keys 'test_knpf@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/Reg_Email_Input'
+
+2021-02-18 19:43:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/ReEnter_Email_Input"), emailID): Keys 'test_knpf@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/ReEnter_Email_Input'
+
+2021-02-18 19:43:18 - [MESSAGE][PASSED] - Keys 'test_knpf@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/ReEnter_Email_Input'
+
+2021-02-18 19:43:18 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(CheckBoxTermsAndCondition): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:19 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:19 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:19 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(RigisterBtn): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:19 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:19 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:19 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.otpRigistration(): customKeywords.commanFunctions.otpRigistration is PASSED
+
+2021-02-18 19:43:21 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 19:43:22 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 19:43:22 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 19:43:23 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 19:43:24 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 19:43:25 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:25 - [MESSAGE][PASSED] - customKeywords.commanFunctions.otpRigistration is PASSED
+
+2021-02-18 19:43:25 - [TEST_STEP][PASSED] - verifyTextPresent(validationMessage, false): Text 'Thank you for your registration. To verify your email, please follow the instructions sent to you by email.' is present on page 
+
+2021-02-18 19:43:27 - [MESSAGE][PASSED] - Text 'Thank you for your registration. To verify your email, please follow the instructions sent to you by email.' is present on page 
+
+2021-02-18 19:43:27 - [TEST_STEP][PASSED] - verifyTextPresent(ClickHereToResendLink, false): Text 'Click here to resend the email' is present on page 
+
+2021-02-18 19:43:27 - [MESSAGE][PASSED] - Text 'Click here to resend the email' is present on page 
+
+2021-02-18 19:43:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-02-18 19:43:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:43:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify' successfully
+
+2021-02-18 19:43:29 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(clickHereToResendEmai): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:30 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:30 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:30 - [TEST_STEP][PASSED] - verifyTextPresent(ClickHereToResendLinkValidationMessage, false): Text 'A verification email has been sent to your email address' is present on page 
+
+2021-02-18 19:43:31 - [MESSAGE][PASSED] - Text 'A verification email has been sent to your email address' is present on page 
+
+2021-02-18 19:43:31 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:43:32 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:43:32 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyValidationMsg" time="27.306" classname="Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyValidationMsg" status="PASSED">
+         <system-out><![CDATA[2021-02-18 19:43:32 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyValidationMsg: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyValidationMsg
+
+2021-02-18 19:43:32 - [TEST_STEP][PASSED] - callTestCase(findTestCase("TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify"), null): Call Test Case 'Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify' successfully
+
+2021-02-18 19:43:32 - [TEST_CASE][PASSED] - Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify
+
+2021-02-18 19:43:32 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 19:43:32 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 19:43:32 - [TEST_STEP][PASSED] - RigisterBtn = findTestObject("Object Repository/LoginAndRigisterUser/RegisterBtn"): null
+
+2021-02-18 19:43:32 - [TEST_STEP][PASSED] - CheckBoxTermsAndCondition = findTestObject("Object Repository/LoginAndRigisterUser/Reg_SiteInspectTermsOfUse_CheckBox"): null
+
+2021-02-18 19:43:32 - [TEST_STEP][PASSED] - rigisterHereLink = findTestObject("Object Repository/LoginAndRigisterUser/RigisterHere"): null
+
+2021-02-18 19:43:32 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:43:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 19:43:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 19:43:42 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 19:43:44 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 19:43:44 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 19:43:44 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 19:43:44 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:43:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 19:43:44 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:45 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:45 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(rigisterHereLink): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:45 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:45 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - firstName = excelTestData.getValue(2, 16): null
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - lastName = excelTestData.getValue(3, 16): null
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - mobileNum = excelTestData.getValue(4, 16): null
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - email = excelTestData.getValue(5, 16): null
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - validationMessage = excelTestData.getValue(6, 16): null
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - ClickHereToResendLink = excelTestData.getValue(7, 16): null
+
+2021-02-18 19:43:45 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/FirstName_Input"), firstName): Keys 'Ashok' sent to object: 'Object Repository/LoginAndRigisterUser/FirstName_Input'
+
+2021-02-18 19:43:46 - [MESSAGE][PASSED] - Keys 'Ashok' sent to object: 'Object Repository/LoginAndRigisterUser/FirstName_Input'
+
+2021-02-18 19:43:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/LastName_Input"), lastName): Keys 'Abdul' sent to object: 'Object Repository/LoginAndRigisterUser/LastName_Input'
+
+2021-02-18 19:43:46 - [MESSAGE][PASSED] - Keys 'Abdul' sent to object: 'Object Repository/LoginAndRigisterUser/LastName_Input'
+
+2021-02-18 19:43:46 - [TEST_STEP][PASSED] - RandomNum = customKeywords.commanFunctions.getRandomNumbers(): customKeywords.commanFunctions.getRandomNumbers is PASSED
+
+2021-02-18 19:43:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomNumbers is PASSED
+
+2021-02-18 19:43:46 - [TEST_STEP][PASSED] - mobileNumber = "0" + mobileNum + RandomNum: null
+
+2021-02-18 19:43:46 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/MobileNumber_Input"), mobileNumber): Keys '0573486660' sent to object: 'Object Repository/LoginAndRigisterUser/MobileNumber_Input'
+
+2021-02-18 19:43:47 - [MESSAGE][PASSED] - Keys '0573486660' sent to object: 'Object Repository/LoginAndRigisterUser/MobileNumber_Input'
+
+2021-02-18 19:43:47 - [TEST_STEP][PASSED] - str = customKeywords.commanFunctions.getRandomAlphaString(4): customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:43:47 - [MESSAGE][PASSED] - customKeywords.commanFunctions.getRandomAlphaString is PASSED
+
+2021-02-18 19:43:47 - [TEST_STEP][PASSED] - emailID = "test_" + str + "@email.com": null
+
+2021-02-18 19:43:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/Reg_Email_Input"), emailID): Keys 'test_oefh@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/Reg_Email_Input'
+
+2021-02-18 19:43:47 - [MESSAGE][PASSED] - Keys 'test_oefh@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/Reg_Email_Input'
+
+2021-02-18 19:43:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/LoginAndRigisterUser/ReEnter_Email_Input"), emailID): Keys 'test_oefh@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/ReEnter_Email_Input'
+
+2021-02-18 19:43:48 - [MESSAGE][PASSED] - Keys 'test_oefh@email.com' sent to object: 'Object Repository/LoginAndRigisterUser/ReEnter_Email_Input'
+
+2021-02-18 19:43:48 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(CheckBoxTermsAndCondition): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:48 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:48 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:48 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(RigisterBtn): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:49 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:49 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 19:43:49 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.otpRigistration(): customKeywords.commanFunctions.otpRigistration is PASSED
+
+2021-02-18 19:43:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 19:43:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 19:43:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 19:43:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 19:43:53 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 19:43:54 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 19:43:54 - [MESSAGE][PASSED] - customKeywords.commanFunctions.otpRigistration is PASSED
+
+2021-02-18 19:43:54 - [TEST_STEP][PASSED] - verifyTextPresent(validationMessage, false): Text 'Thank you for your registration. To verify your email, please follow the instructions sent to you by email.' is present on page 
+
+2021-02-18 19:43:56 - [MESSAGE][PASSED] - Text 'Thank you for your registration. To verify your email, please follow the instructions sent to you by email.' is present on page 
+
+2021-02-18 19:43:56 - [TEST_STEP][PASSED] - verifyTextPresent(ClickHereToResendLink, false): Text 'Click here to resend the email' is present on page 
+
+2021-02-18 19:43:56 - [MESSAGE][PASSED] - Text 'Click here to resend the email' is present on page 
+
+2021-02-18 19:43:56 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2021-02-18 19:43:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 19:43:58 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/TC_Login_RegisterUserAndForgotYourPassword/CommanTCs/TC_RigisterUserWithValidTestDataAndVerify' successfully
+
+2021-02-18 19:43:58 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 19:43:59 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 19:43:59 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-18 19:41:05 - [TEST_SUITE][PASSED] - Login_Suite: Test Cases/TC_Login_RegisterUserAndForgotYourPassword/BasicTCs/TC_RigisterUserWithValidTestDataAndVerifyValidationMsg]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

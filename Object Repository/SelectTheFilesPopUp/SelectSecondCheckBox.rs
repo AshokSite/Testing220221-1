@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SelectSecondCheckBox</name>
+   <tag></tag>
+   <elementGuidId>bcf6fc52-ed70-4c2a-b4bf-b37da4b089f0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//tbody/tr[3]/td[1]/label[1]/span[1]/span[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//tbody/tr[3]/td[1]/label[1]/span[1]/span[1]</value>
+   </webElementProperties>
+</WebElementEntity>

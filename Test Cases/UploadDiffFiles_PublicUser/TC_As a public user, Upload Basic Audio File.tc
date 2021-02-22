@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a public user, Upload Basic Audio File</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7e44d9de-a308-4fd0-b87e-d65ddd913b3b</testCaseGuid>
+</TestCaseEntity>

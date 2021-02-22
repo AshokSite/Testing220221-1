@@ -1,0 +1,159 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Suite_LogIn_RigisterUserAndForgotPwd_Module,Chrome 86.0.4240.75,,,2021-02-03 23:14:51,2021-02-03 23:28:26,13m - 34.758s,FAILED
+,,,,,,,
+Test Cases/TC_Login_RigisterUserAndForgotYourPassword/BasicTCs/TC_LoginUserWithValidCredentialsAndVerifyLoginSucss,Chrome 86.0.4240.75,,,2021-02-03 23:14:53,2021-02-03 23:15:38,44.357s,PASSED
+"callTestCase(findTestCase(""Test Cases/TC_Login_RigisterUserAndForgotYourPassword/CommanTCs/TC_LoginToBrowserAsAdmin""), null)",Chrome 86.0.4240.75,,,2021-02-03 23:14:54,2021-02-03 23:15:31,36.863s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:15:31,2021-02-03 23:15:38,7.074s,PASSED
+,,,,,,,
+"Test Cases/TC_PublicUser/CSP-T234b_1.0_As a public user, Verify successful submitting a sample message of file in EN",Chrome 86.0.4240.75,,,2021-02-03 23:15:38,2021-02-03 23:16:07,28.944s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-03 23:15:38,2021-02-03 23:15:39,0.683s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:15:39,2021-02-03 23:15:58,19.101s,PASSED
+"fileNameWithExten = excelTestData.getValue(2, 91)",Chrome 86.0.4240.75,,,2021-02-03 23:15:58,2021-02-03 23:15:58,0.069s,PASSED
+"existedFileName = excelTestData.getValue(3, 91)",Chrome 86.0.4240.75,,,2021-02-03 23:15:58,2021-02-03 23:15:58,0.002s,PASSED
+"customKeywords.commanFunctions.UploadReqFile(fileNameWithExten, existedFileName)",Chrome 86.0.4240.75,,,2021-02-03 23:15:58,2021-02-03 23:16:07,8.781s,FAILED
+,,,,,,,
+"Test Cases/TC_PublicUser/CSP-T9_1.0_As public user , Trigger URL validation with invalid formats - Check message",Chrome 86.0.4240.75,,,2021-02-03 23:16:07,2021-02-03 23:16:33,26.807s,FAILED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:16:07,2021-02-03 23:16:27,19.639s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-03 23:16:27,2021-02-03 23:16:27,0.128s,PASSED
+"click(findTestObject(""Object Repository/PublicUserHomePage/UrlTab""))",Chrome 86.0.4240.75,,,2021-02-03 23:16:27,2021-02-03 23:16:28,0.606s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Chrome 86.0.4240.75,,,2021-02-03 23:16:28,2021-02-03 23:16:28,0.004s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Chrome 86.0.4240.75,,,2021-02-03 23:16:28,2021-02-03 23:16:33,5.730s,FAILED
+,,,,,,,
+"Test Cases/TC_RigisterUser/RigisterUserTCs/CSP-T21_1.0_As Registered User, I want to verify that I can successfully upload Compressed file to scan",Chrome 86.0.4240.75,,,2021-02-03 23:16:33,2021-02-03 23:17:16,42.929s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-03 23:16:34,2021-02-03 23:16:34,0.100s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-03 23:16:34,2021-02-03 23:16:34,0.119s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:16:34,2021-02-03 23:16:53,18.931s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:16:53,2021-02-03 23:16:54,0.535s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-03 23:16:54,2021-02-03 23:16:55,1.073s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:16:55,2021-02-03 23:16:55,0.002s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:16:55,2021-02-03 23:16:55,0.001s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-03 23:16:55,2021-02-03 23:16:59,3.729s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-03 23:16:59,2021-02-03 23:17:06,7.217s,PASSED
+"fileNameWithExten = excelTestData.getValue(2, 55)",Chrome 86.0.4240.75,,,2021-02-03 23:17:06,2021-02-03 23:17:06,0.003s,PASSED
+"existedFileName = excelTestData.getValue(3, 55)",Chrome 86.0.4240.75,,,2021-02-03 23:17:06,2021-02-03 23:17:06,0.002s,PASSED
+"customKeywords.commanFunctions.UploadReqFile(fileNameWithExten, existedFileName)",Chrome 86.0.4240.75,,,2021-02-03 23:17:06,2021-02-03 23:17:16,10.494s,FAILED
+,,,,,,,
+"Test Cases/TC_RigisterUser/RigisterUserTCs/CSP-T20_1.0_As Registered User, I want to verify that I can not scan URL with invalid format",Chrome 86.0.4240.75,,,2021-02-03 23:17:16,2021-02-03 23:18:07,50.878s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-03 23:17:17,2021-02-03 23:17:17,0.073s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-03 23:17:17,2021-02-03 23:17:17,0.119s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:17:17,2021-02-03 23:17:42,25.022s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:17:42,2021-02-03 23:17:43,0.489s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-03 23:17:43,2021-02-03 23:17:44,1.047s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:17:44,2021-02-03 23:17:44,0.002s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:17:44,2021-02-03 23:17:44,0.000s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-03 23:17:44,2021-02-03 23:17:48,3.746s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-03 23:17:48,2021-02-03 23:17:55,7.263s,PASSED
+"click(findTestObject(""Object Repository/HomePage/URL_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:17:55,2021-02-03 23:17:58,2.990s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Chrome 86.0.4240.75,,,2021-02-03 23:17:58,2021-02-03 23:17:58,0.002s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Chrome 86.0.4240.75,,,2021-02-03 23:17:58,2021-02-03 23:18:07,9.476s,FAILED
+,,,,,,,
+"Test Cases/TC_RigisterUser/RigisterUserTCs/CSP-T19_1.0_As Registered user, I want to verify that i can not submit URL and File at the same time",Chrome 86.0.4240.75,,,2021-02-03 23:18:07,2021-02-03 23:20:22,2m - 14.412s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-03 23:18:08,2021-02-03 23:18:08,0.063s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-03 23:18:08,2021-02-03 23:18:08,0.140s,PASSED
+"objColOne = By.xpath(""//table/tbody/tr[1]/td[2]"")",Chrome 86.0.4240.75,,,2021-02-03 23:18:08,2021-02-03 23:18:08,0.013s,PASSED
+"objColTwo = By.xpath(""//table/tbody/tr[2]/td[2]"")",Chrome 86.0.4240.75,,,2021-02-03 23:18:08,2021-02-03 23:18:08,0.001s,PASSED
+"objColThree = By.xpath(""//table/tbody/tr[3]/td[2]"")",Chrome 86.0.4240.75,,,2021-02-03 23:18:08,2021-02-03 23:18:08,0.001s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:18:08,2021-02-03 23:18:27,19.046s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:18:27,2021-02-03 23:18:28,0.539s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-03 23:18:28,2021-02-03 23:18:29,1.050s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:18:29,2021-02-03 23:18:29,0.002s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:18:29,2021-02-03 23:18:29,0.002s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-03 23:18:29,2021-02-03 23:18:32,3.655s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-03 23:18:32,2021-02-03 23:18:40,7.261s,PASSED
+"click(findTestObject(""Object Repository/HomePage/URL_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:18:40,2021-02-03 23:18:43,2.957s,PASSED
+"urlOne = excelTestData.getValue(4, 38)",Chrome 86.0.4240.75,,,2021-02-03 23:18:43,2021-02-03 23:18:43,0.002s,PASSED
+randomStrOne = customKeywords.commanFunctions.getRandomAlphaString(4),Chrome 86.0.4240.75,,,2021-02-03 23:18:43,2021-02-03 23:18:43,0.683s,PASSED
+"sampleURLOne = urlOne + randomStrOne + "".com""",Chrome 86.0.4240.75,,,2021-02-03 23:18:43,2021-02-03 23:18:43,0.000s,PASSED
+"sendKeys(findTestObject(""Object Repository/HomePage/PleaseEnterURL_Input""), sampleURLOne)",Chrome 86.0.4240.75,,,2021-02-03 23:18:43,2021-02-03 23:18:44,0.629s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Window10RadioBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:18:44,2021-02-03 23:18:46,1.688s,PASSED
+"click(findTestObject(""Object Repository/HomePage/startAnalysis_EnableBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:18:46,2021-02-03 23:18:47,1.008s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:18:47,2021-02-03 23:18:49,2.052s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""))",Chrome 86.0.4240.75,,,2021-02-03 23:18:49,2021-02-03 23:18:49,0.511s,PASSED
+"click(findTestObject(""Object Repository/HomePage/InspectImgTab""))",Chrome 86.0.4240.75,,,2021-02-03 23:18:49,2021-02-03 23:18:50,0.671s,PASSED
+"fileNameWithExten = excelTestData.getValue(2, 38)",Chrome 86.0.4240.75,,,2021-02-03 23:18:50,2021-02-03 23:18:50,0.001s,PASSED
+"existedFileName = excelTestData.getValue(3, 38)",Chrome 86.0.4240.75,,,2021-02-03 23:18:50,2021-02-03 23:18:50,0.001s,PASSED
+"customKeywords.commanFunctions.UploadReqFile(fileNameWithExten, existedFileName)",Chrome 86.0.4240.75,,,2021-02-03 23:18:50,2021-02-03 23:18:59,9.081s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Window10RadioBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:18:59,2021-02-03 23:19:00,0.717s,PASSED
+"click(findTestObject(""Object Repository/HomePage/URL_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:00,2021-02-03 23:19:02,2.012s,PASSED
+"url = excelTestData.getValue(4, 38)",Chrome 86.0.4240.75,,,2021-02-03 23:19:02,2021-02-03 23:19:02,0.000s,PASSED
+randomStr = customKeywords.commanFunctions.getRandomAlphaString(4),Chrome 86.0.4240.75,,,2021-02-03 23:19:02,2021-02-03 23:19:02,0.649s,PASSED
+"sampleURL = url + randomStr + "".com""",Chrome 86.0.4240.75,,,2021-02-03 23:19:02,2021-02-03 23:19:02,0.001s,PASSED
+"sendKeys(findTestObject(""Object Repository/HomePage/PleaseEnterURL_Input""), sampleURL)",Chrome 86.0.4240.75,,,2021-02-03 23:19:02,2021-02-03 23:19:03,0.602s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Window10RadioBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:03,2021-02-03 23:19:04,0.727s,PASSED
+"click(findTestObject(""Object Repository/HomePage/startAnalysis_EnableBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:04,2021-02-03 23:19:06,2.104s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:19:06,2021-02-03 23:19:08,2.451s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:08,2021-02-03 23:19:09,0.450s,PASSED
+partCellText = customKeywords.commanFunctions.getParticularCellText(objColOne),Chrome 86.0.4240.75,,,2021-02-03 23:19:09,2021-02-03 23:19:10,0.966s,PASSED
+"out.println(""----------------->"" + partCellText)",Chrome 86.0.4240.75,,,2021-02-03 23:19:10,2021-02-03 23:19:10,0.005s,PASSED
+partCellTextTwo = customKeywords.commanFunctions.getParticularCellText(objColTwo),Chrome 86.0.4240.75,,,2021-02-03 23:19:10,2021-02-03 23:19:11,1.069s,PASSED
+"out.println(""----------------->"" + partCellTextTwo)",Chrome 86.0.4240.75,,,2021-02-03 23:19:11,2021-02-03 23:19:11,0.001s,PASSED
+"verifyEqual(sampleURL, partCellText)",Chrome 86.0.4240.75,,,2021-02-03 23:19:11,2021-02-03 23:19:11,0.018s,PASSED
+"verifyEqual(sampleURLOne, partCellTextTwo)",Chrome 86.0.4240.75,,,2021-02-03 23:19:11,2021-02-03 23:19:11,0.004s,PASSED
+"click(findTestObject(""Object Repository/HomePage/InspectImgTab""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:11,2021-02-03 23:19:11,0.514s,PASSED
+"click(findTestObject(""Object Repository/HomePage/File_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:11,2021-02-03 23:19:13,1.808s,PASSED
+"customKeywords.commanFunctions.UploadReqFile(fileNameWithExten, existedFileName)",Chrome 86.0.4240.75,,,2021-02-03 23:19:13,2021-02-03 23:19:22,8.696s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Window10RadioBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:22,2021-02-03 23:19:23,1.172s,PASSED
+"click(findTestObject(""Object Repository/HomePage/URL_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:23,2021-02-03 23:19:25,2.164s,PASSED
+"sendKeys(findTestObject(""Object Repository/HomePage/PleaseEnterURL_Input""), sampleURL)",Chrome 86.0.4240.75,,,2021-02-03 23:19:25,2021-02-03 23:19:26,0.821s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Window10RadioBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:26,2021-02-03 23:19:27,0.936s,PASSED
+"click(findTestObject(""Object Repository/HomePage/File_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:27,2021-02-03 23:19:29,2.130s,PASSED
+delay(2),Chrome 86.0.4240.75,,,2021-02-03 23:19:29,2021-02-03 23:19:31,2.010s,PASSED
+"click(findTestObject(""Object Repository/HomePage/startAnalysis_EnableBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:31,2021-02-03 23:19:32,0.833s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:19:32,2021-02-03 23:19:49,17.119s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""))",Chrome 86.0.4240.75,,,2021-02-03 23:19:49,2021-02-03 23:20:22,32.820s,FAILED
+,,,,,,,
+"Test Cases/TC_RigisterUser/RigisterUserTCs/CSP-T13a_1.0__As Registered User, I want to verify that i can not upload file successfully with the more than allowed size",Chrome 86.0.4240.75,,,2021-02-03 23:20:22,2021-02-03 23:25:27,5m - 5.136s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-03 23:20:22,2021-02-03 23:20:22,0.066s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-03 23:20:22,2021-02-03 23:20:23,0.128s,PASSED
+"saveBtn = findTestObject(""Object Repository/Admin_Settings/SaveBtn"")",Chrome 86.0.4240.75,,,2021-02-03 23:20:23,2021-02-03 23:20:23,0.113s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:20:23,2021-02-03 23:20:43,20.145s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:20:43,2021-02-03 23:20:43,0.576s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-03 23:20:43,2021-02-03 23:20:44,1.058s,PASSED
+customKeywords.commanFunctions.logIntoBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:20:44,2021-02-03 23:20:48,3.635s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-03 23:20:48,2021-02-03 23:20:55,7.275s,PASSED
+"click(findTestObject(""Object Repository/AdminHomePage/Setting_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:20:55,2021-02-03 23:20:58,3.084s,PASSED
+"click(findTestObject(""Object Repository/Admin_Settings/RigisterUser""))",Chrome 86.0.4240.75,,,2021-02-03 23:20:58,2021-02-03 23:21:00,1.300s,PASSED
+"MaxFileSize = excelTestData.getValue(4, 59)",Chrome 86.0.4240.75,,,2021-02-03 23:21:00,2021-02-03 23:21:00,0.042s,PASSED
+"clearText(findTestObject(""Object Repository/Admin_Settings/MaxFileSize_Input""))",Chrome 86.0.4240.75,,,2021-02-03 23:21:00,2021-02-03 23:21:00,0.460s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin_Settings/MaxFileSize_Input""), MaxFileSize)",Chrome 86.0.4240.75,,,2021-02-03 23:21:00,2021-02-03 23:21:01,0.457s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(saveBtn),Chrome 86.0.4240.75,,,2021-02-03 23:21:01,2021-02-03 23:21:02,0.958s,PASSED
+customKeywords.commanFunctions.logOutBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:21:02,2021-02-03 23:21:04,2.090s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:21:04,2021-02-03 23:21:06,2.621s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-03 23:21:06,2021-02-03 23:21:09,3.084s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:21:09,2021-02-03 23:21:09,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:21:09,2021-02-03 23:21:09,0.000s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-03 23:21:09,2021-02-03 23:21:18,8.887s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-03 23:21:18,2021-02-03 23:24:25,3m - 6.488s,PASSED
+"fileNameWithExten = excelTestData.getValue(2, 59)",Chrome 86.0.4240.75,,,2021-02-03 23:24:25,2021-02-03 23:24:25,0.001s,PASSED
+"existedFileName = excelTestData.getValue(3, 59)",Chrome 86.0.4240.75,,,2021-02-03 23:24:25,2021-02-03 23:24:25,0.001s,PASSED
+"customKeywords.commanFunctions.UploadReqFile(fileNameWithExten, existedFileName)",Chrome 86.0.4240.75,,,2021-02-03 23:24:25,2021-02-03 23:25:27,1m - 1.987s,FAILED
+,,,,,,,
+"Test Cases/TC_RigisterUser/RigisterUserTCs/CSP-T13_1.0_As Registered User, I want to verify that i can upload file successfully with the maximum allowed size",Chrome 86.0.4240.75,,,2021-02-03 23:25:27,2021-02-03 23:28:26,2m - 59.049s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-03 23:25:28,2021-02-03 23:25:28,0.060s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Chrome 86.0.4240.75,,,2021-02-03 23:25:28,2021-02-03 23:25:28,0.112s,PASSED
+"saveBtn = findTestObject(""Object Repository/Admin_Settings/SaveBtn"")",Chrome 86.0.4240.75,,,2021-02-03 23:25:28,2021-02-03 23:25:28,0.112s,PASSED
+customKeywords.commanFunctions.openBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:25:28,2021-02-03 23:25:46,18.062s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:25:46,2021-02-03 23:25:46,0.481s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-03 23:25:46,2021-02-03 23:25:47,0.986s,PASSED
+customKeywords.commanFunctions.logIntoBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:25:47,2021-02-03 23:25:51,3.587s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-03 23:25:51,2021-02-03 23:25:58,6.703s,PASSED
+"click(findTestObject(""Object Repository/AdminHomePage/Setting_Tab""))",Chrome 86.0.4240.75,,,2021-02-03 23:25:58,2021-02-03 23:26:01,2.784s,PASSED
+"click(findTestObject(""Object Repository/Admin_Settings/RigisterUser""))",Chrome 86.0.4240.75,,,2021-02-03 23:26:01,2021-02-03 23:26:02,1.844s,PASSED
+"MaxFileSize = excelTestData.getValue(4, 26)",Chrome 86.0.4240.75,,,2021-02-03 23:26:02,2021-02-03 23:26:02,0.001s,PASSED
+"clearText(findTestObject(""Object Repository/Admin_Settings/MaxFileSize_Input""))",Chrome 86.0.4240.75,,,2021-02-03 23:26:02,2021-02-03 23:26:03,0.642s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin_Settings/MaxFileSize_Input""), MaxFileSize)",Chrome 86.0.4240.75,,,2021-02-03 23:26:03,2021-02-03 23:26:04,0.595s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(saveBtn),Chrome 86.0.4240.75,,,2021-02-03 23:26:04,2021-02-03 23:26:05,0.982s,PASSED
+customKeywords.commanFunctions.logOutBrowser(),Chrome 86.0.4240.75,,,2021-02-03 23:26:05,2021-02-03 23:26:07,2.127s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:26:07,2021-02-03 23:26:09,2.619s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Chrome 86.0.4240.75,,,2021-02-03 23:26:09,2021-02-03 23:26:10,1.014s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:26:10,2021-02-03 23:26:10,0.002s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Chrome 86.0.4240.75,,,2021-02-03 23:26:10,2021-02-03 23:26:10,0.001s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Chrome 86.0.4240.75,,,2021-02-03 23:26:10,2021-02-03 23:26:17,6.885s,PASSED
+customKeywords.commanFunctions.otpLogin(),Chrome 86.0.4240.75,,,2021-02-03 23:26:17,2021-02-03 23:26:38,21.142s,PASSED
+"fileNameWithExten = excelTestData.getValue(2, 26)",Chrome 86.0.4240.75,,,2021-02-03 23:26:38,2021-02-03 23:26:38,0.002s,PASSED
+"existedFileName = excelTestData.getValue(3, 26)",Chrome 86.0.4240.75,,,2021-02-03 23:26:38,2021-02-03 23:26:38,0.002s,PASSED
+"customKeywords.commanFunctions.UploadReqFile(fileNameWithExten, existedFileName)",Chrome 86.0.4240.75,,,2021-02-03 23:26:38,2021-02-03 23:26:50,12.085s,PASSED
+"click(findTestObject(""Object Repository/HomePage/Window10RadioBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:26:50,2021-02-03 23:26:52,1.176s,PASSED
+"click(findTestObject(""Object Repository/HomePage/startAnalysis_EnableBtn""))",Chrome 86.0.4240.75,,,2021-02-03 23:26:52,2021-02-03 23:26:54,2.811s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""), TimeOut)",Chrome 86.0.4240.75,,,2021-02-03 23:26:54,2021-02-03 23:27:25,30.223s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/SubmissionPage/Submission_SearchIcon""))",Chrome 86.0.4240.75,,,2021-02-03 23:27:25,2021-02-03 23:28:26,1m - 1.248s,FAILED

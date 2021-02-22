@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a public user, Upload Windows sound File</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f187d0e6-fa1c-4a33-863b-0846582b6fc9</testCaseGuid>
+</TestCaseEntity>

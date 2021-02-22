@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T234c_1.0_As a public user, Verify successful submitting a sample message of CF in EN</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f7cd978b-8312-494d-b98e-edf7825451fb</testCaseGuid>
+</TestCaseEntity>

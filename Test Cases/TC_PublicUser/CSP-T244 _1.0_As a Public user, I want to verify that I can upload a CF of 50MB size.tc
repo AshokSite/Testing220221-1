@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T244 _1.0_As a Public user, I want to verify that I can upload a CF of 50MB size</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>841f7eea-0d88-4773-b086-5f5692dc46fa</testCaseGuid>
+</TestCaseEntity>

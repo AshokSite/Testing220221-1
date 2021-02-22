@@ -1,0 +1,31 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_URL,Firefox 85.0,PublicUser_URL,,2021-02-18 21:17:53,2021-02-18 21:19:02,1m - 8.789s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URL",Firefox 85.0,,,2021-02-18 21:17:55,2021-02-18 21:18:13,17.899s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:17:55,2021-02-18 21:17:55,0.568s,PASSED
+"sampleURL = excelTestData.getValue(2, 370)",Firefox 85.0,,,2021-02-18 21:17:55,2021-02-18 21:17:56,0.016s,PASSED
+"userEmail = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-18 21:17:56,2021-02-18 21:17:56,0.000s,PASSED
+"customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail)",Firefox 85.0,,,2021-02-18 21:17:56,2021-02-18 21:18:12,16.208s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:18:12,2021-02-18 21:18:13,0.954s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithPathParameters",Firefox 85.0,,,2021-02-18 21:18:13,2021-02-18 21:18:29,16.413s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:18:13,2021-02-18 21:18:13,0.027s,PASSED
+"sampleURL = excelTestData.getValue(2, 374)",Firefox 85.0,,,2021-02-18 21:18:13,2021-02-18 21:18:13,0.001s,PASSED
+"userEmail = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-18 21:18:13,2021-02-18 21:18:13,0.001s,PASSED
+"customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail)",Firefox 85.0,,,2021-02-18 21:18:13,2021-02-18 21:18:28,15.555s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:18:28,2021-02-18 21:18:29,0.763s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As a public user, Successfully submit the URLWithQueryParameters",Firefox 85.0,,,2021-02-18 21:18:29,2021-02-18 21:18:46,17.129s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:18:29,2021-02-18 21:18:29,0.029s,PASSED
+"sampleURL = excelTestData.getValue(2, 378)",Firefox 85.0,,,2021-02-18 21:18:29,2021-02-18 21:18:29,0.001s,PASSED
+"userEmail = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-18 21:18:29,2021-02-18 21:18:29,0.001s,PASSED
+"customKeywords.commanFunctions.enterURLOfPublicUser(sampleURL, userEmail)",Firefox 85.0,,,2021-02-18 21:18:29,2021-02-18 21:18:45,16.299s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-18 21:18:45,2021-02-18 21:18:46,0.745s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_PublicUser/TC_As public user , Trigger URL validation with invalid formats",Firefox 85.0,,,2021-02-18 21:18:46,2021-02-18 21:19:02,15.967s,FAILED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-18 21:18:46,2021-02-18 21:18:57,10.447s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-18 21:18:57,2021-02-18 21:18:57,0.023s,PASSED
+"click(findTestObject(""Object Repository/PublicUserHomePage/UrlTab""))",Firefox 85.0,,,2021-02-18 21:18:57,2021-02-18 21:18:57,0.501s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Firefox 85.0,,,2021-02-18 21:18:57,2021-02-18 21:18:57,0.001s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Firefox 85.0,,,2021-02-18 21:18:57,2021-02-18 21:19:01,4.072s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-18 21:19:01,2021-02-18 21:19:02,0.829s,PASSED

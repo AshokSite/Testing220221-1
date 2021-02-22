@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>ForgotPwdSubmitBtn</name>
+   <tag></tag>
+   <elementGuidId>68e5cc1e-f7d8-41c1-b77a-2c2f17643dd4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-header/nz-layout[1]/nz-content[1]/app-forgot-password[1]/div[2]/div[1]/form[1]/button[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-header/nz-layout[1]/nz-content[1]/app-forgot-password[1]/div[2]/div[1]/form[1]/button[1]</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,213 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+RegisterUser_Regression,Firefox 85.0,RegisterUser_Regression,,2021-02-15 22:47:02,2021-02-15 23:05:31,18m - 29.002s,ERROR
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Adobe PhotoShop File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:47:04,2021-02-15 22:47:29,24.991s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:47:04,2021-02-15 22:47:05,0.547s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:47:05,2021-02-15 22:47:05,0.025s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:47:05,2021-02-15 22:47:05,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(309, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:47:05,2021-02-15 22:47:28,23.166s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 22:47:28,2021-02-15 22:47:29,1.072s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Basic Audio File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:47:29,2021-02-15 22:48:10,41.385s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:47:29,2021-02-15 22:47:29,0.028s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:47:29,2021-02-15 22:47:29,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:47:29,2021-02-15 22:47:29,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(264, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:47:29,2021-02-15 22:48:07,37.956s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:48:07,2021-02-15 22:48:10,3.317s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload CSV File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:48:10,2021-02-15 22:48:50,40.043s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:48:10,2021-02-15 22:48:10,0.024s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:48:10,2021-02-15 22:48:10,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:48:10,2021-02-15 22:48:10,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(208, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:48:10,2021-02-15 22:48:47,36.715s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:48:47,2021-02-15 22:48:50,3.231s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Exe File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:48:50,2021-02-15 22:50:23,1m - 33.120s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:48:50,2021-02-15 22:48:50,0.021s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:48:50,2021-02-15 22:48:50,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:48:50,2021-02-15 22:48:50,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(204, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:48:50,2021-02-15 22:49:19,28.209s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-15 22:49:19,2021-02-15 22:50:23,1m - 4.816s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Graphics Interchange Format File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:50:23,2021-02-15 22:50:59,35.891s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:50:23,2021-02-15 22:50:23,0.023s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:50:23,2021-02-15 22:50:23,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:50:23,2021-02-15 22:50:23,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(288, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:50:23,2021-02-15 22:50:56,32.576s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:50:56,2021-02-15 22:50:59,3.212s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:50:59,2021-02-15 22:52:24,1m - 24.854s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:50:59,2021-02-15 22:50:59,0.019s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:50:59,2021-02-15 22:50:59,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:50:59,2021-02-15 22:50:59,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(192, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:50:59,2021-02-15 22:51:28,29.122s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-15 22:51:28,2021-02-15 22:52:24,55.638s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:52:24,2021-02-15 22:53:00,35.752s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:52:24,2021-02-15 22:52:24,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:52:24,2021-02-15 22:52:24,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:52:24,2021-02-15 22:52:24,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(276, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:52:24,2021-02-15 22:52:57,32.435s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:52:57,2021-02-15 22:53:00,3.216s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload JPEG graphic File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:53:00,2021-02-15 22:53:39,38.919s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:53:00,2021-02-15 22:53:00,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:53:00,2021-02-15 22:53:00,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:53:00,2021-02-15 22:53:00,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(291, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:53:00,2021-02-15 22:53:29,28.803s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-15 22:53:29,2021-02-15 22:53:39,10.028s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MacPaint File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:53:39,2021-02-15 22:53:59,20.580s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:53:39,2021-02-15 22:53:39,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:53:39,2021-02-15 22:53:39,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:53:39,2021-02-15 22:53:39,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(296, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:53:39,2021-02-15 22:53:59,19.710s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 22:53:59,2021-02-15 22:53:59,0.778s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Microsoft Word File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:53:59,2021-02-15 22:54:38,38.390s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:53:59,2021-02-15 22:53:59,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:53:59,2021-02-15 22:53:59,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:53:59,2021-02-15 22:53:59,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(284, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:53:59,2021-02-15 22:54:35,35.217s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:54:35,2021-02-15 22:54:38,3.081s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Access database File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:54:38,2021-02-15 22:54:59,21.670s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:54:38,2021-02-15 22:54:38,0.018s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:54:38,2021-02-15 22:54:38,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:54:38,2021-02-15 22:54:38,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(305, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:54:38,2021-02-15 22:54:59,20.684s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 22:54:59,2021-02-15 22:54:59,0.892s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Works File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:54:59,2021-02-15 22:55:22,23.050s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:54:59,2021-02-15 22:54:59,0.013s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:54:59,2021-02-15 22:54:59,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:54:59,2021-02-15 22:54:59,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(325, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:54:59,2021-02-15 22:55:22,22.180s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 22:55:22,2021-02-15 22:55:22,0.785s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Multimedia File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:55:22,2021-02-15 22:56:02,39.132s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:55:23,2021-02-15 22:55:23,0.020s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:55:23,2021-02-15 22:55:23,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:55:23,2021-02-15 22:55:23,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(280, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:55:23,2021-02-15 22:55:58,35.941s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:55:58,2021-02-15 22:56:02,3.095s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PaintShop Pro File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:56:02,2021-02-15 22:56:23,20.990s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:56:02,2021-02-15 22:56:02,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:56:02,2021-02-15 22:56:02,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:56:02,2021-02-15 22:56:02,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(313, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:56:02,2021-02-15 22:56:22,20.003s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 22:56:22,2021-02-15 22:56:23,0.902s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC batch file File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:56:23,2021-02-15 22:57:03,40.082s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:56:23,2021-02-15 22:56:23,0.013s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:56:23,2021-02-15 22:56:23,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:56:23,2021-02-15 22:56:23,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(268, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:56:23,2021-02-15 22:56:59,36.786s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:56:59,2021-02-15 22:57:03,3.206s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:57:03,2021-02-15 22:57:24,20.841s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:57:03,2021-02-15 22:57:03,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:57:03,2021-02-15 22:57:03,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:57:03,2021-02-15 22:57:03,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(329, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:57:03,2021-02-15 22:57:23,19.855s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 22:57:23,2021-02-15 22:57:24,0.904s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PDF File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:57:24,2021-02-15 22:58:01,37.544s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:57:24,2021-02-15 22:57:24,0.013s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:57:24,2021-02-15 22:57:24,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:57:24,2021-02-15 22:57:24,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(220, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:57:24,2021-02-15 22:57:58,34.387s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:57:58,2021-02-15 22:58:01,3.075s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PNG File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:58:01,2021-02-15 22:59:48,1m - 47.069s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:58:01,2021-02-15 22:58:01,0.017s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 22:58:01,2021-02-15 22:58:01,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(216, userEmail)",Firefox 85.0,,,2021-02-15 22:58:01,2021-02-15 22:58:23,21.549s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 22:58:23,2021-02-15 22:59:48,1m - 25.431s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PowerPoint File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 22:59:48,2021-02-15 23:01:22,1m - 33.643s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 22:59:48,2021-02-15 22:59:48,0.013s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 22:59:48,2021-02-15 22:59:48,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 22:59:48,2021-02-15 22:59:48,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(200, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 22:59:48,2021-02-15 23:00:17,28.743s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-15 23:00:17,2021-02-15 23:01:22,1m - 4.811s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload RealAudio File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 23:01:22,2021-02-15 23:01:42,20.256s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:01:22,2021-02-15 23:01:22,0.015s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 23:01:22,2021-02-15 23:01:22,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:01:22,2021-02-15 23:01:22,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(317, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:01:22,2021-02-15 23:01:41,19.237s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:01:41,2021-02-15 23:01:42,0.926s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Txt File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 23:01:42,2021-02-15 23:02:21,38.958s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:01:42,2021-02-15 23:01:42,0.013s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 23:01:42,2021-02-15 23:01:42,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:01:42,2021-02-15 23:01:42,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(196, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:01:42,2021-02-15 23:02:18,35.684s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 23:02:18,2021-02-15 23:02:21,3.193s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Web page imagemap File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 23:02:21,2021-02-15 23:02:42,20.533s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:02:21,2021-02-15 23:02:21,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 23:02:21,2021-02-15 23:02:21,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:02:21,2021-02-15 23:02:21,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(301, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:02:21,2021-02-15 23:02:41,19.536s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:02:41,2021-02-15 23:02:42,0.903s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows BitMap File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 23:02:42,2021-02-15 23:03:19,37.510s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:02:42,2021-02-15 23:02:42,0.013s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 23:02:42,2021-02-15 23:02:42,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:02:42,2021-02-15 23:02:42,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(272, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:02:42,2021-02-15 23:03:16,34.219s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 23:03:16,2021-02-15 23:03:19,3.209s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows sound File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 23:03:19,2021-02-15 23:03:41,21.937s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:03:19,2021-02-15 23:03:19,0.014s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 23:03:19,2021-02-15 23:03:19,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:03:19,2021-02-15 23:03:19,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(321, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:03:19,2021-02-15 23:03:40,20.920s,ERROR
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:03:40,2021-02-15 23:03:41,0.903s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload WordPad File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 23:03:41,2021-02-15 23:04:19,38.253s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:03:41,2021-02-15 23:03:41,0.016s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 23:03:41,2021-02-15 23:03:41,0.001s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:03:41,2021-02-15 23:03:41,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(260, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:03:41,2021-02-15 23:04:16,34.962s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 23:04:16,2021-02-15 23:04:19,3.202s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Xlsx File and verify Uploded file in Submission Page",Firefox 85.0,,,2021-02-15 23:04:19,2021-02-15 23:04:57,37.713s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:04:19,2021-02-15 23:04:19,0.013s,PASSED
+"rigisterUN = excelTestData.getValue(6, 23)",Firefox 85.0,,,2021-02-15 23:04:19,2021-02-15 23:04:19,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:04:19,2021-02-15 23:04:19,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfRegisterUser(212, rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:04:19,2021-02-15 23:04:54,34.461s,PASSED
+customKeywords.commanFunctions.logOutAndcloseBrowser(),Firefox 85.0,,,2021-02-15 23:04:54,2021-02-15 23:04:57,3.168s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URL",Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:57,0.322s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:57,0.013s,PASSED
+"sampleURL = excelTestData.getValue(2, 382)",Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:57,0.001s,PASSED
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:57,0.230s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithPathParameters",Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:58,0.316s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:57,0.013s,PASSED
+"sampleURL = excelTestData.getValue(2, 386)",Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:57,0.000s,PASSED
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:04:57,2021-02-15 23:04:58,0.233s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithQueryParameters",Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:04:58,0.314s,ERROR
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:04:58,0.015s,PASSED
+"sampleURL = excelTestData.getValue(2, 390)",Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:04:58,0.001s,PASSED
+Start tear down : tearDownMethodIfError,Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:04:58,0.232s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats",Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:05:31,33.364s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:04:58,0.015s,PASSED
+"obj = findTestObject(""LoginAndRigisterUser/LoginLink"")",Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:04:58,0.032s,PASSED
+customKeywords.commanFunctions.openBrowser(),Firefox 85.0,,,2021-02-15 23:04:58,2021-02-15 23:05:08,10.401s,PASSED
+"waitForElementClickable(findTestObject(""LoginAndRigisterUser/LoginLink""), TimeOut)",Firefox 85.0,,,2021-02-15 23:05:08,2021-02-15 23:05:09,0.285s,PASSED
+customKeywords.commanFunctions.clickElementWithJS(obj),Firefox 85.0,,,2021-02-15 23:05:09,2021-02-15 23:05:09,0.534s,PASSED
+"rigisterUN = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-15 23:05:09,2021-02-15 23:05:09,0.000s,PASSED
+"rigisterPW = excelTestData.getValue(3, 23)",Firefox 85.0,,,2021-02-15 23:05:09,2021-02-15 23:05:09,0.000s,PASSED
+"customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW)",Firefox 85.0,,,2021-02-15 23:05:09,2021-02-15 23:05:12,2.543s,PASSED
+customKeywords.commanFunctions.otpLogin(),Firefox 85.0,,,2021-02-15 23:05:12,2021-02-15 23:05:18,6.041s,PASSED
+"click(findTestObject(""Object Repository/HomePage/URL_Tab""))",Firefox 85.0,,,2021-02-15 23:05:18,2021-02-15 23:05:20,2.135s,PASSED
+"ErrorValidationMessage = excelTestData.getValue(3, 42)",Firefox 85.0,,,2021-02-15 23:05:20,2021-02-15 23:05:20,0.001s,PASSED
+"for ([i = 42, i <= 46, (i++)])",Firefox 85.0,,,2021-02-15 23:05:20,2021-02-15 23:05:30,10.407s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-15 23:05:30,2021-02-15 23:05:31,0.875s,PASSED

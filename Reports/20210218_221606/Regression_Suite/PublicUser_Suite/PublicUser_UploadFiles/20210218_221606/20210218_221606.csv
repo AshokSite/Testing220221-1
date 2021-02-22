@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_UploadFiles,Chrome 86.0.4240.75,PublicUser_UploadFiles,,2021-02-18 22:21:41,2021-02-18 22:22:32,51.371s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File",Chrome 86.0.4240.75,,,2021-02-18 22:21:42,2021-02-18 22:22:07,24.557s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 22:21:43,2021-02-18 22:21:43,0.565s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 22:21:43,2021-02-18 22:21:43,0.025s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(346, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 22:21:43,2021-02-18 22:22:06,22.323s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-18 22:22:06,2021-02-18 22:22:07,1.470s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File",Chrome 86.0.4240.75,,,2021-02-18 22:22:07,2021-02-18 22:22:32,25.393s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 22:22:07,2021-02-18 22:22:07,0.037s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 22:22:07,2021-02-18 22:22:07,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(366, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 22:22:07,2021-02-18 22:22:31,24.335s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-18 22:22:31,2021-02-18 22:22:32,0.933s,PASSED

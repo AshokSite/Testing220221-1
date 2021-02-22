@@ -1,0 +1,158 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_UploadFiles,Firefox 85.0,PublicUser_UploadFiles,,2021-02-16 12:11:11,2021-02-16 12:21:17,10m - 6.717s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File",Firefox 85.0,,,2021-02-16 12:11:12,2021-02-16 12:11:36,24.430s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:11:12,2021-02-16 12:11:13,0.509s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:11:13,2021-02-16 12:11:13,0.017s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(346, userEmail)",Firefox 85.0,,,2021-02-16 12:11:13,2021-02-16 12:11:35,22.805s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:11:35,2021-02-16 12:11:36,0.929s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File",Firefox 85.0,,,2021-02-16 12:11:36,2021-02-16 12:11:59,23.095s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:11:36,2021-02-16 12:11:37,0.040s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:11:37,2021-02-16 12:11:37,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(228, userEmail)",Firefox 85.0,,,2021-02-16 12:11:37,2021-02-16 12:11:59,22.234s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:11:59,2021-02-16 12:11:59,0.736s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File",Firefox 85.0,,,2021-02-16 12:11:59,2021-02-16 12:12:22,22.228s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:12:00,2021-02-16 12:12:00,0.020s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:12:00,2021-02-16 12:12:00,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(176, userEmail)",Firefox 85.0,,,2021-02-16 12:12:00,2021-02-16 12:12:21,21.438s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:12:21,2021-02-16 12:12:22,0.713s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File",Firefox 85.0,,,2021-02-16 12:12:22,2021-02-16 12:12:46,24.659s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:12:22,2021-02-16 12:12:22,0.023s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:12:22,2021-02-16 12:12:22,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(172, userEmail)",Firefox 85.0,,,2021-02-16 12:12:22,2021-02-16 12:12:46,23.878s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:12:46,2021-02-16 12:12:46,0.697s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File",Firefox 85.0,,,2021-02-16 12:12:46,2021-02-16 12:13:10,23.176s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:12:46,2021-02-16 12:12:46,0.016s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:12:46,2021-02-16 12:12:46,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(252, userEmail)",Firefox 85.0,,,2021-02-16 12:12:46,2021-02-16 12:13:09,22.272s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:13:09,2021-02-16 12:13:10,0.832s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File",Firefox 85.0,,,2021-02-16 12:13:10,2021-02-16 12:13:32,22.633s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:13:10,2021-02-16 12:13:10,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:13:10,2021-02-16 12:13:10,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(160, userEmail)",Firefox 85.0,,,2021-02-16 12:13:10,2021-02-16 12:13:31,21.866s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:13:31,2021-02-16 12:13:32,0.699s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File",Firefox 85.0,,,2021-02-16 12:13:32,2021-02-16 12:13:54,21.456s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:13:32,2021-02-16 12:13:32,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:13:32,2021-02-16 12:13:32,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail)",Firefox 85.0,,,2021-02-16 12:13:32,2021-02-16 12:13:53,20.693s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:13:53,2021-02-16 12:13:54,0.693s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File",Firefox 85.0,,,2021-02-16 12:13:54,2021-02-16 12:14:16,22.545s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:13:54,2021-02-16 12:13:54,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:13:54,2021-02-16 12:13:54,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(256, userEmail)",Firefox 85.0,,,2021-02-16 12:13:54,2021-02-16 12:14:15,21.657s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:14:15,2021-02-16 12:14:16,0.819s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File",Firefox 85.0,,,2021-02-16 12:14:16,2021-02-16 12:14:39,22.318s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:14:16,2021-02-16 12:14:16,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:14:16,2021-02-16 12:14:16,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(333, userEmail)",Firefox 85.0,,,2021-02-16 12:14:16,2021-02-16 12:14:38,21.566s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:14:38,2021-02-16 12:14:39,0.686s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File",Firefox 85.0,,,2021-02-16 12:14:39,2021-02-16 12:15:02,23.230s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:14:39,2021-02-16 12:14:39,0.020s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:14:39,2021-02-16 12:14:39,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(248, userEmail)",Firefox 85.0,,,2021-02-16 12:14:39,2021-02-16 12:15:01,22.313s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:15:01,2021-02-16 12:15:02,0.838s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File",Firefox 85.0,,,2021-02-16 12:15:02,2021-02-16 12:15:25,23.151s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:15:02,2021-02-16 12:15:02,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:15:02,2021-02-16 12:15:02,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(342, userEmail)",Firefox 85.0,,,2021-02-16 12:15:02,2021-02-16 12:15:24,22.263s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:15:24,2021-02-16 12:15:25,0.813s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File",Firefox 85.0,,,2021-02-16 12:15:25,2021-02-16 12:15:47,22.247s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:15:25,2021-02-16 12:15:25,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:15:25,2021-02-16 12:15:25,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(362, userEmail)",Firefox 85.0,,,2021-02-16 12:15:25,2021-02-16 12:15:46,21.348s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:15:46,2021-02-16 12:15:47,0.834s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File",Firefox 85.0,,,2021-02-16 12:15:47,2021-02-16 12:16:09,21.742s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:15:47,2021-02-16 12:15:47,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:15:47,2021-02-16 12:15:47,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(244, userEmail)",Firefox 85.0,,,2021-02-16 12:15:47,2021-02-16 12:16:08,20.999s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:16:08,2021-02-16 12:16:09,0.678s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File",Firefox 85.0,,,2021-02-16 12:16:09,2021-02-16 12:16:32,22.755s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:16:09,2021-02-16 12:16:09,0.012s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:16:09,2021-02-16 12:16:09,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(350, userEmail)",Firefox 85.0,,,2021-02-16 12:16:09,2021-02-16 12:16:31,21.879s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:16:31,2021-02-16 12:16:32,0.810s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File",Firefox 85.0,,,2021-02-16 12:16:32,2021-02-16 12:16:54,22.467s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:16:32,2021-02-16 12:16:32,0.012s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:16:32,2021-02-16 12:16:32,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(232, userEmail)",Firefox 85.0,,,2021-02-16 12:16:32,2021-02-16 12:16:53,21.714s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:16:53,2021-02-16 12:16:54,0.683s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File",Firefox 85.0,,,2021-02-16 12:16:54,2021-02-16 12:17:14,19.985s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:16:54,2021-02-16 12:16:54,0.020s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:16:54,2021-02-16 12:16:54,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(366, userEmail)",Firefox 85.0,,,2021-02-16 12:16:54,2021-02-16 12:17:12,18.018s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-16 12:17:12,2021-02-16 12:17:14,1.890s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File",Firefox 85.0,,,2021-02-16 12:17:14,2021-02-16 12:17:36,21.490s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:17:14,2021-02-16 12:17:14,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:17:14,2021-02-16 12:17:14,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(188, userEmail)",Firefox 85.0,,,2021-02-16 12:17:14,2021-02-16 12:17:35,20.743s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:17:35,2021-02-16 12:17:36,0.686s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File",Firefox 85.0,,,2021-02-16 12:17:36,2021-02-16 12:17:59,22.981s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:17:36,2021-02-16 12:17:36,0.012s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:17:36,2021-02-16 12:17:36,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(184, userEmail)",Firefox 85.0,,,2021-02-16 12:17:36,2021-02-16 12:17:58,22.229s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:17:58,2021-02-16 12:17:59,0.687s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File",Firefox 85.0,,,2021-02-16 12:17:59,2021-02-16 12:18:21,22.833s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:17:59,2021-02-16 12:17:59,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:17:59,2021-02-16 12:17:59,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(168, userEmail)",Firefox 85.0,,,2021-02-16 12:17:59,2021-02-16 12:18:21,21.970s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:18:21,2021-02-16 12:18:21,0.799s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File",Firefox 85.0,,,2021-02-16 12:18:21,2021-02-16 12:18:44,22.559s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:18:21,2021-02-16 12:18:21,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:18:21,2021-02-16 12:18:21,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(354, userEmail)",Firefox 85.0,,,2021-02-16 12:18:21,2021-02-16 12:18:43,21.806s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:18:43,2021-02-16 12:18:44,0.684s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File",Firefox 85.0,,,2021-02-16 12:18:44,2021-02-16 12:19:25,40.638s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:18:44,2021-02-16 12:18:44,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:18:44,2021-02-16 12:18:44,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(164, userEmail)",Firefox 85.0,,,2021-02-16 12:18:44,2021-02-16 12:19:24,39.777s,FAILED
+Start tear down : tearDownMethodIfFailed,Firefox 85.0,,,2021-02-16 12:19:24,2021-02-16 12:19:25,0.793s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File",Firefox 85.0,,,2021-02-16 12:19:25,2021-02-16 12:19:48,23.667s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:19:25,2021-02-16 12:19:25,0.012s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:19:25,2021-02-16 12:19:25,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(338, userEmail)",Firefox 85.0,,,2021-02-16 12:19:25,2021-02-16 12:19:48,22.917s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:19:48,2021-02-16 12:19:48,0.688s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File",Firefox 85.0,,,2021-02-16 12:19:48,2021-02-16 12:20:11,22.243s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:19:48,2021-02-16 12:19:48,0.012s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:19:48,2021-02-16 12:19:48,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(236, userEmail)",Firefox 85.0,,,2021-02-16 12:19:48,2021-02-16 12:20:10,21.490s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:20:10,2021-02-16 12:20:11,0.690s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File",Firefox 85.0,,,2021-02-16 12:20:11,2021-02-16 12:20:34,23.254s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:20:11,2021-02-16 12:20:11,0.012s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:20:11,2021-02-16 12:20:11,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(358, userEmail)",Firefox 85.0,,,2021-02-16 12:20:11,2021-02-16 12:20:33,22.375s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:20:33,2021-02-16 12:20:34,0.816s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File",Firefox 85.0,,,2021-02-16 12:20:34,2021-02-16 12:20:56,22.052s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:20:34,2021-02-16 12:20:34,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:20:34,2021-02-16 12:20:34,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(224, userEmail)",Firefox 85.0,,,2021-02-16 12:20:34,2021-02-16 12:20:55,21.302s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:20:55,2021-02-16 12:20:56,0.685s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File",Firefox 85.0,,,2021-02-16 12:20:56,2021-02-16 12:21:17,21.475s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Firefox 85.0,,,2021-02-16 12:20:56,2021-02-16 12:20:56,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Firefox 85.0,,,2021-02-16 12:20:56,2021-02-16 12:20:56,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail)",Firefox 85.0,,,2021-02-16 12:20:56,2021-02-16 12:21:17,20.715s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Firefox 85.0,,,2021-02-16 12:21:17,2021-02-16 12:21:17,0.699s,PASSED

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_LoginToBrowserAsAdmin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e743bb10-0440-4613-80aa-e6b71fe8b2f3</testCaseGuid>
+</TestCaseEntity>

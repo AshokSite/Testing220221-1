@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a register user, Upload Microsoft Word File and verify Uploded file in Submission Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7495cc6f-1bbd-4e8b-abdc-009824cfc17f</testCaseGuid>
+</TestCaseEntity>

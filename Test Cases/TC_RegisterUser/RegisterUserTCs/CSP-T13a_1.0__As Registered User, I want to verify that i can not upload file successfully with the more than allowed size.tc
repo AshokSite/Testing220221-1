@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>CSP-T13a_1.0__As Registered User, I want to verify that i can not upload file successfully with the more than allowed size</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3f57b7bd-7f3f-470e-a014-673ffad5ec70</testCaseGuid>
+</TestCaseEntity>

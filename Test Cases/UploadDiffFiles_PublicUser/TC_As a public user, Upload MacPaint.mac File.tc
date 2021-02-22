@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC_As a public user, Upload MacPaint.mac File</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>839d1907-b694-4868-9028-969db53e19cf</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>RigisterHere</name>
+   <tag></tag>
+   <elementGuidId>657e140c-e16c-47ac-a59e-663db23dc50b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-header/nz-layout[1]/nz-content[1]/app-login[1]/div[2]/div[2]/div[1]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-header/nz-layout[1]/nz-content[1]/app-login[1]/div[2]/div[2]/div[1]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

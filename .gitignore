@@ -1,3 +1,16 @@
+.gradle
+
+bin
+
+
+Libs
+
+output
+
+!output/.gitkeep
+build
+
+.classpath
 
 /bin/
 /Libs/

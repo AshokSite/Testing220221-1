@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>MaxSubDuringAnalysis</name>
+   <tag></tag>
+   <elementGuidId>f9d9a5d5-0712-44fb-a0d2-7da6b8d44933</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@formcontrolname='SUBMISSIONS_DURING_ANALYSIS']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@formcontrolname='SUBMISSIONS_DURING_ANALYSIS']</value>
+   </webElementProperties>
+</WebElementEntity>

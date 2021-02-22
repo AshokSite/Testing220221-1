@@ -1,0 +1,158 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+PublicUser_UploadFiles,Chrome 86.0.4240.75,PublicUser_UploadFiles,,2021-02-18 20:10:25,2021-02-18 20:20:16,9m - 50.590s,FAILED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Adobe PhotoShop File",Chrome 86.0.4240.75,,,2021-02-18 20:10:27,2021-02-18 20:10:52,25.263s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:10:27,2021-02-18 20:10:27,0.531s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:10:27,2021-02-18 20:10:27,0.028s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(346, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:10:27,2021-02-18 20:10:51,23.368s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:10:51,2021-02-18 20:10:52,1.172s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Basic Audio File",Chrome 86.0.4240.75,,,2021-02-18 20:10:52,2021-02-18 20:11:16,24.065s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:10:52,2021-02-18 20:10:52,0.060s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:10:52,2021-02-18 20:10:52,0.002s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(228, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:10:52,2021-02-18 20:11:15,22.948s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:11:15,2021-02-18 20:11:16,0.903s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload CSV File",Chrome 86.0.4240.75,,,2021-02-18 20:11:16,2021-02-18 20:11:38,21.999s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:11:16,2021-02-18 20:11:16,0.033s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:11:16,2021-02-18 20:11:16,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(176, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:11:16,2021-02-18 20:11:37,21.066s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:11:37,2021-02-18 20:11:38,0.839s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Exe File",Chrome 86.0.4240.75,,,2021-02-18 20:11:38,2021-02-18 20:12:02,24.197s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:11:38,2021-02-18 20:11:38,0.024s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:11:38,2021-02-18 20:11:38,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(172, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:11:38,2021-02-18 20:12:01,23.283s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:12:01,2021-02-18 20:12:02,0.815s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Graphics Interchange Format File",Chrome 86.0.4240.75,,,2021-02-18 20:12:02,2021-02-18 20:12:25,22.405s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:12:02,2021-02-18 20:12:02,0.016s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:12:02,2021-02-18 20:12:02,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(252, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:12:02,2021-02-18 20:12:24,21.506s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:12:24,2021-02-18 20:12:25,0.814s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Jar File",Chrome 86.0.4240.75,,,2021-02-18 20:12:25,2021-02-18 20:12:48,22.903s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:12:25,2021-02-18 20:12:25,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:12:25,2021-02-18 20:12:25,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(160, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:12:25,2021-02-18 20:12:47,22.020s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:12:47,2021-02-18 20:12:48,0.803s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Java File",Chrome 86.0.4240.75,,,2021-02-18 20:12:48,2021-02-18 20:13:10,22.261s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:12:48,2021-02-18 20:12:48,0.016s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:12:48,2021-02-18 20:12:48,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:12:48,2021-02-18 20:13:09,21.384s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:13:09,2021-02-18 20:13:10,0.794s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload JPEG graphic File",Chrome 86.0.4240.75,,,2021-02-18 20:13:10,2021-02-18 20:13:33,22.749s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:13:10,2021-02-18 20:13:10,0.022s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:13:10,2021-02-18 20:13:10,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(256, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:13:10,2021-02-18 20:13:32,21.867s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:13:32,2021-02-18 20:13:33,0.803s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MacPaint.mac File",Chrome 86.0.4240.75,,,2021-02-18 20:13:33,2021-02-18 20:13:55,22.332s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:13:33,2021-02-18 20:13:33,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:13:33,2021-02-18 20:13:33,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(333, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:13:33,2021-02-18 20:13:54,21.456s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:13:54,2021-02-18 20:13:55,0.806s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Microsoft Word File",Chrome 86.0.4240.75,,,2021-02-18 20:13:55,2021-02-18 20:14:17,22.274s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:13:55,2021-02-18 20:13:55,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:13:55,2021-02-18 20:13:55,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(248, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:13:55,2021-02-18 20:14:16,21.387s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:14:16,2021-02-18 20:14:17,0.805s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Access database File",Chrome 86.0.4240.75,,,2021-02-18 20:14:17,2021-02-18 20:14:40,22.451s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:14:17,2021-02-18 20:14:17,0.016s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:14:17,2021-02-18 20:14:17,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(342, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:14:17,2021-02-18 20:14:39,21.559s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:14:39,2021-02-18 20:14:40,0.807s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload MS Works File",Chrome 86.0.4240.75,,,2021-02-18 20:14:40,2021-02-18 20:15:02,22.383s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:14:40,2021-02-18 20:14:40,0.019s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:14:40,2021-02-18 20:14:40,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(362, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:14:40,2021-02-18 20:15:01,21.515s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:15:01,2021-02-18 20:15:02,0.795s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Multimedia File",Chrome 86.0.4240.75,,,2021-02-18 20:15:02,2021-02-18 20:15:24,22.396s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:15:02,2021-02-18 20:15:02,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:15:02,2021-02-18 20:15:02,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(244, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:15:02,2021-02-18 20:15:24,21.545s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:15:24,2021-02-18 20:15:24,0.783s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PaintShop Pro File",Chrome 86.0.4240.75,,,2021-02-18 20:15:24,2021-02-18 20:15:47,22.963s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:15:24,2021-02-18 20:15:24,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:15:24,2021-02-18 20:15:24,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(350, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:15:24,2021-02-18 20:15:47,22.114s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:15:47,2021-02-18 20:15:47,0.780s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC batch file File",Chrome 86.0.4240.75,,,2021-02-18 20:15:47,2021-02-18 20:16:10,22.564s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:15:47,2021-02-18 20:15:47,0.017s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:15:47,2021-02-18 20:15:47,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(232, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:15:47,2021-02-18 20:16:09,21.670s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:16:09,2021-02-18 20:16:10,0.791s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PC Zip Compressed Archive File",Chrome 86.0.4240.75,,,2021-02-18 20:16:10,2021-02-18 20:16:33,22.748s,FAILED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:16:10,2021-02-18 20:16:10,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:16:10,2021-02-18 20:16:10,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(366, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:16:10,2021-02-18 20:16:32,21.883s,FAILED
+Start tear down : tearDownMethodIfFailed,Chrome 86.0.4240.75,,,2021-02-18 20:16:32,2021-02-18 20:16:33,0.796s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PDF File",Chrome 86.0.4240.75,,,2021-02-18 20:16:33,2021-02-18 20:16:55,21.834s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:16:33,2021-02-18 20:16:33,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:16:33,2021-02-18 20:16:33,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(188, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:16:33,2021-02-18 20:16:54,20.968s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:16:54,2021-02-18 20:16:55,0.800s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PNG File",Chrome 86.0.4240.75,,,2021-02-18 20:16:55,2021-02-18 20:17:17,22.070s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:16:55,2021-02-18 20:16:55,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:16:55,2021-02-18 20:16:55,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(184, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:16:55,2021-02-18 20:17:16,21.223s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:17:16,2021-02-18 20:17:17,0.782s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload PowerPoint File",Chrome 86.0.4240.75,,,2021-02-18 20:17:17,2021-02-18 20:17:39,22.049s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:17:17,2021-02-18 20:17:17,0.016s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:17:17,2021-02-18 20:17:17,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(168, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:17:17,2021-02-18 20:17:38,21.174s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:17:38,2021-02-18 20:17:39,0.802s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload RealAudio File",Chrome 86.0.4240.75,,,2021-02-18 20:17:39,2021-02-18 20:18:02,23.646s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:17:39,2021-02-18 20:17:39,0.019s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:17:39,2021-02-18 20:17:39,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(354, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:17:39,2021-02-18 20:18:02,22.784s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:18:02,2021-02-18 20:18:02,0.793s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Txt File",Chrome 86.0.4240.75,,,2021-02-18 20:18:02,2021-02-18 20:18:24,21.823s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:18:02,2021-02-18 20:18:02,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:18:02,2021-02-18 20:18:02,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(164, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:18:02,2021-02-18 20:18:23,20.943s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:18:23,2021-02-18 20:18:24,0.812s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Web page imagemap.map File",Chrome 86.0.4240.75,,,2021-02-18 20:18:24,2021-02-18 20:18:47,22.695s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:18:24,2021-02-18 20:18:24,0.015s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:18:24,2021-02-18 20:18:24,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(338, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:18:24,2021-02-18 20:18:46,21.838s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:18:46,2021-02-18 20:18:47,0.792s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows BitMap File",Chrome 86.0.4240.75,,,2021-02-18 20:18:47,2021-02-18 20:19:09,22.318s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:18:47,2021-02-18 20:18:47,0.021s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:18:47,2021-02-18 20:18:47,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(236, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:18:47,2021-02-18 20:19:08,21.460s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:19:08,2021-02-18 20:19:09,0.785s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Windows sound File",Chrome 86.0.4240.75,,,2021-02-18 20:19:09,2021-02-18 20:19:31,21.851s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:19:09,2021-02-18 20:19:09,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:19:09,2021-02-18 20:19:09,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(358, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:19:09,2021-02-18 20:19:30,20.986s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:19:30,2021-02-18 20:19:31,0.793s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload WordPad File",Chrome 86.0.4240.75,,,2021-02-18 20:19:31,2021-02-18 20:19:54,23.178s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:19:31,2021-02-18 20:19:31,0.013s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:19:31,2021-02-18 20:19:31,0.000s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(224, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:19:31,2021-02-18 20:19:53,22.332s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:19:53,2021-02-18 20:19:54,0.782s,PASSED
+,,,,,,,
+"Test Cases/UploadDiffFiles_PublicUser/TC_As a public user, Upload Xlsx File",Chrome 86.0.4240.75,,,2021-02-18 20:19:54,2021-02-18 20:20:16,21.674s,PASSED
+"excelTestData = findTestData(""Data Files/TestData/InspectTestData"")",Chrome 86.0.4240.75,,,2021-02-18 20:19:54,2021-02-18 20:19:54,0.014s,PASSED
+"userEmail = excelTestData.getValue(2, 23)",Chrome 86.0.4240.75,,,2021-02-18 20:19:54,2021-02-18 20:19:54,0.001s,PASSED
+"customKeywords.commanFunctions.uploadFileOfPublicUser(180, userEmail)",Chrome 86.0.4240.75,,,2021-02-18 20:19:54,2021-02-18 20:20:15,20.815s,PASSED
+customKeywords.commanFunctions.onlyCloseBrowser(),Chrome 86.0.4240.75,,,2021-02-18 20:20:15,2021-02-18 20:20:16,0.793s,PASSED

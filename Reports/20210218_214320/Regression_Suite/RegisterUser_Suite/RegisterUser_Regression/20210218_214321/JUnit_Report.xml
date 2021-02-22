@@ -1,0 +1,3050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="RegisterUser_Regression" time="1226.218" tests="30" failures="2" skips="0" errors="0">
+   <testsuite name="RegisterUser_Regression" tests="30" failures="2" errors="0" time="1226.218" skips="0" timestamp="2021-02-18 21:43:35" hostname="ashok - OMTPGCN1132568L" id="Test Suites/Regression_Suite/RegisterUser_Suite/RegisterUser_Regression">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_214320\\Regression_Suite\\RegisterUser_Suite\\RegisterUser_Regression\\20210218_214321"/>
+         <property name="logFiles" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_214320\\Regression_Suite\\RegisterUser_Suite\\RegisterUser_Regression\\20210218_214321\\execution0.log"/>
+         <property name="attachments" value="E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_214320\\Regression_Suite\\RegisterUser_Suite\\RegisterUser_Regression\\20210218_214321\\1613665450604.png, E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_214320\\Regression_Suite\\RegisterUser_Suite\\RegisterUser_Regression\\20210218_214321\\1613666040101.png"/>
+         <property name="hostName" value="ashok - OMTPGCN1132568L"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.8.2.208"/>
+         <property name="browser" value="Chrome 86.0.4240.75"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="7abf5ec1bca667e5c6d77027fcca5f8c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Adobe PhotoShop File and verify Uploded file in Submission Page" time="44.798" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Adobe PhotoShop File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:43:36 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Adobe PhotoShop File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Adobe PhotoShop File and verify Uploded file in Submission Page
+
+2021-02-18 21:43:37 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:43:37 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:43:37 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:43:37 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(309, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:43:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:43:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:43:51 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:43:53 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:43:53 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:43:53 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:43:54 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:43:54 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:43:55 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:43:56 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:43:56 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:43:56 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:43:58 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:44:00 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:44:01 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:44:01 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:44:02 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:44:04 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:44:07 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:44:10 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:44:12 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:44:12 - [MESSAGE][PASSED] - Text 'Adobe PhotoShop' is present on page 
+
+2021-02-18 21:44:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:44:14 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:44:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:44:17 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:44:18 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:44:18 - [MESSAGE][PASSED] - Actual object 'Adobe PhotoShop.psd' and expected object 'Adobe PhotoShop.psd' are equal
+
+2021-02-18 21:44:18 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:44:18 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:44:19 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:44:19 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:20 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:44:21 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:44:21 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Basic Audio File and verify Uploded file in Submission Page" time="38.855" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Basic Audio File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:44:21 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Basic Audio File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Basic Audio File and verify Uploded file in Submission Page
+
+2021-02-18 21:44:21 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:44:21 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:44:21 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:44:21 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(264, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:44:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:44:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:44:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:44:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:44:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:44:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:44:34 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:34 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:44:35 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:44:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:44:36 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:44:37 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:39 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:44:39 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:44:40 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:44:41 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:44:41 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:44:42 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:44:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:44:48 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:44:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:44:51 - [MESSAGE][PASSED] - Text 'BasicAudio' is present on page 
+
+2021-02-18 21:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:44:53 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:44:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:44:56 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:44:57 - [MESSAGE][PASSED] - Actual object 'BasicAudio.au' and expected object 'BasicAudio.au' are equal
+
+2021-02-18 21:44:57 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:44:57 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:44:57 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:44:58 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:58 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:44:59 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:45:00 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:45:00 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload CSV File and verify Uploded file in Submission Page" time="39.862" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload CSV File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:45:00 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload CSV File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload CSV File and verify Uploded file in Submission Page
+
+2021-02-18 21:45:00 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:45:00 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:45:00 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:45:00 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(208, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:45:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:45:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:45:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:45:13 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:45:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:45:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:45:13 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:45:14 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:45:15 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:45:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:45:16 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:45:16 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:45:18 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:45:19 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:45:21 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:45:21 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:45:22 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:45:23 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:45:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:45:27 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:45:29 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:45:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:45:32 - [MESSAGE][PASSED] - Text 'SampleCSVFile' is present on page 
+
+2021-02-18 21:45:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:45:34 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:45:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:45:36 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:45:37 - [MESSAGE][PASSED] - Actual object 'SampleCSVFile.csv' and expected object 'SampleCSVFile.csv' are equal
+
+2021-02-18 21:45:37 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:45:37 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:45:37 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:45:38 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:45:38 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:45:39 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:45:40 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:45:40 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Exe File and verify Uploded file in Submission Page" time="52.768" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Exe File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:45:40 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Exe File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Exe File and verify Uploded file in Submission Page
+
+2021-02-18 21:45:40 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:45:40 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:45:40 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:45:40 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(204, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:45:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:45:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:45:49 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:45:52 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:45:52 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:45:52 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:45:52 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:45:53 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:45:53 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:45:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:45:55 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:45:55 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:46:08 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:46:08 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:46:09 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:46:10 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:46:12 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:46:12 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:46:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:46:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:46:19 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:46:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:46:22 - [MESSAGE][PASSED] - Text 'readerdc_en_ka_cra_install' is present on page 
+
+2021-02-18 21:46:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:46:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:46:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:46:29 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:46:29 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:46:30 - [MESSAGE][PASSED] - Actual object 'readerdc_en_ka_cra_install.exe' and expected object 'readerdc_en_ka_cra_install.exe' are equal
+
+2021-02-18 21:46:30 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:46:30 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:46:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:46:30 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:46:31 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:46:32 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:46:33 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:46:33 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Graphics Interchange Format File and verify Uploded file in Submission Page" time="38.102" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Graphics Interchange Format File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:46:33 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Graphics Interchange Format File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Graphics Interchange Format File and verify Uploded file in Submission Page
+
+2021-02-18 21:46:33 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:46:33 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:46:33 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:46:33 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(288, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:46:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:46:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:46:43 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:46:45 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:46:45 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:46:45 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:46:46 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:46:46 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:46:47 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:46:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:46:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:46:48 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:46:50 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:46:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:46:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:46:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:46:53 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:46:54 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:46:56 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:46:58 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:47:00 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:47:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:47:03 - [MESSAGE][PASSED] - Text 'Graphics Interchange Format.gif' is present on page 
+
+2021-02-18 21:47:04 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:47:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:47:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:47:07 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:47:08 - [MESSAGE][PASSED] - Actual object 'Graphics Interchange Format.gif' and expected object 'Graphics Interchange Format.gif' are equal
+
+2021-02-18 21:47:08 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:47:08 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:47:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:47:08 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:47:09 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:47:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:47:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:47:11 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page" time="41.323" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:47:11 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Jar File and verify Uploded file in Submission Page
+
+2021-02-18 21:47:11 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:47:11 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:47:11 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:47:11 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(192, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:47:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:47:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:47:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:47:23 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:47:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:47:23 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:47:23 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:47:24 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:47:25 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:47:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:47:26 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:47:26 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:47:28 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:47:29 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:47:30 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:47:31 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:47:31 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:47:32 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:47:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:47:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:47:39 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:47:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:47:42 - [MESSAGE][PASSED] - Text 'commonsCode' is present on page 
+
+2021-02-18 21:47:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:47:44 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:47:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:47:48 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:47:49 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:47:49 - [MESSAGE][PASSED] - Actual object 'commonsCode.jar' and expected object 'commonsCode.jar' are equal
+
+2021-02-18 21:47:49 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:47:49 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:47:50 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:47:50 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:47:50 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:47:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:47:52 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:47:52 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page" time="39.119" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:47:52 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Java File and verify Uploded file in Submission Page
+
+2021-02-18 21:47:52 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:47:52 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:47:52 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:47:52 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(276, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:47:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:47:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:48:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:48:04 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:48:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:48:04 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:48:05 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:05 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:48:06 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:48:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:48:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:48:07 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:09 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:48:10 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:48:11 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:48:12 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:48:12 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:48:13 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:15 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:48:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:48:19 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:48:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:48:22 - [MESSAGE][PASSED] - Text 'Java files' is present on page 
+
+2021-02-18 21:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:48:24 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:48:28 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:48:28 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:48:28 - [MESSAGE][PASSED] - Actual object 'Java files.java' and expected object 'Java files.java' are equal
+
+2021-02-18 21:48:28 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:48:28 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:48:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:48:29 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:30 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:48:31 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:48:31 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload JPEG graphic File and verify Uploded file in Submission Page" time="37.81" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload JPEG graphic File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:48:31 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload JPEG graphic File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload JPEG graphic File and verify Uploded file in Submission Page
+
+2021-02-18 21:48:31 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:48:31 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:48:31 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:48:31 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(292, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:48:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:48:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:48:41 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:48:43 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:48:43 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:48:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:48:44 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:45 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:48:45 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:48:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:48:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:48:47 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:49 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:48:50 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:48:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:48:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:48:53 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:48:53 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:48:55 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:48:57 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:48:59 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:49:01 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:49:02 - [MESSAGE][PASSED] - Text 'JPEG graphic' is present on page 
+
+2021-02-18 21:49:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:49:03 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:49:04 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:49:05 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:49:06 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:49:06 - [MESSAGE][PASSED] - Actual object 'JPEG graphic.jpg' and expected object 'JPEG graphic.jpg' are equal
+
+2021-02-18 21:49:06 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:49:06 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:49:06 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:49:07 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:49:07 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:49:08 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:49:09 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:49:09 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MacPaint File and verify Uploded file in Submission Page" time="37.931" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MacPaint File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:49:09 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MacPaint File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MacPaint File and verify Uploded file in Submission Page
+
+2021-02-18 21:49:09 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:49:09 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:49:09 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:49:09 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(296, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:49:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:49:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:49:19 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:49:21 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:49:21 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:49:21 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:49:22 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:49:22 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:49:23 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:49:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:49:24 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:49:24 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:49:26 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:49:27 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:49:27 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:49:28 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:49:29 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:49:29 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:49:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:49:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:49:36 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:49:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:49:38 - [MESSAGE][PASSED] - Text 'MacPaint' is present on page 
+
+2021-02-18 21:49:39 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:49:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:49:41 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:49:43 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:49:44 - [MESSAGE][PASSED] - Actual object 'MacPaint.mac' and expected object 'MacPaint.mac' are equal
+
+2021-02-18 21:49:44 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:49:44 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:49:44 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:49:45 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:49:45 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:49:46 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:49:47 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:49:47 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Microsoft Word File and verify Uploded file in Submission Page" time="38.184" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Microsoft Word File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:49:47 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Microsoft Word File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Microsoft Word File and verify Uploded file in Submission Page
+
+2021-02-18 21:49:47 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:49:47 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:49:47 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:49:47 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(284, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:49:47 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:49:47 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:49:57 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:49:59 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:49:59 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:50:00 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:50:00 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:01 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:50:01 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:50:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:50:02 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:50:03 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:05 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:50:06 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:50:07 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:50:07 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:50:08 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:50:09 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:50:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:50:15 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:50:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:50:17 - [MESSAGE][PASSED] - Text 'Microsoft Word' is present on page 
+
+2021-02-18 21:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:50:19 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:50:21 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:50:22 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:50:22 - [MESSAGE][PASSED] - Actual object 'Microsoft Word.doc' and expected object 'Microsoft Word.doc' are equal
+
+2021-02-18 21:50:22 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:50:22 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:50:23 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:50:23 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:23 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:24 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:50:25 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:50:25 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Access database File and verify Uploded file in Submission Page" time="40.21" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Access database File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:50:25 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Access database File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Access database File and verify Uploded file in Submission Page
+
+2021-02-18 21:50:25 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:50:25 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:50:25 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:50:25 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(305, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:50:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:50:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:50:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:50:37 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:50:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:50:38 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:50:38 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:38 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:50:39 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:50:40 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:50:40 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:50:41 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:43 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:50:44 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:50:45 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:50:45 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:50:46 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:50:47 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:50:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:50:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:50:53 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:50:55 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:50:56 - [MESSAGE][PASSED] - Text 'MS Access database' is present on page 
+
+2021-02-18 21:50:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:50:59 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:51:00 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:51:02 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:51:02 - [MESSAGE][PASSED] - Actual object 'MS Access database.mdb' and expected object 'MS Access database.mdb' are equal
+
+2021-02-18 21:51:02 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:51:02 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:51:03 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:51:03 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:04 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:51:05 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:51:05 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Works File and verify Uploded file in Submission Page" time="37.643" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Works File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:51:05 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Works File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload MS Works File and verify Uploded file in Submission Page
+
+2021-02-18 21:51:05 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:51:05 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:51:05 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:51:05 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(325, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:51:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:51:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:51:15 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:51:17 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:51:17 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:51:17 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:51:18 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:18 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:51:19 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:51:20 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:51:20 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:51:21 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:23 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:51:24 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:51:25 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:51:26 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:51:27 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:51:27 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:51:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:51:34 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:51:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:51:36 - [MESSAGE][PASSED] - Text 'MS Works' is present on page 
+
+2021-02-18 21:51:37 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:51:38 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:51:38 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:51:39 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:51:40 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:51:40 - [MESSAGE][PASSED] - Actual object 'MS Works.wks' and expected object 'MS Works.wks' are equal
+
+2021-02-18 21:51:40 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:51:40 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:51:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:51:41 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:41 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:42 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:51:43 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:51:43 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Multimedia File and verify Uploded file in Submission Page" time="38.17" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Multimedia File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:51:43 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Multimedia File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Multimedia File and verify Uploded file in Submission Page
+
+2021-02-18 21:51:43 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:51:43 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:51:43 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:51:43 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(280, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:51:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:51:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:51:53 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:51:55 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:51:55 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:51:56 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:51:56 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:51:56 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:51:57 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:51:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:51:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:51:58 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:01 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:52:02 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:52:03 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:52:04 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:52:04 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:52:05 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:08 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:52:10 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:52:12 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:52:14 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:52:14 - [MESSAGE][PASSED] - Text 'Multimedia' is present on page 
+
+2021-02-18 21:52:14 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:52:15 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:52:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:52:18 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:52:18 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:52:18 - [MESSAGE][PASSED] - Actual object 'Multimedia.avi' and expected object 'Multimedia.avi' are equal
+
+2021-02-18 21:52:18 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:52:18 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:52:19 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:52:19 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:20 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:52:21 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:52:21 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PaintShop Pro File and verify Uploded file in Submission Page" time="37.035" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PaintShop Pro File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:52:21 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PaintShop Pro File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PaintShop Pro File and verify Uploded file in Submission Page
+
+2021-02-18 21:52:21 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:52:21 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:52:21 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:52:21 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(313, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:52:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:52:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:52:31 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:52:33 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:52:33 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:52:34 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:52:34 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:34 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:52:35 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:52:36 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:52:36 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:52:37 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:39 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:52:39 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:52:40 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:52:41 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:52:41 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:52:42 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:52:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:52:48 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:52:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:52:51 - [MESSAGE][PASSED] - Text 'PaintShop Pro' is present on page 
+
+2021-02-18 21:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:52:52 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:52:53 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:52:55 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:52:55 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:52:55 - [MESSAGE][PASSED] - Actual object 'PaintShop Pro.psp' and expected object 'PaintShop Pro.psp' are equal
+
+2021-02-18 21:52:55 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:52:55 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:52:56 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:52:56 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:57 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:52:58 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:52:58 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:52:58 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC batch file File and verify Uploded file in Submission Page" time="40.057" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC batch file File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:52:58 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC batch file File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC batch file File and verify Uploded file in Submission Page
+
+2021-02-18 21:52:58 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:52:58 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:52:58 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:52:58 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(268, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:52:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:52:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:53:08 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:53:10 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:53:10 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:53:10 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:53:11 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:53:11 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:53:12 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:53:13 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:53:13 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:53:13 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:53:16 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:53:16 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:53:17 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:53:18 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:53:18 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:53:19 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:53:22 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:53:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:53:26 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:53:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:53:29 - [MESSAGE][PASSED] - Text 'PC batch file' is present on page 
+
+2021-02-18 21:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:53:32 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:53:33 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:53:35 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:53:35 - [MESSAGE][PASSED] - Actual object 'PC batch file.bat' and expected object 'PC batch file.bat' are equal
+
+2021-02-18 21:53:35 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:53:35 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:53:36 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:53:36 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:53:37 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:53:38 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:53:38 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:53:38 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page" time="33.035" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'PC Zip Compressed Archive' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:761)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page.run(TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'PC Zip Compressed Archive' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+"/>
+         <system-out><![CDATA[2021-02-18 21:53:38 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'PC Zip Compressed Archive' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:761)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page.run(TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'PC Zip Compressed Archive' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+
+
+2021-02-18 21:53:38 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:53:38 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:53:38 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:53:38 - [TEST_STEP][FAILED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(329, rigisterUN, rigisterPW): Unable to verify text 'PC Zip Compressed Archive' is present 
+
+2021-02-18 21:53:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:53:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:53:48 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:53:50 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:53:50 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:53:50 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:53:51 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:53:51 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:53:52 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:53:53 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:53:53 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:53:53 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:53:56 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:53:57 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:53:57 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:53:58 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:53:59 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:53:59 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:54:03 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:54:05 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:54:07 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:54:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:54:10 - [MESSAGE][FAILED] - Text 'PC Zip Compressed Archive' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'PC Zip Compressed Archive' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:761)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page.run(TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+)
+
+2021-02-18 21:54:10 - [MESSAGE][FAILED] - Unable to verify text 'PC Zip Compressed Archive' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'PC Zip Compressed Archive' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:761)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page.run(TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'PC Zip Compressed Archive' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more
+)
+[[ATTACHMENT|E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_214320\\Regression_Suite\\RegisterUser_Suite\\RegisterUser_Regression\\20210218_214321\\1613665450604.png]]
+
+2021-02-18 21:54:10 - [MESSAGE][FAILED] - Unable to verify text 'PC Zip Compressed Archive' is present 
+
+2021-02-18 21:54:10 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-18 21:54:10 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 21:54:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:54:11 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 21:54:11 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-18 21:54:11 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-18 21:54:11 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-18 21:53:38 - [TEST_CASE][FAILED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'PC Zip Compressed Archive' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:761)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page.run(TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'PC Zip Compressed Archive' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PDF File and verify Uploded file in Submission Page" time="37.553" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PDF File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:54:11 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PDF File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PDF File and verify Uploded file in Submission Page
+
+2021-02-18 21:54:11 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:54:11 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:54:11 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:54:11 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(220, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:54:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:54:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:54:22 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:54:24 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:54:24 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:54:24 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:54:24 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:54:25 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:54:26 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:54:27 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:54:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:54:27 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:54:29 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:54:30 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:54:31 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:54:32 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:54:32 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:54:33 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:54:35 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:54:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:54:39 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:54:41 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:54:42 - [MESSAGE][PASSED] - Text 'SampleTestPDF' is present on page 
+
+2021-02-18 21:54:43 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:54:43 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:54:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:54:45 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:54:46 - [MESSAGE][PASSED] - Actual object 'SampleTestPDF.pdf' and expected object 'SampleTestPDF.pdf' are equal
+
+2021-02-18 21:54:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:54:46 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:54:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:54:47 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:54:47 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:54:48 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:54:49 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:54:49 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PNG File and verify Uploded file in Submission Page" time="107.034" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PNG File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:54:49 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PNG File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PNG File and verify Uploded file in Submission Page
+
+2021-02-18 21:54:49 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:54:49 - [TEST_STEP][PASSED] - userEmail = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:54:49 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser(216, userEmail): customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 21:54:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:54:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:54:59 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:55:01 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:55:01 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:55:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:55:06 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:55:08 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:55:08 - [MESSAGE][PASSED] - Text 'SamplePNGImage' is present on page 
+
+2021-02-18 21:55:08 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/PublicUserHomePage/email_Input'
+
+2021-02-18 21:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/PublicUserHomePage/SiteInspectTermsOfUse_CheckBox' is clicked on
+
+2021-02-18 21:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:55:11 - [MESSAGE][PASSED] - Text 'Your submission was successful
+The analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 21:55:11 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfPublicUser is PASSED
+
+2021-02-18 21:55:11 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:55:32 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class='ant-dropdown-trigger ant-dropdown-link']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-18 21:55:32 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginAndRigisterUser/AdminDD'. Try using Self-healing.
+
+2021-02-18 21:55:32 - [MESSAGE][ERROR] - [SELF-HEALING] java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+2021-02-18 21:55:32 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+2021-02-18 21:55:32 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2021-02-18 21:55:32 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/LoginAndRigisterUser/AdminDD' located by '//*[@class='ant-dropdown-trigger ant-dropdown-link']' not found
+
+2021-02-18 21:56:03 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@class='ant-dropdown-trigger ant-dropdown-link']'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-18 21:56:03 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginAndRigisterUser/AdminDD'. Try using Self-healing.
+
+2021-02-18 21:56:03 - [MESSAGE][ERROR] - [SELF-HEALING] java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+2021-02-18 21:56:03 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+2021-02-18 21:56:03 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2021-02-18 21:56:03 - [MESSAGE][INFO] - Exception while clicking on element with JSWeb element with id: 'Object Repository/LoginAndRigisterUser/AdminDD' located by '//*[@class='ant-dropdown-trigger ant-dropdown-link']' not found
+
+2021-02-18 21:56:34 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //li[contains(text(),'Logout')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2021-02-18 21:56:34 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/LoginAndRigisterUser/Logout'. Try using Self-healing.
+
+2021-02-18 21:56:34 - [MESSAGE][ERROR] - [SELF-HEALING] java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 1 column 1 path $
+
+2021-02-18 21:56:34 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the XPath is null.
+
+2021-02-18 21:56:34 - [MESSAGE][WARNING] - [SELF-HEALING] Cannot find elements when the selector is null
+
+2021-02-18 21:56:34 - [MESSAGE][INFO] - Exception while clicking on element with JSWeb element with id: 'Object Repository/LoginAndRigisterUser/Logout' located by '//li[contains(text(),'Logout')]' not found
+
+2021-02-18 21:56:35 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:56:36 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:56:36 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PowerPoint File and verify Uploded file in Submission Page" time="40.798" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PowerPoint File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:56:36 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PowerPoint File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PowerPoint File and verify Uploded file in Submission Page
+
+2021-02-18 21:56:36 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:56:36 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:56:36 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:56:36 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(200, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:56:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:56:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:56:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:56:48 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:56:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:56:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:56:49 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:56:49 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:56:50 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:56:51 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:56:51 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:56:51 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:56:53 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:56:55 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:56:55 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:56:56 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:56:57 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:56:59 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:00 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:57:02 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:57:04 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:57:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:57:07 - [MESSAGE][PASSED] - Text 'POwerPoint' is present on page 
+
+2021-02-18 21:57:08 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:57:09 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:57:11 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:57:13 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:57:13 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:57:14 - [MESSAGE][PASSED] - Actual object 'POwerPoint.pptx' and expected object 'POwerPoint.pptx' are equal
+
+2021-02-18 21:57:14 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:57:14 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:57:14 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:57:14 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:15 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:16 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:57:17 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:57:17 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload RealAudio File and verify Uploded file in Submission Page" time="38.248" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload RealAudio File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:57:17 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload RealAudio File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload RealAudio File and verify Uploded file in Submission Page
+
+2021-02-18 21:57:17 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:57:17 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:57:17 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:57:17 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(317, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:57:17 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:57:17 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:57:26 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:57:28 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:57:28 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:57:29 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:57:29 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:30 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:57:30 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:57:31 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:57:32 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:57:32 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:34 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:57:35 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:57:36 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:57:36 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:57:37 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:57:38 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:57:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:57:44 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:57:46 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:57:46 - [MESSAGE][PASSED] - Text 'RealAudio' is present on page 
+
+2021-02-18 21:57:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:57:48 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:57:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:57:51 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:57:52 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:57:52 - [MESSAGE][PASSED] - Actual object 'RealAudio.ra' and expected object 'RealAudio.ra' are equal
+
+2021-02-18 21:57:52 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:57:52 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:57:52 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:57:53 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:53 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:57:54 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:57:55 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:57:55 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Txt File and verify Uploded file in Submission Page" time="38.515" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Txt File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:57:55 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Txt File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Txt File and verify Uploded file in Submission Page
+
+2021-02-18 21:57:55 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:57:55 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:57:55 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:57:55 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(196, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:57:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:57:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:58:05 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:58:07 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:58:07 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:58:07 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:58:08 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:08 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:58:09 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:58:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:58:10 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:58:10 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:13 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:58:14 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:58:15 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:58:15 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:58:16 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:58:17 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:20 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:58:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:58:24 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:58:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:58:26 - [MESSAGE][PASSED] - Text 'NotePad' is present on page 
+
+2021-02-18 21:58:27 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:58:28 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:58:29 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:58:30 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:58:30 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:58:30 - [MESSAGE][PASSED] - Actual object 'NotePad.txt' and expected object 'NotePad.txt' are equal
+
+2021-02-18 21:58:30 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:58:30 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:58:31 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:58:31 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:32 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:58:34 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:58:34 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Web page imagemap File and verify Uploded file in Submission Page" time="37.416" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Web page imagemap File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:58:34 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Web page imagemap File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Web page imagemap File and verify Uploded file in Submission Page
+
+2021-02-18 21:58:34 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:58:34 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:58:34 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:58:34 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(301, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:58:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:58:44 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:58:46 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:58:46 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:58:46 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:58:46 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:47 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:58:48 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:58:49 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:58:49 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:58:49 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:58:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:58:52 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:58:53 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:58:54 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:58:54 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:58:57 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:58:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:59:01 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:59:03 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:59:04 - [MESSAGE][PASSED] - Text 'Web page imagemap' is present on page 
+
+2021-02-18 21:59:05 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:59:05 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:59:06 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:59:07 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:59:08 - [MESSAGE][PASSED] - Actual object 'Web page imagemap.map' and expected object 'Web page imagemap.map' are equal
+
+2021-02-18 21:59:08 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:59:08 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:59:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:59:09 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:59:09 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:59:10 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:59:11 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:59:11 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows BitMap File and verify Uploded file in Submission Page" time="41.797" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows BitMap File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:59:11 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows BitMap File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows BitMap File and verify Uploded file in Submission Page
+
+2021-02-18 21:59:11 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:59:11 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 21:59:11 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:59:11 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(272, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:59:11 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:59:11 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 21:59:21 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 21:59:23 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 21:59:23 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 21:59:24 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 21:59:24 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:59:24 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 21:59:25 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 21:59:26 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:59:26 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 21:59:27 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:59:29 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 21:59:30 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 21:59:31 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 21:59:31 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 21:59:32 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 21:59:33 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:59:36 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 21:59:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:59:40 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 21:59:42 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 21:59:44 - [MESSAGE][PASSED] - Text 'Windows BitMap.bmp' is present on page 
+
+2021-02-18 21:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 21:59:46 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 21:59:47 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 21:59:49 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:59:49 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 21:59:50 - [MESSAGE][PASSED] - Actual object 'Windows BitMap.bmp' and expected object 'Windows BitMap.bmp' are equal
+
+2021-02-18 21:59:50 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:59:50 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 21:59:50 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 21:59:50 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:59:51 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 21:59:52 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 21:59:53 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 21:59:53 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows sound File and verify Uploded file in Submission Page" time="37.199" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows sound File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 21:59:53 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows sound File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Windows sound File and verify Uploded file in Submission Page
+
+2021-02-18 21:59:53 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 21:59:53 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 21:59:53 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 21:59:53 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(321, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 21:59:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 21:59:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 22:00:02 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 22:00:04 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 22:00:04 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 22:00:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:00:05 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:06 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 22:00:06 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 22:00:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:00:08 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 22:00:08 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:10 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 22:00:11 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 22:00:12 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 22:00:13 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 22:00:14 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 22:00:14 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 22:00:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 22:00:21 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 22:00:23 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 22:00:23 - [MESSAGE][PASSED] - Text 'Windows sound' is present on page 
+
+2021-02-18 22:00:24 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 22:00:25 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 22:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 22:00:26 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:00:27 - [MESSAGE][PASSED] - Actual object 'Windows sound.wav' and expected object 'Windows sound.wav' are equal
+
+2021-02-18 22:00:27 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 22:00:27 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 22:00:27 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 22:00:28 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:28 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:29 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:00:30 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 22:00:30 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload WordPad File and verify Uploded file in Submission Page" time="37.653" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload WordPad File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 22:00:30 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload WordPad File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload WordPad File and verify Uploded file in Submission Page
+
+2021-02-18 22:00:30 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 22:00:30 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 22:00:30 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 22:00:30 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(260, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 22:00:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 22:00:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 22:00:40 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 22:00:42 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 22:00:42 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 22:00:42 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:00:42 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:43 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 22:00:43 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 22:00:44 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:00:45 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 22:00:45 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:47 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 22:00:48 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 22:00:49 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 22:00:50 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 22:00:51 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 22:00:51 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 22:00:56 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 22:00:58 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 22:01:00 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 22:01:00 - [MESSAGE][PASSED] - Text 'WordPad' is present on page 
+
+2021-02-18 22:01:01 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 22:01:02 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 22:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 22:01:04 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:01:04 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:01:05 - [MESSAGE][PASSED] - Actual object 'WordPad.rtf' and expected object 'WordPad.rtf' are equal
+
+2021-02-18 22:01:05 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 22:01:05 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 22:01:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 22:01:05 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:06 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:07 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:01:08 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 22:01:08 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Xlsx File and verify Uploded file in Submission Page" time="37.924" classname="Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Xlsx File and verify Uploded file in Submission Page" status="PASSED">
+         <system-out><![CDATA[2021-02-18 22:01:08 - [TEST_CASE][PASSED] - Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Xlsx File and verify Uploded file in Submission Page: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload Xlsx File and verify Uploded file in Submission Page
+
+2021-02-18 22:01:08 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 22:01:08 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 22:01:08 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 22:01:08 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser(212, rigisterUN, rigisterPW): customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 22:01:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 22:01:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 22:01:17 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 22:01:20 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 22:01:20 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 22:01:20 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:01:20 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:21 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 22:01:21 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 22:01:22 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:01:23 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 22:01:23 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:25 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 22:01:26 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 22:01:27 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 22:01:28 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 22:01:29 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 22:01:29 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/ChooseAFile' is clicked on
+
+2021-02-18 22:01:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 22:01:36 - [MESSAGE][INFO] - Image Uploaded Sucsessfully
+
+2021-02-18 22:01:38 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2021-02-18 22:01:38 - [MESSAGE][PASSED] - Text 'sampleExcel' is present on page 
+
+2021-02-18 22:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window7RadioBtn' is clicked on
+
+2021-02-18 22:01:40 - [MESSAGE][PASSED] - Scroll to object 'Object Repository/HomePage/startAnalysis_EnableBtn' successfully
+
+2021-02-18 22:01:40 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 22:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:01:42 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:01:42 - [MESSAGE][PASSED] - Actual object 'sampleExcel.xlsx' and expected object 'sampleExcel.xlsx' are equal
+
+2021-02-18 22:01:42 - [MESSAGE][PASSED] - customKeywords.commanFunctions.uploadFileOfRegisterUser is PASSED
+
+2021-02-18 22:01:42 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 22:01:43 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 22:01:43 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:44 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:45 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:01:46 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 22:01:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URL" time="32.736" classname="Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URL" status="PASSED">
+         <system-out><![CDATA[2021-02-18 22:01:46 - [TEST_CASE][PASSED] - Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URL: Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URL
+
+2021-02-18 22:01:46 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 22:01:46 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 382): null
+
+2021-02-18 22:01:46 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 22:01:46 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 22:01:46 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.enterURLOfRegisterUser(sampleURL, rigisterUN, rigisterPW): customKeywords.commanFunctions.enterURLOfRegisterUser is PASSED
+
+2021-02-18 22:01:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 22:01:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 22:01:55 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 22:01:57 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 22:01:57 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 22:01:58 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:01:58 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:01:59 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 22:01:59 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 22:02:00 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:02:01 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 22:02:01 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:03 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 22:02:04 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 22:02:05 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 22:02:06 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 22:02:07 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 22:02:07 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:10 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/URL_Tab' is clicked on
+
+2021-02-18 22:02:11 - [MESSAGE][PASSED] - Keys 'http://www.company.com' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:02:12 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window10RadioBtn' is clicked on
+
+2021-02-18 22:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 22:02:14 - [MESSAGE][PASSED] - Text 'Your submission was successful, the analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 22:02:15 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:02:15 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:02:15 - [MESSAGE][PASSED] - Actual object 'http://www.company.com' and expected object 'http://www.company.com' are equal
+
+2021-02-18 22:02:15 - [MESSAGE][PASSED] - customKeywords.commanFunctions.enterURLOfRegisterUser is PASSED
+
+2021-02-18 22:02:15 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 22:02:16 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 22:02:16 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:17 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:18 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:02:18 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 22:02:18 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithPathParameters" time="32.124" classname="Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithPathParameters" status="PASSED">
+         <system-out><![CDATA[2021-02-18 22:02:18 - [TEST_CASE][PASSED] - Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithPathParameters: Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithPathParameters
+
+2021-02-18 22:02:18 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 22:02:18 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 386): null
+
+2021-02-18 22:02:18 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 22:02:18 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 22:02:18 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.enterURLOfRegisterUser(sampleURL, rigisterUN, rigisterPW): customKeywords.commanFunctions.enterURLOfRegisterUser is PASSED
+
+2021-02-18 22:02:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 22:02:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 22:02:28 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 22:02:30 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 22:02:30 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 22:02:30 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:02:31 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:31 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 22:02:32 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 22:02:33 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:02:33 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 22:02:33 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:35 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 22:02:36 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 22:02:37 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 22:02:37 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 22:02:38 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 22:02:39 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:42 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/URL_Tab' is clicked on
+
+2021-02-18 22:02:43 - [MESSAGE][PASSED] - Keys 'http://www.company.com/showOrder.php' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:02:44 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window10RadioBtn' is clicked on
+
+2021-02-18 22:02:45 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 22:02:46 - [MESSAGE][PASSED] - Text 'Your submission was successful, the analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 22:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:02:47 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:02:47 - [MESSAGE][PASSED] - Actual object 'http://www.company.com/showOrder.php' and expected object 'http://www.company.com/showOrder.php' are equal
+
+2021-02-18 22:02:47 - [MESSAGE][PASSED] - customKeywords.commanFunctions.enterURLOfRegisterUser is PASSED
+
+2021-02-18 22:02:47 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 22:02:48 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 22:02:48 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:49 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:02:50 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:02:50 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 22:02:50 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithQueryParameters" time="35.118" classname="Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithQueryParameters" status="PASSED">
+         <system-out><![CDATA[2021-02-18 22:02:50 - [TEST_CASE][PASSED] - Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithQueryParameters: Test Cases/UploadDiffURLs_RegisterUser/TC_As a register user, Successfully submit the URLWithQueryParameters
+
+2021-02-18 22:02:50 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 22:02:50 - [TEST_STEP][PASSED] - sampleURL = excelTestData.getValue(2, 390): null
+
+2021-02-18 22:02:50 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(6, 23): null
+
+2021-02-18 22:02:50 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 22:02:50 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.enterURLOfRegisterUser(sampleURL, rigisterUN, rigisterPW): customKeywords.commanFunctions.enterURLOfRegisterUser is PASSED
+
+2021-02-18 22:02:51 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 22:02:51 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 22:03:00 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 22:03:02 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 22:03:02 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 22:03:03 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:03:03 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:03 - [MESSAGE][PASSED] - Keys 'Os-anelapatla@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 22:03:04 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 22:03:05 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:03:05 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 22:03:06 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:08 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 22:03:09 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 22:03:10 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 22:03:11 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 22:03:12 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 22:03:12 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:16 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/URL_Tab' is clicked on
+
+2021-02-18 22:03:17 - [MESSAGE][PASSED] - Keys 'http://www.company.com/showOrder.php?order=4621047' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:03:18 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/Window10RadioBtn' is clicked on
+
+2021-02-18 22:03:20 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/startAnalysis_EnableBtn' is clicked on
+
+2021-02-18 22:03:22 - [MESSAGE][PASSED] - Text 'Your submission was successful, the analysis results will be delivered to you via email' is present on page 
+
+2021-02-18 22:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:03:22 - [MESSAGE][PASSED] - Object 'Object Repository/SubmissionPage/Submission_SearchIcon' is visible
+
+2021-02-18 22:03:22 - [MESSAGE][PASSED] - Actual object 'http://www.company.com/showOrder.php?order=4621047' and expected object 'http://www.company.com/showOrder.php?order=4621047' are equal
+
+2021-02-18 22:03:22 - [MESSAGE][PASSED] - customKeywords.commanFunctions.enterURLOfRegisterUser is PASSED
+
+2021-02-18 22:03:22 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser(): customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED
+
+2021-02-18 22:03:23 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/AdminDD' is clickable
+
+2021-02-18 22:03:23 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:24 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:25 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:03:25 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 22:03:25 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logOutAndcloseBrowser is PASSED]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats" time="35.283" classname="Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats" status="FAILED">
+         <failure type="FAILED" message="Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As register user , Trigger URL validation with invalid formats.run(TC_As register user , Trigger URL validation with invalid formats:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2021-02-18 22:03:26 - [TEST_CASE][FAILED] - Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats: Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As register user , Trigger URL validation with invalid formats.run(TC_As register user , Trigger URL validation with invalid formats:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2021-02-18 22:03:26 - [TEST_STEP][PASSED] - excelTestData = findTestData("Data Files/TestData/InspectTestData"): null
+
+2021-02-18 22:03:26 - [TEST_STEP][PASSED] - obj = findTestObject("LoginAndRigisterUser/LoginLink"): null
+
+2021-02-18 22:03:26 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.openBrowser(): customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 22:03:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-02-18 22:03:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-02-18 22:03:35 - [MESSAGE][PASSED] - Browser is opened with url: 'https://Inspect.Stage.site.sa'
+
+2021-02-18 22:03:37 - [MESSAGE][PASSED] - Current window maximized
+
+2021-02-18 22:03:37 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2021-02-18 22:03:37 - [MESSAGE][PASSED] - customKeywords.commanFunctions.openBrowser is PASSED
+
+2021-02-18 22:03:37 - [TEST_STEP][PASSED] - waitForElementClickable(findTestObject("LoginAndRigisterUser/LoginLink"), TimeOut): Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:03:38 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginLink' is clickable
+
+2021-02-18 22:03:38 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.clickElementWithJS(obj): customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 22:03:38 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:38 - [MESSAGE][PASSED] - customKeywords.commanFunctions.clickElementWithJS is PASSED
+
+2021-02-18 22:03:38 - [TEST_STEP][PASSED] - rigisterUN = excelTestData.getValue(2, 23): null
+
+2021-02-18 22:03:38 - [TEST_STEP][PASSED] - rigisterPW = excelTestData.getValue(3, 23): null
+
+2021-02-18 22:03:38 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.logIntoBrowserWithReqCredentials(rigisterUN, rigisterPW): customKeywords.commanFunctions.logIntoBrowserWithReqCredentials is PASSED
+
+2021-02-18 22:03:39 - [MESSAGE][PASSED] - Keys 'Os-ARahman@projects.site.sa' sent to object: 'Object Repository/LoginAndRigisterUser/UserName_Email_Input'
+
+2021-02-18 22:03:40 - [MESSAGE][PASSED] - Keys 'Test@12345' sent to object: 'Object Repository/LoginAndRigisterUser/Password_Input'
+
+2021-02-18 22:03:41 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+2021-02-18 22:03:41 - [MESSAGE][PASSED] - Object 'Object Repository/LoginAndRigisterUser/LoginBtn' is clickable
+
+2021-02-18 22:03:41 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:41 - [MESSAGE][PASSED] - customKeywords.commanFunctions.logIntoBrowserWithReqCredentials is PASSED
+
+2021-02-18 22:03:41 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.otpLogin(): customKeywords.commanFunctions.otpLogin is PASSED
+
+2021-02-18 22:03:43 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpOne'
+
+2021-02-18 22:03:44 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpTwo'
+
+2021-02-18 22:03:44 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpThree'
+
+2021-02-18 22:03:45 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFour'
+
+2021-02-18 22:03:46 - [MESSAGE][PASSED] - Keys '0' sent to object: 'Object Repository/LoginAndRigisterUser/otpFive'
+
+2021-02-18 22:03:46 - [MESSAGE][INFO] - Clicked on element with JS
+
+2021-02-18 22:03:46 - [MESSAGE][PASSED] - customKeywords.commanFunctions.otpLogin is PASSED
+
+2021-02-18 22:03:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/HomePage/URL_Tab")): Object: 'Object Repository/HomePage/URL_Tab' is clicked on
+
+2021-02-18 22:03:49 - [MESSAGE][PASSED] - Object: 'Object Repository/HomePage/URL_Tab' is clicked on
+
+2021-02-18 22:03:49 - [TEST_STEP][PASSED] - ErrorValidationMessage = excelTestData.getValue(3, 42): null
+
+2021-02-18 22:03:49 - [TEST_STEP][FAILED] - for ([i = 42, i <= 46, (i++)]): Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As register user , Trigger URL validation with invalid formats.run(TC_As register user , Trigger URL validation with invalid formats:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-02-18 22:03:49 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-18 22:03:49 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'https://www.slideshare.net/socialogilvy ' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:03:49 - [MESSAGE][PASSED] - Keys 'https://www.slideshare.net/socialogilvy ' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:03:49 - [TEST_STEP][PASSED] - verifyTextPresent(ErrorValidationMessage, false): Text 'URL format is not valid.' is present on page 
+
+2021-02-18 22:03:52 - [MESSAGE][PASSED] - Text 'URL format is not valid.' is present on page 
+
+2021-02-18 22:03:52 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input")): Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 22:03:53 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 22:03:53 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-18 22:03:53 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'htps://www.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:03:54 - [MESSAGE][PASSED] - Keys 'htps://www.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:03:54 - [TEST_STEP][PASSED] - verifyTextPresent(ErrorValidationMessage, false): Text 'URL format is not valid.' is present on page 
+
+2021-02-18 22:03:56 - [MESSAGE][PASSED] - Text 'URL format is not valid.' is present on page 
+
+2021-02-18 22:03:56 - [TEST_STEP][PASSED] - clearText(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input")): Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 22:03:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/HomePage/PleaseEnterURL_Input' is cleared
+
+2021-02-18 22:03:57 - [TEST_STEP][PASSED] - IncorrectURLs = excelTestData.getValue(2, i): null
+
+2021-02-18 22:03:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/HomePage/PleaseEnterURL_Input"), IncorrectURLs): Keys 'https://ww.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:03:57 - [MESSAGE][PASSED] - Keys 'https://ww.slideshare.net/socialogilvy' sent to object: 'Object Repository/HomePage/PleaseEnterURL_Input'
+
+2021-02-18 22:03:57 - [TEST_STEP][FAILED] - verifyTextPresent(ErrorValidationMessage, false): Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As register user , Trigger URL validation with invalid formats.run(TC_As register user , Trigger URL validation with invalid formats:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2021-02-18 22:04:00 - [MESSAGE][FAILED] - Text 'URL format is not valid.' is not present on page  (Root cause: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As register user , Trigger URL validation with invalid formats.run(TC_As register user , Trigger URL validation with invalid formats:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+)
+
+2021-02-18 22:04:00 - [MESSAGE][FAILED] - Unable to verify text 'URL format is not valid.' is present  (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As register user , Trigger URL validation with invalid formats.run(TC_As register user , Trigger URL validation with invalid formats:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|E:\\Inspect\\15022021\\SiteInspectAutomation\\Reports\\20210218_214320\\Regression_Suite\\RegisterUser_Suite\\RegisterUser_Regression\\20210218_214321\\1613666040101.png]]
+
+2021-02-18 22:04:00 - [TEST_STEP][PASSED] - Start tear down : tearDownMethodIfFailed: Method 'tearDownMethodIfFailed' complete successfully
+
+2021-02-18 22:04:00 - [TEST_STEP][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser(): customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 22:04:01 - [MESSAGE][PASSED] - Browser is closed
+
+2021-02-18 22:04:01 - [MESSAGE][PASSED] - customKeywords.commanFunctions.onlyCloseBrowser is PASSED
+
+2021-02-18 22:04:01 - [TEST_STEP][PASSED] - logInfo("[--------This is tearDownIfFailed method------]"): [--------This is tearDownIfFailed method------]
+
+2021-02-18 22:04:01 - [MESSAGE][INFO] - [--------This is tearDownIfFailed method------]
+
+2021-02-18 22:04:01 - [MESSAGE][PASSED] - Method 'tearDownMethodIfFailed' complete successfully]]></system-out>
+         <system-err><![CDATA[2021-02-18 22:03:26 - [TEST_CASE][FAILED] - Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats: Test Cases/UploadDiffURLs_RegisterUser/TC_As register user , Trigger URL validation with invalid formats FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'URL format is not valid.' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at TC_As register user , Trigger URL validation with invalid formats.run(TC_As register user , Trigger URL validation with invalid formats:41)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'URL format is not valid.' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-02-18 21:43:35 - [TEST_SUITE][FAILED] - RegisterUser_Regression: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'PC Zip Compressed Archive' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:761)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page.run(TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'PC Zip Compressed Archive' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-out>
+      <system-err><![CDATA[2021-02-18 21:43:35 - [TEST_SUITE][FAILED] - RegisterUser_Regression: Test Cases/UploadDiffFiles_RegisterUser/TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify text 'PC Zip Compressed Archive' is present 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.verifyTextPresent(VerifyTextPresentKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword.execute(VerifyTextPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyTextPresent(WebUiBuiltInKeywords.groovy:1720)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyTextPresent$6.call(Unknown Source)
+	at customKeywords.commanFunctions.UploadReqFile(commanFunctions.groovy:282)
+	at customKeywords.commanFunctions.uploadFileOfRegisterUser(commanFunctions.groovy:761)
+	at customKeywords.commanFunctions.invokeMethod(commanFunctions.groovy)
+	at com.kms.katalon.core.main.CustomKeywordDelegatingMetaClass.invokeStaticMethod(CustomKeywordDelegatingMetaClass.java:50)
+	at TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page.run(TC_As a register user, Upload PC Zip Compressed Archive File and verify Uploded file in Submission Page:16)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:394)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:385)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:364)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:356)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:251)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:203)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:152)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:95)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1613664801465.run(TempTestSuite1613664801465.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Text 'PC Zip Compressed Archive' is not present on page 
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.doCall(VerifyTextPresentKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyTextPresentKeyword$_verifyTextPresent_closure1.call(VerifyTextPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 23 more]]></system-err>
+   </testsuite>
+</testsuites>

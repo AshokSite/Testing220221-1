@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>clickHereToResendEmai</name>
+   <tag></tag>
+   <elementGuidId>d3beefdb-11fd-47d1-903f-c5e55c2f5309</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//app-header/nz-layout[1]/nz-content[1]/app-register[1]/section[1]/div[1]/div[1]/a[1]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//app-header/nz-layout[1]/nz-content[1]/app-register[1]/section[1]/div[1]/div[1]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>
